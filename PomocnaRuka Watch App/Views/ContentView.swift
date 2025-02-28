@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MainPageStates(mainPageStates: MainPageState.data)
+        MainPageStatesAlt(mainPageStates: MainPageState.data)
     }
 }
 
