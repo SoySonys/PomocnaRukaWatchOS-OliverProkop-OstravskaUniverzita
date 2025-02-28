@@ -13,7 +13,7 @@ struct MainPageCard: View {
     let state: MainPageState
     
     var body: some View {
-        NavigationLink(destination: Text(state.title)) { // Zatím placeholder pro cílovou obrazovku
+        NavigationLink(destination: Text(state.title)) {
             VStack(spacing: 10) {
                 Text(state.title)
                     .font(.largeTitle)
@@ -29,7 +29,7 @@ struct MainPageCard: View {
                 Image(state.imageName)
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 150) // Přizpůsob velikost podle potřeby
+                    .frame(height: 150)
                     .cornerRadius(10)
             }
             .padding()

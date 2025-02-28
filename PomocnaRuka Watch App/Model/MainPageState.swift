@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct MainPageState {
+struct MainPageState: Identifiable {
     let id: UUID
     var title: String
     var conditions: [String]
@@ -39,7 +39,7 @@ extension MainPageState {
         MainPageState(
             title: "Nedýchá",
             conditions: ["Nekrvácí výrazně", "Máš možnost? Volej 112"],
-            backgroundColor: .blue,
+            backgroundColor: .orange,
             imageName: "Placeholder_firstaid"
         ),
         
@@ -47,7 +47,7 @@ extension MainPageState {
         MainPageState(
             title: "Bezvědomí",
             conditions: ["Nekrvácí výrazně", "Správně dýchá", "Máš možnost? Volej 112"],
-            backgroundColor: .cyan,
+            backgroundColor: .yellow,
             imageName: "Placeholder_firstaid"
         ),
         

@@ -9,12 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView {
-            ForEach(MainPageState.data, id: \.id) { state in
-                MainPageCard(state: state)
-            }
-        }
-        .tabViewStyle(.verticalPage)
+        MainPageStates(mainPageStates: MainPageState.data)
     }
 }
 
