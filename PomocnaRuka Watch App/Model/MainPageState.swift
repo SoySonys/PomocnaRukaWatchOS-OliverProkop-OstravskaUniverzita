@@ -39,7 +39,7 @@ extension MainPageState {
         MainPageState(
             title: "Nedýchá",
             conditions: ["Nekrvácí výrazně", "Máš možnost? Volej 112"],
-            backgroundColor: .orange,
+            backgroundColor: .blue,
             imageName: "Placeholder_firstaid"
         ),
         
