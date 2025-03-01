@@ -69,7 +69,7 @@ struct MainPageStatesAlt: View {
                             .foregroundColor(.white)
                             .font(.system(size: 14).bold())
                         
-                        Text("Nemohu zavolat 112")
+                        Text("Nejde volat 112")
                             .font(.headline)
                             .multilineTextAlignment(.center)
                         
@@ -108,7 +108,7 @@ struct MainPageStatesAlt: View {
                     NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
                         HStack {
                             Text(mainPageStates[2].title)
-                                .font(.title2)
+                                .font(.title2 )
                                 .padding(6)
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.6)
