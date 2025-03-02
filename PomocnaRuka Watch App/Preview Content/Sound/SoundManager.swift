@@ -19,7 +19,7 @@ class SoundManager: ObservableObject {
         if let url = Bundle.main.url(forResource: sound, withExtension: "mp3") {
             do {
                 player = try AVAudioPlayer(contentsOf: url)
-                player?.numberOfLoops = -1  // Opakuje zvuk nekonečně
+                player?.numberOfLoops = -1
                 player?.play()
             } catch {
                 print("Error loading sound: \(error.localizedDescription)")

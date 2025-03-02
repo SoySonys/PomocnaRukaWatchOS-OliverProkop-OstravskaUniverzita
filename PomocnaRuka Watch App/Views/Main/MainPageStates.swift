@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainPageStates: View {
+    @StateObject private var soundManager = SoundManager(sound: "sampleAudio")
+
+    
     let mainPageStates: [MainPageState]
     @State private var selectedIndex: Double = 0 // Digital Crown vyžaduje Double
     @State private var selectedState: UUID?
