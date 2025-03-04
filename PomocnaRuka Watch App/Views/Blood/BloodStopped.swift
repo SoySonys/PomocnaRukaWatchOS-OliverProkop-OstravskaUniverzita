@@ -48,7 +48,7 @@ struct BloodStopped: View {
 
                     Divider()
                     
-                    NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
+                    NavigationLink(destination: UnconciousList()) {
                             Text(mainPageStates[2].title)
                      
                     }

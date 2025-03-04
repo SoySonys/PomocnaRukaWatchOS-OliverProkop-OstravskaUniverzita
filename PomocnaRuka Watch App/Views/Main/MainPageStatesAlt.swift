@@ -106,7 +106,7 @@ struct MainPageStatesAlt: View {
                         .padding(.vertical,4)
                     
                     
-                    NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
+                    NavigationLink(destination: UnconciousList()) {
                         HStack {
                             Text(mainPageStates[2].title)
                                 .font(.title2 )

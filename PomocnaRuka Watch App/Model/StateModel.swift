@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct StateModel {
+    let text: String
+    let description: String
+    let view: AnyView
+}

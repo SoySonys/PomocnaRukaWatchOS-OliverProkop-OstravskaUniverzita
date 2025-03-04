@@ -23,7 +23,7 @@ struct AfterResuscitacion: View {
                     .fontWeight(.bold)
                 
                 
-                NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
+                NavigationLink(destination: UnconciousList()) {
                     HStack {
                         Text(mainPageStates[2].title)
                             .font(.title2 )
