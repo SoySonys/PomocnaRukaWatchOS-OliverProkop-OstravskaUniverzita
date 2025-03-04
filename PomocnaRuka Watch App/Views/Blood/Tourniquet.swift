@@ -9,7 +9,31 @@ import SwiftUI
 
 struct Tourniquet: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("Použij široký pásek nebo šátek.")
+                .fixedSize(horizontal: false, vertical: true)
+                .fontWeight(.bold)
+
+            Divider()
+            Text("Utáhni mezi ránu a srdce.")
+                .fixedSize(horizontal: false, vertical: true)
+                .fontWeight(.bold)
+
+            Divider()
+            Text("Zapiš čas.")
+                .fixedSize(horizontal: false, vertical: true)
+                .fontWeight(.bold)
+        }
+        .padding(.top,10)
+        NavigationLink(destination: ContentView()) {
+            Text("Pokračovat")
+            
+        }
+        .background(Color.green)
+        .foregroundColor(.white)
+        .cornerRadius(30)
+        .fixedSize(horizontal: false, vertical: true)
+        .fontWeight(.bold)
     }
 }
 

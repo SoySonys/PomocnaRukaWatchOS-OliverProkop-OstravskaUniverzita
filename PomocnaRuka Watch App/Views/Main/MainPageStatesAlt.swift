@@ -15,7 +15,8 @@ struct MainPageStatesAlt: View {
             ScrollView{
                 VStack {
                     
-                    NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
+                    NavigationLink(destination: BloodMain()){
+                        
                         HStack {
                             
                             Image(systemName: "drop")
