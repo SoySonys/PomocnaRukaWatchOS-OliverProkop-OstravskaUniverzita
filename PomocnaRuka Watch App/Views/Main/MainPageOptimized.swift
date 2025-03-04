@@ -1,13 +1,13 @@
 //
-//  MainPageStatesAlt.swift
+//  MainPageOptimized.swift
 //  PomocnaRuka Watch App
 //
-//  Created by Oliver Prokop on 28.02.2025.
+//  Created by Oliver Prokop on 02.03.2025.
 //
 
 import SwiftUI
 
-struct MainPageStatesAlt: View {
+struct MainPageOptimized: View {
     let mainPageStates: [MainPageState]
     
     var body: some View {
@@ -15,15 +15,14 @@ struct MainPageStatesAlt: View {
             ScrollView{
                 VStack {
                     
-                    NavigationLink(destination: BloodMain()){
-                        
+                    NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
                         HStack {
                             
                             Image(systemName: "drop")
                                 .foregroundColor(.white)
                                 .font(.system(size: 30).bold())
                                 .scaledToFit()
-                                .frame(maxWidth: 30, maxHeight: 30) // Omezí maximální velikost ikonky
+                                .frame(maxWidth: 30, maxHeight: 30)
                             
                             Text("KRVÁCÍ")
                                 .font(.title.bold())
@@ -114,19 +113,7 @@ struct MainPageStatesAlt: View {
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.6)
                                 .layoutPriority(1)
-                            
-                            /*
-                            
-                            Spacer()
-                            
-                            
-                            Image(systemName: "arrow.right")
-                                .foregroundColor(mainPageStates[2].backgroundColor)
-                              //  .padding(2)
-                                //.background(mainPageStates[2].backgroundColor)
-                                //.clipShape(Circle())
-                                .font(.system(size: 20).bold())
-                             */
+     
                         }
                         .frame(maxWidth: .infinity)
                         .padding(1)
@@ -147,19 +134,7 @@ struct MainPageStatesAlt: View {
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.6)
                                 .layoutPriority(1)
-                            
-                            
-                            /*
-                            Spacer()
-                            
-                            Image(systemName: "arrow.right")
-                                .foregroundColor(.white)
-                                .padding(2)
-                                .background(mainPageStates[3].backgroundColor)
-                                .clipShape(Circle())
-                                .font(.system(size: 24).bold())
-                             
-                        */
+
                         }
                     }
                     .frame(maxWidth: .infinity)
@@ -176,6 +151,7 @@ struct MainPageStatesAlt: View {
     }
 }
 
+
 #Preview {
-    MainPageStatesAlt(mainPageStates: MainPageState.data)
+    MainPageOptimized(mainPageStates: MainPageState.data)
 }
