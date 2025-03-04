@@ -28,13 +28,12 @@ struct Resuscitacion: View {
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Další osoba shání pomoc.\nPři strídaní nesmí být prodleva.\nJsi už vyčerpaný a stále nedýchá, dej do zobrazené zotavovací polohy a jdi pro pomoc.")
+                    Text("Další osoba shání pomoc.\nPři strídaní nesmí být prodleva.")
                         .font(.footnote)
                         .fixedSize(horizontal: false, vertical: true)
-                        
-    
-                        
-                        NavigationLink(destination: BloodStopped(mainPageStates: MainPageState.data)) {
+                    
+                    HStack {
+                        NavigationLink(destination: AfterResuscitacion(mainPageStates: MainPageState.data)) {
                             Text("Dýchá")
                         }
                         .background(.green)
@@ -42,7 +41,38 @@ struct Resuscitacion: View {
                         .cornerRadius(30)
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
-                        
+                        .multilineTextAlignment(.center)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .center)
+                    
+                 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    Divider()
+                    Text("Jsi už vyčerpaný a stále nedýchá, dej do zobrazené zotavovací polohy a jdi pro pomoc.")
+                    //  .font(.footnote)
+                        .fixedSize(horizontal: false, vertical: true)
+                        .padding()
+                        .background(Color.red.opacity(0.6))
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                        .fontWeight(.bold)
+                        .multilineTextAlignment(.leading)
+                    
+                    Image("ZotavovaciPoloha")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    
+                    
+                    
+                    
                     
                 }
                 .padding(.top, 0)

@@ -114,19 +114,7 @@ struct MainPageStatesAlt: View {
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.6)
                                 .layoutPriority(1)
-                            
-                            /*
-                            
-                            Spacer()
-                            
-                            
-                            Image(systemName: "arrow.right")
-                                .foregroundColor(mainPageStates[2].backgroundColor)
-                              //  .padding(2)
-                                //.background(mainPageStates[2].backgroundColor)
-                                //.clipShape(Circle())
-                                .font(.system(size: 20).bold())
-                             */
+        
                         }
                         .frame(maxWidth: .infinity)
                         .padding(1)
@@ -147,19 +135,6 @@ struct MainPageStatesAlt: View {
                                 .lineLimit(1)
                                 .minimumScaleFactor(0.6)
                                 .layoutPriority(1)
-                            
-                            
-                            /*
-                            Spacer()
-                            
-                            Image(systemName: "arrow.right")
-                                .foregroundColor(.white)
-                                .padding(2)
-                                .background(mainPageStates[3].backgroundColor)
-                                .clipShape(Circle())
-                                .font(.system(size: 24).bold())
-                             
-                        */
                         }
                     }
                     .frame(maxWidth: .infinity)
