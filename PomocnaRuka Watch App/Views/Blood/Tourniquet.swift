@@ -24,8 +24,8 @@ struct Tourniquet: View {
                 .fixedSize(horizontal: false, vertical: true)
                 .fontWeight(.bold)
         }
-        .padding(.top,10)
-        NavigationLink(destination: ContentView()) {
+        .padding(.top,14)
+        NavigationLink(destination: BloodStopped(mainPageStates: MainPageState.data)) {
             Text("Pokračovat")
             
         }

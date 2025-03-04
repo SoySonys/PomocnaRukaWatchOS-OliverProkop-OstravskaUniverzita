@@ -35,7 +35,7 @@ struct BloodStopped: View {
                     }
 
                            
-                    NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
+                    NavigationLink(destination: Resuscitacion()) {
                             Text(mainPageStates[1].title)
                      
                     }
