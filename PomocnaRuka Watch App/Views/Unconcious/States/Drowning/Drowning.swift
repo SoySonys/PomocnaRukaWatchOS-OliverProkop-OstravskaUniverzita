@@ -1,5 +1,5 @@
 //
-//  Collapse.swift
+//  Drowning.swift
 //  PomocnaRuka Watch App
 //
 //  Created by Oliver Prokop on 04.03.2025.
@@ -7,42 +7,38 @@
 
 import SwiftUI
 
-struct Collapse: View {
+struct Drowning: View {
     var body: some View {
         NavigationStack{
             ScrollView{
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("Polož na záda.")
+                    Text("Pamatuj na své bezpečí.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Lehce zakloň hlavu.")
+                    Text("Hoď něco co plave.\nNafouknutá petka.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Zkontroluj volné dýchací cesty.")
+                    Text("Panikaří, pak hrozí že tě taky stáhne dolů.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Povol oblečení.")
+                    Text("Čekej až se uklidní.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Nohy zvedni o 45°.")
+                    Text("Otoč na záda a dostaň na břeh.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Čekej 5 minut.")
-                        .fixedSize(horizontal: false, vertical: true)
-                        .fontWeight(.bold)
-                    Divider()
-                    Text("Poté vyber")
+                    Text("Na břehu otoč na bok.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     HStack {
                         
-                        NavigationLink(destination: CollapseNotAwake()) {
-                            Text("Není vzhůru")
+                        NavigationLink(destination: DrowningNotBreathing()) {
+                            Text("Obtížný dech")
                             
                         }
                         .background(Color.red)
@@ -51,8 +47,8 @@ struct Collapse: View {
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                         
-                        NavigationLink(destination: CollapseAwake()) {
-                            Text("Při vědomí")
+                        NavigationLink(destination: DrowningBreathing()) {
+                            Text("Dobrý dech")
                         }
                         .background(.green)
                         .foregroundColor(.white)
@@ -73,5 +69,5 @@ struct Collapse: View {
 }
 
 #Preview {
-    Collapse()
+    Drowning()
 }
