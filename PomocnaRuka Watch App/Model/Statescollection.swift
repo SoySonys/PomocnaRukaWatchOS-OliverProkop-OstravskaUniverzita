@@ -13,9 +13,8 @@ struct StatesCollection {
     
     // Statické instance obsahující pole stavů
     static let conscious = StatesCollection(states: [
-        StateModel(text: "Bolest hrudi.. infarkt", description: "", view: AnyView(Collapse())),
-        StateModel(text: "Epilepsie", description: "", view: AnyView(Collapse())),
-        StateModel(text: "Křivá ústa", description: "", view: AnyView(Collapse())),
+        StateModel(text: "Infarkt", description: "Bolest na hrudi, dušnost, opocení, bledá tvář", view: AnyView(Collapse())),
+        StateModel(text: "Mrtvice", description: "Křivá ústa, zmatení, oslabení rukou", view: AnyView(Collapse())),
         StateModel(text: "Podchlazení", description: "", view: AnyView(Collapse())),
         StateModel(text: "Popáleniny", description: "", view: AnyView(Collapse())),
         StateModel(text: "Úraz zad/hlavy", description: "", view: AnyView(Collapse())),
