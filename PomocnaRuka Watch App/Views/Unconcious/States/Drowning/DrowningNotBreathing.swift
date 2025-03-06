@@ -1,39 +1,38 @@
 //
-//  Resuscitacion.swift
+//  DrowningNotBreathing.swift
 //  PomocnaRuka Watch App
 //
-//  Created by Oliver Prokop on 04.03.2025.
+//  Created by Oliver Prokop on 06.03.2025.
 //
 
 import SwiftUI
-
-struct Resuscitacion: View {
+//Zdroj: https://www.padler.cz/zachrana-tonouciho-je-dobre-byt-pripraven/
+struct DrowningNotBreathing: View {
     var body: some View {
         NavigationStack{
             ScrollView{
-                VStack(alignment: .leading, spacing: 1) {
-                    Text("Vyčisti pusu.")
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Zakloň hlavu, zacpi nos a udělej 2 silné vdechy.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Polož na záda.")
+                    Text("narovnej ruce před sebe a 30x stlač hrudník 5cm do hloubky frekvencí 100x za minutu.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
-                    Text("Narovnej své ruce.")
-                        .fixedSize(horizontal: false, vertical: true)
-                        .fontWeight(.bold)
-                    Divider()
-                    Text("Stlačuj hrudní kost 100x za minutu do hloubky 5cm.")
+                    Text("Opět 2 dechy, poté resuscitace a pokračuj v opakování.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
                     Divider()
                     Text("Další osoba shání pomoc.\nPři strídaní nesmí být prodleva.")
                         .font(.footnote)
                         .fixedSize(horizontal: false, vertical: true)
-                    Divider()
                     
-
+                    
+                    
+                    
+                    
+                    Divider()
                     Text("Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc.")
                     //  .font(.footnote)
                         .fixedSize(horizontal: false, vertical: true)
@@ -41,7 +40,7 @@ struct Resuscitacion: View {
                         .background(Color.red.opacity(0.2))
                         .foregroundColor(.white)
                         .cornerRadius(8)
-                       // .fontWeight(.bold)
+                        //.fontWeight(.bold)
                         .multilineTextAlignment(.leading)
                     
                     Image("ZotavovaciPoloha")
@@ -49,7 +48,7 @@ struct Resuscitacion: View {
                         .scaledToFit()
                     
                     HStack {
-                        NavigationLink(destination: AfterResuscitacion(mainPageStates: MainPageState.data)) {
+                        NavigationLink(destination: DrowningBreathing()) {
                             Text("Dýchá")
                         }
                         .background(.green)
@@ -64,6 +63,8 @@ struct Resuscitacion: View {
                     
                     
                     
+                    
+                    
                 }
                 .padding(.top, 0)
                 .offset(y: -10)
@@ -74,5 +75,5 @@ struct Resuscitacion: View {
 }
 
 #Preview {
-    Resuscitacion()
+    DrowningNotBreathing()
 }
