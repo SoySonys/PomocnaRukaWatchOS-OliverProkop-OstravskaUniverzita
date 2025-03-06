@@ -12,22 +12,41 @@ struct Epilepsy: View {
         ScrollView{
             VStack(alignment: .leading, spacing: 2) {
                 
-                Text("Zkus najít mobil a zavolat 112.")
+                Text("Udělej prostor okolo, aby se o něco neporanil.")
                     .fixedSize(horizontal: false, vertical: true)
                     .fontWeight(.bold)
                 Divider()
-                Text("Dej do zotavovací polohy.")
+                Text("Nesahej na ústa.")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+                Divider()
+                Text("Dej něco tenkého pod hlavu.")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+                Divider()
+                Text("Nehej ho v záchvatu.")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+                Divider()
+                Text("Po záchvatu.")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+                    .font(.title3)
+                Divider()
+                Text("Nechat ležet na zádech.")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+        
+                Divider()
+                Text("Zaklonit hlavu pro dýchací cesty..")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+                Divider()
+                Text("Zkontroluj, jeslti nemá jiná zranění.")
                     .fixedSize(horizontal: false, vertical: true)
                     .fontWeight(.bold)
                 
-                //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
-                Image("ZotavovaciPoloha")
-                    .resizable()
-                    .scaledToFit()
-                Divider()
-                Text("Jdi pro pomoc.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
+               
                 
             }
             .padding(.top, 0)
