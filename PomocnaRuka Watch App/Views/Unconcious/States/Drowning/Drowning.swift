@@ -35,10 +35,14 @@ struct Drowning: View {
                     Text("Na břehu otoč na bok.")
                         .fixedSize(horizontal: false, vertical: true)
                         .fontWeight(.bold)
+                    Divider()
+                    Text("Poté vyber:")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .fontWeight(.bold)
                     HStack {
                         
                         NavigationLink(destination: DrowningNotBreathing()) {
-                            Text("Obtížný dech")
+                            Text("Bez vědomí")
                             
                         }
                         .background(Color.red)
