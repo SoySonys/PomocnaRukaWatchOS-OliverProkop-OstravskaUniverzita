@@ -14,10 +14,6 @@ struct AfterResuscitacion: View {
         NavigationStack{
             
             VStack(alignment: .leading, spacing: 1) {
-                Text("Zakloň hlavu.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
                 Text("Kontroluj dýchání.")
                     .fixedSize(horizontal: false, vertical: true)
                     .fontWeight(.bold)
