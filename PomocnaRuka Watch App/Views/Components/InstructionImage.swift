@@ -18,5 +18,6 @@ struct InstructionImage: View {
 }
 
 #Preview {
+    //ZDROJ: http://www.prvni-pomoc.com/polohovani
     InstructionImage(imageName: "Polosed")
 }

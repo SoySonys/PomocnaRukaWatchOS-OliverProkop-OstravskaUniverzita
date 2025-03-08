@@ -28,6 +28,7 @@ struct DrowningNotBreathing: View {
                         .cornerRadius(8)
                         .multilineTextAlignment(.leading)
                     
+                    //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
                     InstructionImage(imageName: "ZotavovaciPoloha")
                     
                     SingleButtonEndPage(title: "Dýchá", destination: DrowningBreathing(), color: .green)

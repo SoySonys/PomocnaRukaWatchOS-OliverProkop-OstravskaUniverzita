@@ -11,7 +11,8 @@ struct InstructionTexts: View {
     let texts: [String]
     
     var body: some View {
-        
+        VStack(alignment: .leading)
+        {
             ForEach(texts.indices, id: \.self) { index in
                 Text(texts[index])
                     .fixedSize(horizontal: false, vertical: true)
@@ -21,7 +22,7 @@ struct InstructionTexts: View {
                     Divider()
                 }
             }
-        
+        }
     }
 }
 

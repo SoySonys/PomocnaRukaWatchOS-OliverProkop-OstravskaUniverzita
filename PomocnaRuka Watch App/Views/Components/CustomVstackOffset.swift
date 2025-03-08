@@ -11,7 +11,7 @@ struct CustomVstackOffset<Content: View>: View {
     @ViewBuilder let content: () -> Content
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 2) {
+        VStack(spacing: 2) {
             content()
         }
         .padding(.top, 0)

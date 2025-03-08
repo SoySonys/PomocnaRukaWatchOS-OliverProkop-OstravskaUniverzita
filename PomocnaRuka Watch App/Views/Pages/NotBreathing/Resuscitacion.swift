@@ -12,20 +12,12 @@ struct Resuscitacion: View {
         NavigationStack{
             ScrollView{
                 CustomVstackOffset{
-                    InstructionTexts(texts: ["Vyčisti pusu.","Polož na záda.","Narovnej své ruce.","Stlačuj hrudní kost 100x za minutu do hloubky 5cm."])
-                }
-                VStack(alignment: .leading, spacing: 1) {
-                    Divider()
-                    Text("Další osoba shání pomoc.\nPři strídaní nesmí být prodleva.")
-                        .font(.footnote)
-                        .fixedSize(horizontal: false, vertical: true)
-                    
-                    Divider()
+                    InstructionTexts(texts: ["Vyčisti pusu.","Polož na záda.","Narovnej své ruce.","Stlačuj hrudní kost 100x za minutu do hloubky 5cm.","Další osoba shání pomoc.\nPři strídaní nesmí být prodleva."])
                     
                     SingleButtonEndPage(title: "Dýchá", destination: AfterResuscitacion(mainPageStates: MainPageState.data), color: .green)
                         .multilineTextAlignment(.center)
                     
-
+                    
                     Text("Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc.")
                         .fixedSize(horizontal: false, vertical: true)
                         .padding()
@@ -34,12 +26,11 @@ struct Resuscitacion: View {
                         .cornerRadius(8)
                         .multilineTextAlignment(.leading)
                     
+                    //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
                     InstructionImage(imageName: "ZotavovaciPoloha")
+                    
                 }
-                .padding(.top, 0)
-                .offset(y: -10)
             }
-            .contentMargins(.top, 0, for: .scrollIndicators)
         }
     }
 }
