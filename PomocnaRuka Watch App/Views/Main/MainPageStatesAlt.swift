@@ -81,7 +81,7 @@ struct MainPageStatesAlt: View {
                     }
 
                            
-                    NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
+                    NavigationLink(destination: Resuscitacion()) {
                         HStack {
                             Text(mainPageStates[1].title)
                                 .font(.title2.bold())
