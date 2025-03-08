@@ -10,47 +10,9 @@ import SwiftUI
 struct Epilepsy: View {
     var body: some View {
         ScrollView{
-            VStack(alignment: .leading, spacing: 2) {
-                
-                Text("Udělej prostor okolo, aby se o něco neporanil.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Nesahej na ústa.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Dej něco tenkého pod hlavu.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Nehej ho v záchvatu.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Po záchvatu.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                    .font(.title3)
-                Divider()
-                Text("Nechat ležet na zádech.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-        
-                Divider()
-                Text("Zaklonit hlavu pro dýchací cesty..")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Zkontroluj, jeslti nemá jiná zranění.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                
-               
-                
+            CustomVstackOffset{
+                InstructionTexts(texts: ["Udělej prostor okolo, aby se o něco neporanil.","Nesahej na ústa.","Dej něco tenkého pod hlavu.","Čekej na konec záchvatu.","Po záchvatu nechej ležet na zádech.","Zakloň hlavu pro dýchací cesty.","Zkontroluj, jeslti nemá jiná zranění."])
             }
-            .padding(.top, 0)
-            .offset(y: -10)
         }
     }
 }

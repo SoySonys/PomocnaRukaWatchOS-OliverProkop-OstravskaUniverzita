@@ -10,30 +10,9 @@ import SwiftUI
 struct InjuryBackHeadConcious: View {
     var body: some View {
         ScrollView{
-            VStack(alignment: .leading, spacing: 2) {
-                
-                Text("Nechej ve stejné poloze.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Získej informace.\nJak se cítíš?\nCo se stalo?")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Pokus se o zavolání pomoci.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Pokud musíš pro pomoc odejít, ujisti se, že má průchozí dýchací cesty.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                
-                    
-                  
-                
+            CustomVstackOffset{
+                InstructionTexts(texts: ["Nechej ve stejné poloze.","Získej informace.\nJak se cítíš?\nCo se stalo?","Pokus se o zavolání pomoci.","Pokud musíš pro pomoc odejít, ujisti se, že má průchozí dýchací cesty."])
             }
-            .padding(.top, 0)
-            .offset(y: -10)
         }
     }
 }

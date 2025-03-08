@@ -11,53 +11,19 @@ struct AfterResuscitacion: View {
     let mainPageStates: [MainPageState]
     
     var body: some View {
-        NavigationStack{
+        
+        NavigationStack {
             
-            VStack(alignment: .leading, spacing: 1) {
-                Text("Kontroluj dýchání.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
+                CustomVstackOffset{
+                    CantCallSectionHeading()
+                    Divider()
+                    InstructionTexts(texts: ["Kontroluj dýchání"])
+                    MainButtonToList(title: mainPageStates[2].title, color: mainPageStates[2].backgroundColor,destination: AnyView(UnconciousList()))
+                    
+                    MainButtonToList(title: mainPageStates[3].title, color: mainPageStates[3].backgroundColor,destination: AnyView(ConciousList()))
+                    
                 
-                
-                NavigationLink(destination: UnconciousList()) {
-                    HStack {
-                        Text(mainPageStates[2].title)
-                            .font(.title2 )
-                            .padding(6)
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.6)
-                            .layoutPriority(1)
-                        
-                    }
-                    .frame(maxWidth: .infinity)
-                    .padding(1)
-                    .padding(.vertical,4)
-                    .background(mainPageStates[2].backgroundColor.opacity(0.4))
-                    .cornerRadius(26)
-                }
-                .buttonStyle(PlainButtonStyle())
-                
-                
-                
-                
-                NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
-                    HStack {
-                        Text(mainPageStates[3].title)
-                            .font(.title2)
-                            .padding(6)
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.6)
-                            .layoutPriority(1)
-                    }
-                }
-                .frame(maxWidth: .infinity)
-                .padding(1)
-                .padding(.vertical,4)
-                .background(mainPageStates[3].backgroundColor.opacity(0.4))
-                .cornerRadius(26)
             }
-            .buttonStyle(PlainButtonStyle())
-
         }
     }
 }

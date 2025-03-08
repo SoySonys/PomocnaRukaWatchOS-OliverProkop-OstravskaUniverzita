@@ -9,31 +9,16 @@ import SwiftUI
 
 struct Tourniquet: View {
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Použij široký pásek nebo šátek.")
-                .fixedSize(horizontal: false, vertical: true)
-                .fontWeight(.bold)
-
-            Divider()
-            Text("Utáhni mezi ránu a srdce.")
-                .fixedSize(horizontal: false, vertical: true)
-                .fontWeight(.bold)
-
-            Divider()
-            Text("Zapiš čas.")
-                .fixedSize(horizontal: false, vertical: true)
-                .fontWeight(.bold)
+        NavigationStack{
+            ScrollView{
+                CustomVstackOffset{
+                    
+                    InstructionTexts(texts: ["Použij široký pásek nebo šátek.","Utáhni mezi ránu a srdce.", "Zapiš čas."])
+                    
+                    SingleButtonEndPage(title: "Pokračovat", destination: BloodStopped(mainPageStates: MainPageState.data),color: .green)
+                }
+            }
         }
-        .padding(.top,14)
-        NavigationLink(destination: BloodStopped(mainPageStates: MainPageState.data)) {
-            Text("Pokračovat")
-            
-        }
-        .background(Color.green)
-        .foregroundColor(.white)
-        .cornerRadius(30)
-        .fixedSize(horizontal: false, vertical: true)
-        .fontWeight(.bold)
     }
 }
 

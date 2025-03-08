@@ -10,23 +10,9 @@ import SwiftUI
 struct Fracture: View {
     var body: some View {
         ScrollView{
-            VStack(alignment: .leading, spacing: 2) {
-                
-                 Text("Pokud máš jak, zchladit.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Vytvoř provizorní dláhu ke znehybnění části těla.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                Divider()
-                Text("Jdi pro pomoc sám nebo s poraněným podle stavu.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                
+            CustomVstackOffset{
+                InstructionTexts(texts: ["Pokud Můžeš, zchladit.","Vytvoř provizorní dláhu ke znehybnění části těla.","Jdi pro pomoc sám nebo s poraněným podle stavu."])
             }
-            .padding(.top, 0)
-            .offset(y: -10)
         }
     }
 }
