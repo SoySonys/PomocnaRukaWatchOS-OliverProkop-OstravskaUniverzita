@@ -127,7 +127,7 @@ struct MainPageStatesAlt: View {
                     
                     
                     
-                    NavigationLink(destination: MainPageStates(mainPageStates: MainPageState.data)) {
+                    NavigationLink(destination: ConciousList()) {
                         HStack {
                             Text(mainPageStates[3].title)
                                 .font(.title2)

@@ -1,13 +1,13 @@
 //
-//  Infarct.swift
+//  UpcomingStroke.swift
 //  PomocnaRuka Watch App
 //
-//  Created by Oliver Prokop on 06.03.2025.
+//  Created by Oliver Prokop on 08.03.2025.
 //
 
 import SwiftUI
 
-struct UpcomingInfarct: View {
+struct UpcomingStroke: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 2) {
@@ -50,5 +50,5 @@ struct UpcomingInfarct: View {
 }
 
 #Preview {
-    UpcomingInfarct()
+    UpcomingStroke()
 }

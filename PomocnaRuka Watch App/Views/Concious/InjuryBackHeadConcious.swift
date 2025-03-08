@@ -1,44 +1,33 @@
 //
-//  Infarct.swift
+//  InjuryBackHeadConcious.swift
 //  PomocnaRuka Watch App
 //
-//  Created by Oliver Prokop on 06.03.2025.
+//  Created by Oliver Prokop on 08.03.2025.
 //
 
 import SwiftUI
 
-struct UpcomingInfarct: View {
+struct InjuryBackHeadConcious: View {
     var body: some View {
         ScrollView{
             VStack(alignment: .leading, spacing: 2) {
                 
-                Text("Dej ho do polosedu.")
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
-                
-                //ZDROJ: http://www.prvni-pomoc.com/polohovani
-                Image("Polosed")
-                    .resizable()
-                    .scaledToFit()
-                Divider()
-                Text("Uklidni, povol pevné oblečení.")
+                Text("Nechej ve stejné poloze.")
                     .fixedSize(horizontal: false, vertical: true)
                     .fontWeight(.bold)
                 Divider()
-                Text("Zůstaň s ním.")
+                Text("Získej informace.\nJak se cítíš?\nCo se stalo?")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+                Divider()
+                Text("Pokus se o zavolání pomoci.")
+                    .fixedSize(horizontal: false, vertical: true)
+                    .fontWeight(.bold)
+                Divider()
+                Text("Pokud musíš pro pomoc odejít, ujisti se, že má průchozí dýchací cesty.")
                     .fixedSize(horizontal: false, vertical: true)
                     .fontWeight(.bold)
                 
-                    
-                NavigationLink(destination: Infarct()) {
-                        Text("Nastal infarkt")
-                        
-                    }
-                    .background(Color.red)
-                    .foregroundColor(.white)
-                    .cornerRadius(30)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .fontWeight(.bold)
                     
                   
                 
@@ -50,5 +39,5 @@ struct UpcomingInfarct: View {
 }
 
 #Preview {
-    UpcomingInfarct()
+    InjuryBackHeadConcious()
 }
