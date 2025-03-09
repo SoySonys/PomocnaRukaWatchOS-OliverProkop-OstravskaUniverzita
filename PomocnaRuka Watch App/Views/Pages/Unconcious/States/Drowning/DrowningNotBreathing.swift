@@ -8,6 +8,8 @@
 import SwiftUI
 //Zdroj: https://www.padler.cz/zachrana-tonouciho-je-dobre-byt-pripraven/
 struct DrowningNotBreathing: View {
+    @StateObject private var vibrationManager = VibrationManager()
+    
     var body: some View {
         NavigationStack{
             ScrollView{
@@ -38,6 +40,12 @@ struct DrowningNotBreathing: View {
             }
         }
         .background(SoundView(soundName: "Unconcious.Drowning.BadBreath"))
+        .onAppear {
+            vibrationManager.startVibrations()
+        }
+        .onDisappear {
+            vibrationManager.stopVibrations()
+        }
     }
 }
 
