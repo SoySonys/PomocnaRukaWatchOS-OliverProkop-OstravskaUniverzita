@@ -695,6 +695,61 @@
         }
       }
     },
+    "TermsOfUse.Accept" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhlasím"
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Aplikace slouží výhradně pro případy, kdy přivolání pomoci stanoví obtíž.\\nPokud se tedy jedná o krizovou situaci, kde máte možnost jednoduše zavolat 112, tak preferujte volání.\\nVyjímku stanoví případ silného krvácení."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. Tvůrce aplikace není v žádném ohledu zodpovědný za jakékoliv následky způsobené použitím aplikace."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3. Uživatel používá aplikaci s vědomím, že jedná ve vlastní odpovědnosti."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4. Kliknutím na tlačítko „Souhlasím“ uživatel potvrzuje, že podmínky četl a souhlasí s nimi. "
+          }
+        }
+      }
+    },
     "Unconcious.Collapse.Awake.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
