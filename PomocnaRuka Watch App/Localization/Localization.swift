@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    func localized(comment: String = "") -> String {
-        return NSLocalizedString(self, comment: comment)
+    func localized() -> String {
+        return NSLocalizedString(self, comment: "").replacingOccurrences(of: "\\n", with: "\n")
     }
 }
