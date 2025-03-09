@@ -353,6 +353,12 @@
         }
       }
     },
+    "Credits" : {
+
+    },
+    "Další osoba shání pomoc.\nPři strídaní nesmí být prodleva." : {
+
+    },
     "Image.Recovery" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -374,6 +380,12 @@
           }
         }
       }
+    },
+    "Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc." : {
+
+    },
+    "Lokátor atd" : {
+
     },
     "MainPage.BloodButton" : {
       "comment" : "CAPS is important",
@@ -695,6 +707,39 @@
         }
       }
     },
+    "Unconcious.DontKnow.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkus najít mobil a zavolat 112."
+          }
+        }
+      }
+    },
+    "Unconcious.DontKnow.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej do zotavovací polohy."
+          }
+        }
+      }
+    },
+    "Unconcious.DontKnow.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jdi pro pomoc."
+          }
+        }
+      }
+    },
     "Unconcious.Drowning.BadButton" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -812,6 +857,138 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jdi pro pomoc."
+          }
+        }
+      }
+    },
+    "Unconcious.Epilepsy.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udělej prostor okolo, aby se o něco neporanil."
+          }
+        }
+      }
+    },
+    "Unconcious.Epilepsy.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nesahej na ústa."
+          }
+        }
+      }
+    },
+    "Unconcious.Epilepsy.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej něco tenkého pod hlavu."
+          }
+        }
+      }
+    },
+    "Unconcious.Epilepsy.Instruction.4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekej na konec záchvatu."
+          }
+        }
+      }
+    },
+    "Unconcious.Epilepsy.Instruction.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po záchvatu nechej ležet na zádech."
+          }
+        }
+      }
+    },
+    "Unconcious.Epilepsy.Instruction.6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakloň hlavu pro dýchací cesty."
+          }
+        }
+      }
+    },
+    "Unconcious.Epilepsy.Instruction.7" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkontroluj, jeslti nemá jiná zranění."
+          }
+        }
+      }
+    },
+    "Unconcious.Infarct.BadButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bez vědomí"
+          }
+        }
+      }
+    },
+    "Unconcious.Infarct.GoodButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při vědomí"
+          }
+        }
+      }
+    },
+    "Unconcious.Infarct.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej ho do polosedu."
+          }
+        }
+      }
+    },
+    "Unconcious.Infarct.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5 minut čekej a kontroluj dech."
+          }
+        }
+      }
+    },
+    "Unconcious.Infarct.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poté vyber:"
           }
         }
       }

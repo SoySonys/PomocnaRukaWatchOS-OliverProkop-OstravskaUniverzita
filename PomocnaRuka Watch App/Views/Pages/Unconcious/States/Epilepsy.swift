@@ -11,7 +11,15 @@ struct Epilepsy: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Udělej prostor okolo, aby se o něco neporanil.","Nesahej na ústa.","Dej něco tenkého pod hlavu.","Čekej na konec záchvatu.","Po záchvatu nechej ležet na zádech.","Zakloň hlavu pro dýchací cesty.","Zkontroluj, jeslti nemá jiná zranění."])
+                InstructionTexts(texts: [
+                    "Unconcious.Epilepsy.Instruction.1".localized(),
+                    "Unconcious.Epilepsy.Instruction.2".localized(),
+                    "Unconcious.Epilepsy.Instruction.3".localized(),
+                    "Unconcious.Epilepsy.Instruction.4".localized(),
+                    "Unconcious.Epilepsy.Instruction.5".localized(),
+                    "Unconcious.Epilepsy.Instruction.6".localized(),
+                    "Unconcious.Epilepsy.Instruction.7".localized(),
+                    ])
             }
         }
     }
