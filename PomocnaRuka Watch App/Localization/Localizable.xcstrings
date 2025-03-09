@@ -454,6 +454,17 @@
         }
       }
     },
+    "NotBreathing.AfterResuscitacion.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontroluj dýchání"
+          }
+        }
+      }
+    },
     "NotBreathing.Resuscitacion.BrathingButton" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -989,6 +1000,39 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poté vyber:"
+          }
+        }
+      }
+    },
+    "Unconcious.InjuryBackHead.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Určitě nemáš jak zavolat 112?"
+          }
+        }
+      }
+    },
+    "Unconcious.InjuryBackHead.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud ho musíš opustit a jít pro pomoc:\\n\\nZakloň hlavu a ujisti se, že jsou dýchací cesty průchozí."
+          }
+        }
+      }
+    },
+    "Unconcious.InjuryBackHead.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jdi pro pomoc"
           }
         }
       }

@@ -11,7 +11,11 @@ struct InjuryBackHead: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Určitě nemáš jak zavolat 112?","Pokud ho musíš opustit a jít pro pomoc:\n\nZakloň hlavu a ujisti se, že jsou dýchací cesty průchozí.","Jdi pro pomoc"])
+                InstructionTexts(texts: [
+                    "Unconcious.InjuryBackHead.Instruction.1".localized(),
+                    "Unconcious.InjuryBackHead.Instruction.2".localized(),
+                    "Unconcious.InjuryBackHead.Instruction.3".localized()
+                ])
             }
         }
     }
