@@ -12,13 +12,24 @@ struct Resuscitacion: View {
         NavigationStack{
             ScrollView{
                 CustomVstackOffset{
-                    InstructionTexts(texts: ["Vyčisti pusu.","Polož na záda.","Narovnej své ruce.","Stlačuj hrudní kost 100x za minutu do hloubky 5cm.","Další osoba shání pomoc.\nPři strídaní nesmí být prodleva."])
+                    InstructionTexts(texts: [
+                        "NotBreathing.Resuscitacion.Instruction.1".localized(),
+                        "NotBreathing.Resuscitacion.Instruction.2".localized(),
+                        "NotBreathing.Resuscitacion.Instruction.3".localized(),
+                        "NotBreathing.Resuscitacion.Instruction.4".localized(),
+                        "NotBreathing.Resuscitacion.Instruction.5".localized()
+                    ])
                     
-                    SingleButtonEndPage(title: "Dýchá", destination: AfterResuscitacion(mainPageStates: MainPageState.data), color: .green)
+                    SingleButtonEndPage(
+                        title: "NotBreathing.Resuscitacion.BrathingButton".localized(),
+                        destination: AfterResuscitacion(mainPageStates: MainPageState.data),
+                        color: .green)
                         .multilineTextAlignment(.center)
                     
                     
-                    Text("Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc.")
+                    Text(
+                        "NotBreathing.Resuscitacion.UnsuccessfullCaption".localized()
+                        )
                         .fixedSize(horizontal: false, vertical: true)
                         .padding()
                         .background(Color.red.opacity(0.2))
@@ -27,7 +38,7 @@ struct Resuscitacion: View {
                         .multilineTextAlignment(.leading)
                     
                     //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
-                    InstructionImage(imageName: "ZotavovaciPoloha")
+                    InstructionImage(imageName: "Image.Recovery".localized())
                     
                 }
             }

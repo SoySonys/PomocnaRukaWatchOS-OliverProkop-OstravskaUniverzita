@@ -10,10 +10,16 @@ import SwiftUI
 struct CollapseNotAwake: View {
     var body: some View {
         CustomVstackOffset{
-            InstructionTexts(texts: ["Dej do zotavovací polohy."])
+            InstructionTexts(texts: [
+                "Unconcious.Collapse.NotAwake.Instruction1".localized()
+            ])
+            
             //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
-            InstructionImage(imageName: "ZotavovaciPoloha")
-            InstructionTexts(texts: ["Jdi pro pomoc."])
+            InstructionImage(imageName: "Image.Recovery".localized())
+            
+            InstructionTexts(texts: [
+                "Unconcious.Collapse.NotAwake.Instruction2".localized()
+            ])
             
         }
     }

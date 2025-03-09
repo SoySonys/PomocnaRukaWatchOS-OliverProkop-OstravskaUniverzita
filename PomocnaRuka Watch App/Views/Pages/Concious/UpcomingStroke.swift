@@ -11,7 +11,13 @@ struct UpcomingStroke: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Je potřeba rychle zajistit pomoc","Nech pacienta lehnout/sednout", "Ať nepije/nejí","Ať se moc nehýbe", "Urychleně získej pomoc."])
+                InstructionTexts(texts: [
+                    "Concious.UpcomingStroke.Instruction.1".localized(),
+                    "Concious.UpcomingStroke.Instruction.2".localized(),
+                    "Concious.UpcomingStroke.Instruction.3".localized(),
+                    "Concious.UpcomingStroke.Instruction.4".localized(),
+                    "Concious.UpcomingStroke.Instruction.5".localized()
+                ])
             }
         }
     }

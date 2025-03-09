@@ -11,7 +11,12 @@ struct InjuryBackHeadConcious: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Nechej ve stejné poloze.","Získej informace.\nJak se cítíš?\nCo se stalo?","Pokus se o zavolání pomoci.","Pokud musíš pro pomoc odejít, ujisti se, že má průchozí dýchací cesty."])
+                InstructionTexts(texts: [
+                    "Concious.InjuryBackHeadConcious.Instruction.1".localized(),
+                    "Concious.InjuryBackHeadConcious.Instruction.2".localized(),
+                    "Concious.InjuryBackHeadConcious.Instruction.3".localized(),
+                    "Concious.InjuryBackHeadConcious.Instruction.4".localized(),
+                ])
             }
         }
     }

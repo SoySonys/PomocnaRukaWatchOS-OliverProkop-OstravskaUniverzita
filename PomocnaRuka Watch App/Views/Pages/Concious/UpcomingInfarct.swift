@@ -11,11 +11,22 @@ struct UpcomingInfarct: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Dej ho do polosedu."])
+                InstructionTexts(texts: [
+                    "Concious.UpcomingInfarct.Instruction.1".localized()
+                ])
+                
                 //ZDROJ: http://www.prvni-pomoc.com/polohovani
-                InstructionImage(imageName: "Polosed")
-                InstructionTexts(texts: ["Uklidni, povol pevné oblečení.","Zůstaň s ním."])
-                SingleButtonEndPage(title: "Nastal infarkt", destination: Infarct(), color: .red)
+                InstructionImage(imageName: "Polosed".localized())
+                
+                InstructionTexts(texts: [
+                    "Concious.UpcomingInfarct.Instruction.2".localized(),
+                    "Concious.UpcomingInfarct.Instruction.3".localized()
+                                        ])
+                
+                SingleButtonEndPage(
+                    title: "Concious.UpcomingInfarct.InfarctHappenedButton".localized(),
+                    destination: Infarct(),
+                    color: .red)
             }
         }
     }
