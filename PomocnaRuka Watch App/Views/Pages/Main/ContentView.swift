@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("hasAcceptedTerms") private var hasAcceptedTerms = false
+    
     var body: some View {
-            MainPageStates()
+        if hasAcceptedTerms {
+                MainPageStates()
+        } else {
+            TermsOfUse()
+        }
     }
 }
 

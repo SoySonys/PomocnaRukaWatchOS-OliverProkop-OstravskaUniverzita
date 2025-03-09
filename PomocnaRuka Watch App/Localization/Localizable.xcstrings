@@ -695,6 +695,83 @@
         }
       }
     },
+    "TermsOfUse.Accept" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhlasím"
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Aplikace slouží výhradně pro případy, kdy přivolání pomoci stanoví obtíž.\\nPokud se tedy jedná o krizovou situaci, kde máte možnost jednoduše zavolat 112, tak preferujte volání.\\nVyjímku stanoví případ silného krvácení."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. Aplikace není plnou náhradou vědomostí potřebných k udělení první pomoci. Spoléhání se jen a pouze na tuto aplikaci není doporučení. Vzdělávání se v oblasti první pomoci je doporučeno všem lidem."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3. Tvůrce aplikace není v žádném ohledu zodpovědný za jakékoliv následky způsobené použitím aplikace."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4. Uživatel používá aplikaci s vědomím, že jedná ve vlastní odpovědnosti."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5. Při stažení a otevření aplikace se doporučuje si aplikaci projít a pochopit fungování a tuto aktivitu opakovat jednou za čas z důvodu, aby jste byli schopni v krizové situaci na plno využít její potenciál."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6. Kliknutím na tlačítko „Souhlasím“ uživatel potvrzuje, že podmínky četl a souhlasí s nimi. "
+          }
+        }
+      }
+    },
     "Unconcious.Collapse.Awake.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
