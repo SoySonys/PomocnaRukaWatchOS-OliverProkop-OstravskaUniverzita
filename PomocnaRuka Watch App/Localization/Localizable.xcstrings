@@ -706,7 +706,7 @@
         }
       }
     },
-    "TermsOfUse.Term1" : {
+    "TermsOfUse.Term.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -717,35 +717,57 @@
         }
       }
     },
-    "TermsOfUse.Term2" : {
+    "TermsOfUse.Term.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "2. Tvůrce aplikace není v žádném ohledu zodpovědný za jakékoliv následky způsobené použitím aplikace."
+            "value" : "2. Aplikace není plnou náhradou vědomostí potřebných k udělení první pomoci. Spoléhání se jen a pouze na tuto aplikaci není doporučení. Vzdělávání se v oblasti první pomoci je doporučeno všem lidem."
           }
         }
       }
     },
-    "TermsOfUse.Term3" : {
+    "TermsOfUse.Term.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3. Uživatel používá aplikaci s vědomím, že jedná ve vlastní odpovědnosti."
+            "value" : "3. Tvůrce aplikace není v žádném ohledu zodpovědný za jakékoliv následky způsobené použitím aplikace."
           }
         }
       }
     },
-    "TermsOfUse.Term4" : {
+    "TermsOfUse.Term.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "4. Kliknutím na tlačítko „Souhlasím“ uživatel potvrzuje, že podmínky četl a souhlasí s nimi. "
+            "value" : "4. Uživatel používá aplikaci s vědomím, že jedná ve vlastní odpovědnosti."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5. Při stažení a otevření aplikace se doporučuje si aplikaci projít a pochopit fungování a tuto aktivitu opakovat jednou za čas z důvodu, aby jste byli schopni v krizové situaci na plno využít její potenciál."
+          }
+        }
+      }
+    },
+    "TermsOfUse.Term.6" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "6. Kliknutím na tlačítko „Souhlasím“ uživatel potvrzuje, že podmínky četl a souhlasí s nimi. "
           }
         }
       }

@@ -14,10 +14,12 @@ struct TermsOfUse: View {
         ScrollView {
             CustomVstackOffset{
                 InstructionTexts(texts: [
-                    "TermsOfUse.Term1".localized(),
-                    "TermsOfUse.Term2".localized(),
-                    "TermsOfUse.Term3".localized(),
-                    "TermsOfUse.Term4".localized()
+                    "TermsOfUse.Term.1".localized(),
+                    "TermsOfUse.Term.2".localized(),
+                    "TermsOfUse.Term.3".localized(),
+                    "TermsOfUse.Term.4".localized(),
+                    "TermsOfUse.Term.5".localized(),
+                    "TermsOfUse.Term.6".localized()
                 ])
                 Button("TermsOfUse.Accept".localized()) {
                     hasAcceptedTerms = true
