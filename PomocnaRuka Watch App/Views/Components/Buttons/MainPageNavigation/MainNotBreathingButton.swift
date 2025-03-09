@@ -11,7 +11,7 @@ struct MainNotBreathingButton: View {
     var body: some View {
         NavigationLink(destination: Resuscitacion()) {
             HStack {
-                Text("Nedýchá")
+                Text("MainPage.NotBreathingButton".localized())
                     .font(.title2.bold())
                     .padding(6)
                     .padding(.trailing,0)

@@ -11,7 +11,11 @@ struct Fracture: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Pokud Můžeš, zchladit.","Vytvoř provizorní dláhu ke znehybnění části těla.","Jdi pro pomoc sám nebo s poraněným podle stavu."])
+                InstructionTexts(texts: [
+                    "Concious.Fracture.Instruction.1".localized(),
+                    "Concious.Fracture.Instruction.2".localized(),
+                    "Concious.Fracture.Instruction.3".localized()
+                ])
             }
         }
     }

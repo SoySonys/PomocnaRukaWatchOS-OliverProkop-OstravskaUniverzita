@@ -13,10 +13,19 @@ struct BloodMain: View {
         NavigationStack{
             ScrollView{
                 CustomVstackOffset {
-                    InstructionTexts(texts: ["Nevidíš zlomenou kost, zatlač na ránu.","Obvaž tričkem/obvazem.","Zvedni ránu nad srdce a přitlač."])
+                    InstructionTexts(texts: [
+                        "Blood.Instruction.1".localized(),
+                        "Blood.Instruction.2".localized(),
+                        "Blood.Instruction.3".localized()
+                    ])
                     
                     
-                    TwoButtonsEndPage(badTitle: "Stále krvácí", badDestination: Tourniquet(), goodTitle: "Krev přestala", goodDestination: BloodStopped(mainPageStates: MainPageState.data))
+                    TwoButtonsEndPage(
+                        badTitle: "Blood.ButtonBad".localized(),
+                        badDestination: Tourniquet(),
+                        goodTitle: "Blood.ButtonGood".localized(),
+                        goodDestination: BloodStopped()
+                    )
                 }
             }
         }

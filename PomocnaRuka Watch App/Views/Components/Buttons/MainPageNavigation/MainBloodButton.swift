@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainBloodingButton: View {
+struct MainBloodButton: View {
     var body: some View {
         NavigationLink(destination: BloodMain()){
             
@@ -19,7 +19,7 @@ struct MainBloodingButton: View {
                     .scaledToFit()
                     .frame(maxWidth: 30, maxHeight: 30)
                 
-                Text("KRVÁCÍ")
+                Text("MainPage.BloodButton".localized())
                     .font(.title.bold())
                     .foregroundColor(.white)
                     .lineLimit(1)
@@ -45,5 +45,5 @@ struct MainBloodingButton: View {
 }
 
 #Preview {
-    MainBloodingButton()
+    MainBloodButton()
 }

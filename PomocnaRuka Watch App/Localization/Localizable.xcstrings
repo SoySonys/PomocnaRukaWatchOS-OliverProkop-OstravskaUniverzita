@@ -1,0 +1,282 @@
+{
+  "sourceLanguage" : "cs",
+  "strings" : {
+    "Blood.ButtonBad" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stále krvácí"
+          }
+        }
+      }
+    },
+    "Blood.ButtonGood" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krev přestala"
+          }
+        }
+      }
+    },
+    "Blood.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevidíš zlomenou kost, zatlač na ránu."
+          }
+        }
+      }
+    },
+    "Blood.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obvaž tričkem/obvazem."
+          }
+        }
+      }
+    },
+    "Blood.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zvedni ránu nad srdce a přitlač."
+          }
+        }
+      }
+    },
+    "Blood.Tourniquet.ContinueButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovat"
+          }
+        }
+      }
+    },
+    "Blood.Tourniquet.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Použij široký pásek nebo šátek."
+          }
+        }
+      }
+    },
+    "Blood.Tourniquet.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utáhni mezi ránu a srdce."
+          }
+        }
+      }
+    },
+    "Blood.Tourniquet.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapiš čas."
+          }
+        }
+      }
+    },
+    "Concious.Burns.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vzdal se od požáru."
+          }
+        }
+      }
+    },
+    "Concious.Burns.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vlažnou vodou zchlaď pouze popálené místo."
+          }
+        }
+      }
+    },
+    "Concious.Burns.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oblečení sundávej až pod sprchou."
+          }
+        }
+      }
+    },
+    "Concious.Burns.Instruction.4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odstraň šperky."
+          }
+        }
+      }
+    },
+    "Concious.Fracture.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud Můžeš, zchladit."
+          }
+        }
+      }
+    },
+    "Concious.Fracture.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvoř provizorní dláhu ke znehybnění části těla."
+          }
+        }
+      }
+    },
+    "Concious.Fracture.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jdi pro pomoc sám nebo s poraněným podle stavu."
+          }
+        }
+      }
+    },
+    "Concious.Hypothermia.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sundej mokré oblečení."
+          }
+        }
+      }
+    },
+    "Concious.Hypothermia.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obal do tepla."
+          }
+        }
+      }
+    },
+    "Concious.Hypothermia.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejlépe se teplo přenáší přes podpaží, hruď a krk."
+          }
+        }
+      }
+    },
+    "MainPage.BloodButton" : {
+      "comment" : "CAPS is important",
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KRVÁCÍ"
+          }
+        }
+      }
+    },
+    "MainPage.CallIfNotBloodReminder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nekrvácí? Volej 112"
+          }
+        }
+      }
+    },
+    "MainPage.CantCallSectionHeading" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejde volat 112"
+          }
+        }
+      }
+    },
+    "MainPage.ConciousButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při vědomí"
+          }
+        }
+      }
+    },
+    "MainPage.NotBreathingButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedýchá"
+          }
+        }
+      }
+    },
+    "MainPage.UnconciousButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezvědomí"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

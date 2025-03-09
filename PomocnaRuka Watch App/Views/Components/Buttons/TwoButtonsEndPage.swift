@@ -41,6 +41,6 @@ struct TwoButtonsEndPage<BadDestination: View, GoodDestination: View>: View {
         badTitle: "Stále krvácí",
         badDestination: Tourniquet(),
         goodTitle: "Krev přestala",
-        goodDestination: BloodStopped(mainPageStates: MainPageState.data)
+        goodDestination: BloodStopped()
     )
 }

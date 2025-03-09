@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CallIfNotBloodReminder: View {
     var body: some View {
-        Text("Nekrvácí? Volej 112")
+        Text("MainPage.CallIfNotBloodReminder".localized())
             .font(.headline)
             .foregroundColor(.gray)
             .multilineTextAlignment(.center)

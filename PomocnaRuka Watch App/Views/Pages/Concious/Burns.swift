@@ -11,7 +11,12 @@ struct Burns: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Vzdal se od požáru.","Vlažnou vodou zchlaď pouze popálené místo.","Oblečení sundávej až pod sprchou.","Odstraň šperky."])
+                InstructionTexts(texts: [
+                    "Concious.Burns.Instruction.1".localized(),
+                    "Concious.Burns.Instruction.2".localized(),
+                    "Concious.Burns.Instruction.3".localized(),
+                    "Concious.Burns.Instruction.4".localized(),
+                ])
             }
         }
     }
