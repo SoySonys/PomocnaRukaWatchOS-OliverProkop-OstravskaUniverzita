@@ -43,6 +43,7 @@ struct Resuscitacion: View {
                 }
             }
         }
+        .background(SoundView(soundName: "Resuscitacion"))
     }
 }
 

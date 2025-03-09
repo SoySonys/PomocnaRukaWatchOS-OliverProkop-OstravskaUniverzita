@@ -29,6 +29,7 @@ struct UpcomingInfarct: View {
                     color: .red)
             }
         }
+        .background(SoundView(soundName: "Concious.UpcomingInfarct"))
     }
 }
 

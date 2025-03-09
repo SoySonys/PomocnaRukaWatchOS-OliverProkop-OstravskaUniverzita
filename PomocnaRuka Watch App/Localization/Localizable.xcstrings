@@ -772,6 +772,9 @@
         }
       }
     },
+    "This is a view with sound!" : {
+
+    },
     "Unconcious.Collapse.Awake.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {

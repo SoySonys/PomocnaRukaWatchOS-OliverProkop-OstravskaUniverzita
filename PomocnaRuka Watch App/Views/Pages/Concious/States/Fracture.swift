@@ -18,6 +18,7 @@ struct Fracture: View {
                 ])
             }
         }
+        .background(SoundView(soundName: "Concious.Fracture"))
     }
 }
 

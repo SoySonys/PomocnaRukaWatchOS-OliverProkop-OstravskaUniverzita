@@ -37,6 +37,7 @@ struct DrowningNotBreathing: View {
                 }
             }
         }
+        .background(SoundView(soundName: "Unconcious.Drowning.BadBreath"))
     }
 }
 

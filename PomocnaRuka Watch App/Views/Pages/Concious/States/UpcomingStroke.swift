@@ -20,6 +20,7 @@ struct UpcomingStroke: View {
                 ])
             }
         }
+        .background(SoundView(soundName: "Concious.UpcomingStroke"))
     }
 }
 

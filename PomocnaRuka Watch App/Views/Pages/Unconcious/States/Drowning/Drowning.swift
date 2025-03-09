@@ -29,6 +29,7 @@ struct Drowning: View {
                 }
             }
         }
+        .background(SoundView(soundName: "Unconcious.Drowning"))
     }
 }
 

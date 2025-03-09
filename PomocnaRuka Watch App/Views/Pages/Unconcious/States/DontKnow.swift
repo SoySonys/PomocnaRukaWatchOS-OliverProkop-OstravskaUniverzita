@@ -24,6 +24,7 @@ struct DontKnow: View {
                 ])
             }
         }
+        .background(SoundView(soundName: "Unconcious.DontKnow"))
     }
 }
 

@@ -22,6 +22,7 @@ struct Epilepsy: View {
                     ])
             }
         }
+        .background(SoundView(soundName: "Unconcious.Epilepsy"))
     }
 }
 

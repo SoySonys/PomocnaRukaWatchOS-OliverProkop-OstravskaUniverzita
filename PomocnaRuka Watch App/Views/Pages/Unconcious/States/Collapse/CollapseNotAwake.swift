@@ -22,6 +22,7 @@ struct CollapseNotAwake: View {
             ])
             
         }
+        .background(SoundView(soundName: "Unconcious.Collapse.NotAwake"))
     }
 }
 

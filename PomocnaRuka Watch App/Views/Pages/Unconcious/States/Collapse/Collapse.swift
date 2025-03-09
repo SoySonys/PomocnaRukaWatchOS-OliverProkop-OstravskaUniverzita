@@ -31,6 +31,7 @@ struct Collapse: View {
                 }
             }
         }
+        .background(SoundView(soundName: "Unconcious.Collapse"))
     }
 }
 
