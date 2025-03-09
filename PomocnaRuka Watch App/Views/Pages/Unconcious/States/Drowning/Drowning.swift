@@ -12,8 +12,20 @@ struct Drowning: View {
         NavigationStack{
             ScrollView{
                 CustomVstackOffset{
-                    InstructionTexts(texts: ["Pamatuj na své bezpečí.","Hoď něco co plave.\nNafouknutá petka.","Panikaří, pak hrozí že tě taky stáhne dolů.","Čekej až se uklidní.","Otoč na záda a dostaň na břeh.","Na břehu otoč na bok.","Poté vyber:"])
-                    TwoButtonsEndPage(badTitle: "Bez vědomí", badDestination: DrowningNotBreathing(), goodTitle: "Při vědomí", goodDestination: DrowningBreathing())
+                    InstructionTexts(texts: [
+                        "Unconcious.Drowning.Instruction.1".localized(),
+                        "Unconcious.Drowning.Instruction.2".localized(),
+                        "Unconcious.Drowning.Instruction.3".localized(),
+                        "Unconcious.Drowning.Instruction.4".localized(),
+                        "Unconcious.Drowning.Instruction.5".localized(),
+                        "Unconcious.Drowning.Instruction.6".localized(),
+                        "Unconcious.Drowning.Instruction.7".localized()
+                    ])
+                    TwoButtonsEndPage(
+                        badTitle: "Unconcious.Drowning.BadButton".localized(),
+                        badDestination: DrowningNotBreathing(),
+                        goodTitle: "Unconcious.Drowning.GoodButton".localized(),
+                        goodDestination: DrowningBreathing())
                 }
             }
         }

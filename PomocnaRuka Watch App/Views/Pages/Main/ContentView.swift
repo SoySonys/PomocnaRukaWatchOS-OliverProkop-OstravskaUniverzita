@@ -9,11 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView{
-            MainPageStates(mainPageStates: MainPageState.data)
-            Text("Lokátor atd")
-            Text("Credits")
-        }
+            MainPageStates()
     }
 }
 

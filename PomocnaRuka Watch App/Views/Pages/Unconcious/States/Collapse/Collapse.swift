@@ -12,8 +12,22 @@ struct Collapse: View {
         NavigationStack{
             ScrollView{
                 CustomVstackOffset{
-                    InstructionTexts(texts: ["Polož na záda.","Lehce zakloň hlavu.","Zkontroluj volné dýchací cesty.","Povol oblečení.","Nohy zvedni o 45°.","Čekej 5 minut.","Poté vyber:"])
-                    TwoButtonsEndPage(badTitle: "Bez vědomí", badDestination: CollapseNotAwake(), goodTitle: "Při vědomí", goodDestination: CollapseAwake())
+                    InstructionTexts(texts: [
+                        "Unconcious.Collapse.Instruction.1".localized(),
+                        "Unconcious.Collapse.Instruction.2".localized(),
+                        "Unconcious.Collapse.Instruction.3".localized(),
+                        "Unconcious.Collapse.Instruction.4".localized(),
+                        "Unconcious.Collapse.Instruction.5".localized(),
+                        "Unconcious.Collapse.Instruction.6".localized(),
+                        "Unconcious.Collapse.Instruction.7".localized()
+                    ])
+                    
+                    TwoButtonsEndPage(
+                        badTitle: "Unconcious.Collapse.BadButton".localized(),
+                        badDestination: CollapseNotAwake(),
+                        goodTitle: "Unconcious.Collapse.GoodButton".localized(),
+                        goodDestination: CollapseAwake()
+                    )
                 }
             }
         }

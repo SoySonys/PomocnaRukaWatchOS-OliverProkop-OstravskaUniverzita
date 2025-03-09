@@ -13,9 +13,17 @@ struct Tourniquet: View {
             ScrollView{
                 CustomVstackOffset{
                     
-                    InstructionTexts(texts: ["Použij široký pásek nebo šátek.","Utáhni mezi ránu a srdce.", "Zapiš čas."])
+                    InstructionTexts(texts: [
+                        "Blood.Tourniquet.Instruction.1".localized(),
+                        "Blood.Tourniquet.Instruction.2".localized(),
+                        "Blood.Tourniquet.Instruction.3".localized()
+                    ])
                     
-                    SingleButtonEndPage(title: "Pokračovat", destination: BloodStopped(mainPageStates: MainPageState.data),color: .green)
+                    SingleButtonEndPage(
+                        title: "Blood.Tourniquet.ContinueButton".localized(),
+                        destination: BloodStopped(),
+                        color: .green
+                    )
                 }
             }
         }

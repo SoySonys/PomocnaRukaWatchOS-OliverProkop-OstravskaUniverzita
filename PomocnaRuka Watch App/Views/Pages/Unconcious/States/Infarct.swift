@@ -11,11 +11,23 @@ struct Infarct: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Dej ho do polosedu."])
+                InstructionTexts(texts: [
+                    "Unconcious.Infarct.Instruction.1".localized()
+                ])
+                
                 //ZDROJ: http://www.prvni-pomoc.com/polohovani
-                InstructionImage(imageName: "Polosed")
-                InstructionTexts(texts: ["5 minut čekej a kontroluj dech.","Poté vyber:"])
-                TwoButtonsEndPage(badTitle: "Bez vědomí", badDestination: CollapseNotAwake(), goodTitle: "Při vědomí", goodDestination: CollapseAwake())
+                InstructionImage(imageName: "Image.Semi".localized())
+                
+                InstructionTexts(texts: [
+                    "Unconcious.Infarct.Instruction.2".localized(),
+                    "Unconcious.Infarct.Instruction.3".localized()
+                ])
+                
+                TwoButtonsEndPage(
+                    badTitle: "Unconcious.Infarct.BadButton".localized(),
+                    badDestination: CollapseNotAwake(),
+                    goodTitle: "Unconcious.Infarct.GoodButton".localized(),
+                    goodDestination: CollapseAwake())
             }
         }
     }

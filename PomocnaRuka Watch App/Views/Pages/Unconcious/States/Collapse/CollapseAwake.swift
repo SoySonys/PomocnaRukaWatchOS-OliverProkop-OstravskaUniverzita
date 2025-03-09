@@ -11,7 +11,13 @@ struct CollapseAwake: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Nechej ho ležet.","NEdávej jídlo/pití.","Zůstaň s ním a snaž se uklidinit.","Ptej se.\nCo se stalo?\nLéčíš se na něco?\nMáš bolest hrudi?","Čekej dokud se nezlepší."])
+                InstructionTexts(texts: [
+                    "Unconcious.Collapse.Awake.Instruction.1".localized(),
+                    "Unconcious.Collapse.Awake.Instruction.2".localized(),
+                    "Unconcious.Collapse.Awake.Instruction.3".localized(),
+                    "Unconcious.Collapse.Awake.Instruction.4".localized(),
+                    "Unconcious.Collapse.Awake.Instruction.5".localized()
+                ])
             }
         }
     }

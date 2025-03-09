@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct MainPageStates: View {
-    let mainPageStates: [MainPageState]
-    
     var body: some View {
         NavigationStack {
             ScrollView{
                 VStack {
                     
-                    MainBloodingButton()
+                    MainBloodButton()
                     
                     CallIfNotBloodReminder()
                                         
@@ -28,9 +26,9 @@ struct MainPageStates: View {
                     Divider()
                         .padding(.vertical,4)
                     
-                    MainButtonToList(title: mainPageStates[2].title, color: mainPageStates[2].backgroundColor,destination: AnyView(UnconciousList()))
+                    UnconciousListButton()
                     
-                    MainButtonToList(title: mainPageStates[3].title, color: mainPageStates[3].backgroundColor,destination: AnyView(ConciousList()))
+                    ConciousListButton()
                 }
             }
         }
@@ -38,5 +36,5 @@ struct MainPageStates: View {
 }
 
 #Preview {
-    MainPageStates(mainPageStates: MainPageState.data)
+    MainPageStates()
 }

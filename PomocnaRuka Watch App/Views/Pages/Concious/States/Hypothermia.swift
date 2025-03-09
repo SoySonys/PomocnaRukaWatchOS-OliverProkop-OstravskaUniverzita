@@ -11,7 +11,11 @@ struct Hypothermia: View {
     var body: some View {
         ScrollView{
             CustomVstackOffset{
-                InstructionTexts(texts: ["Sundej mokré oblečení.","Obal do tepla.","Nejlépe se teplo přenáší přes podpaží, hruď a krk."])
+                InstructionTexts(texts: [
+                    "Concious.Hypothermia.Instruction.1".localized(),
+                    "Concious.Hypothermia.Instruction.2".localized(),
+                    "Concious.Hypothermia.Instruction.3".localized()
+                ])
             }
         }
     }

@@ -8,7 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct StateModel {
+struct StateModel: Identifiable {
+    let id = UUID()
     let text: String
     let description: String?
     let view: AnyView

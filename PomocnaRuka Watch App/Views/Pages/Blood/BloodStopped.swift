@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct BloodStopped: View {
-    let mainPageStates: [MainPageState]
     
     var body: some View {
         NavigationStack {
@@ -18,14 +17,13 @@ struct BloodStopped: View {
                     CantCallSectionHeading()
                         .bold()
                     
-                    
                     MainNotBreathingButton()
                     
                     Divider()
                     
-                    MainButtonToList(title: mainPageStates[2].title, color: mainPageStates[2].backgroundColor,destination: AnyView(UnconciousList()))
+                    UnconciousListButton()
                     
-                    MainButtonToList(title: mainPageStates[3].title, color: mainPageStates[3].backgroundColor,destination: AnyView(ConciousList()))
+                    ConciousListButton()
                 }
             }
         }
@@ -34,5 +32,5 @@ struct BloodStopped: View {
 
 
 #Preview {
-    BloodStopped(mainPageStates: MainPageState.data)
+    BloodStopped()
 }

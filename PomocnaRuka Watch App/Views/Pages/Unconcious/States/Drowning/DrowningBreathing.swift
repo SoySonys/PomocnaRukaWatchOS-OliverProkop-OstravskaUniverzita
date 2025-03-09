@@ -10,11 +10,16 @@ import SwiftUI
 struct DrowningBreathing: View {
     var body: some View {
         CustomVstackOffset{
-            InstructionTexts(texts: ["Dej do zotavovací polohy."])
-            //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
-            InstructionImage(imageName: "ZotavovaciPoloha")
-            InstructionTexts(texts: ["Jdi pro pomoc."])
+            InstructionTexts(texts: [
+                "Unconcious.Drowning.GoodBreath.Instruction.1".localized()
+            ])
             
+            //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
+            InstructionImage(imageName: "Image.Recovery".localized())
+            
+            InstructionTexts(texts: [
+                "Unconcious.Drowning.GoodBreath.Instruction.2".localized()
+              ])
         }
     }
 }

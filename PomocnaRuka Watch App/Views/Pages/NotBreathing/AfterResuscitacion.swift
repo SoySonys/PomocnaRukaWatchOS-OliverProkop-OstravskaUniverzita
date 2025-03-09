@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct AfterResuscitacion: View {
-    let mainPageStates: [MainPageState]
     
     var body: some View {
         
@@ -16,13 +15,16 @@ struct AfterResuscitacion: View {
             
                 CustomVstackOffset{
                     CantCallSectionHeading()
+                    
                     Divider()
-                    InstructionTexts(texts: ["Kontroluj dýchání"])
-                    MainButtonToList(title: mainPageStates[2].title, color: mainPageStates[2].backgroundColor,destination: AnyView(UnconciousList()))
                     
-                    MainButtonToList(title: mainPageStates[3].title, color: mainPageStates[3].backgroundColor,destination: AnyView(ConciousList()))
+                    InstructionTexts(texts: [
+                        "NotBreathing.AfterResuscitacion.Instruction.1".localized()
+                    ])
                     
-                
+                    UnconciousListButton()
+                    
+                    ConciousListButton()
             }
         }
     }
@@ -30,5 +32,5 @@ struct AfterResuscitacion: View {
 
 
 #Preview {
-    AfterResuscitacion(mainPageStates: MainPageState.data)
+    AfterResuscitacion()
 }

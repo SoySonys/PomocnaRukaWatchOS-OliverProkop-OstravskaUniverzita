@@ -31,7 +31,7 @@ struct CustomVstackOffset<Content: View>: View {
             badTitle: "Stále krvácí",
             badDestination: Tourniquet(),
             goodTitle: "Krev přestala",
-            goodDestination: BloodStopped(mainPageStates: MainPageState.data)
+            goodDestination: BloodStopped()
         )
     }
 }
