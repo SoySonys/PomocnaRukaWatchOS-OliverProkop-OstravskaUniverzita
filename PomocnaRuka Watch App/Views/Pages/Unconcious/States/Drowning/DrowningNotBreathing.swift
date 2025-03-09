@@ -12,15 +12,19 @@ struct DrowningNotBreathing: View {
         NavigationStack{
             ScrollView{
                 CustomVstackOffset{
-                    InstructionTexts(texts: ["Zakloň hlavu, zacpi nos a udělej 2 silné vdechy.","narovnej ruce před sebe a 30x stlač hrudník 5cm do hloubky frekvencí 100x za minutu.","Opět 2 dechy, poté resuscitace a pokračuj v opakování."])
+                    InstructionTexts(texts: [
+                        "Unconcious.Drowning.BadBreath.Instruction.1".localized(),
+                        "Unconcious.Drowning.BadBreath.Instruction.2".localized(),
+                        "Unconcious.Drowning.BadBreath.Instruction.3".localized()
+                    ])
                     Divider()
-                    Text("Další osoba shání pomoc.\nPři strídaní nesmí být prodleva.")
+                    Text("Unconcious.Drowning.BadBreath.Instruction.4".localized())
                         .font(.footnote)
                         .fixedSize(horizontal: false, vertical: true)
                     
+                    SingleButtonEndPage(title: "Unconcious.Drowning.BadBreath.GoodButton".localized(), destination: DrowningBreathing(), color: .green)
                     
-                    Divider()
-                    Text("Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc.")
+                    Text("Unconcious.Drowning.BadBreath.UnsuccessfullCaption".localized())
                         .fixedSize(horizontal: false, vertical: true)
                         .padding()
                         .background(Color.red.opacity(0.2))
@@ -29,10 +33,7 @@ struct DrowningNotBreathing: View {
                         .multilineTextAlignment(.leading)
                     
                     //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
-                    InstructionImage(imageName: "ZotavovaciPoloha")
-                    
-                    SingleButtonEndPage(title: "Dýchá", destination: DrowningBreathing(), color: .green)
-                    
+                    InstructionImage(imageName: "Image.Recovery".localized())   
                 }
             }
         }

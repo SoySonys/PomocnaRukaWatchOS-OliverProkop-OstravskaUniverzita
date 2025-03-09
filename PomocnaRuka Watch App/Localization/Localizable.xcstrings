@@ -751,13 +751,101 @@
         }
       }
     },
+    "Unconcious.Drowning.BadBreath.GoodButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dýchá"
+          }
+        }
+      }
+    },
+    "Unconcious.Drowning.BadBreath.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakloň hlavu, zacpi nos a udělej 2 silné vdechy."
+          }
+        }
+      }
+    },
+    "Unconcious.Drowning.BadBreath.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Narovnej ruce před sebe a 30x stlač hrudník 5cm do hloubky frekvencí 100x za minutu."
+          }
+        }
+      }
+    },
+    "Unconcious.Drowning.BadBreath.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opět 2 dechy, poté resuscitace a pokračuj v opakování."
+          }
+        }
+      }
+    },
+    "Unconcious.Drowning.BadBreath.Instruction.4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další osoba shání pomoc.\\nPři střídaní nesmí být prodleva."
+          }
+        }
+      }
+    },
+    "Unconcious.Drowning.BadBreath.UnsuccessfullCaption" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc."
+          }
+        }
+      }
+    },
     "Unconcious.Drowning.BadButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bez vědomí"
+            "value" : "Špatně dýchá"
+          }
+        }
+      }
+    },
+    "Unconcious.Drowning.GoodBreath.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej do zotavovací polohy."
+          }
+        }
+      }
+    },
+    "Unconcious.Drowning.GoodBreath.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jdi pro pomoc."
           }
         }
       }
@@ -768,7 +856,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Při vědomí"
+            "value" : "Dobře dýchá"
           }
         }
       }
@@ -846,28 +934,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poté vyber:"
-          }
-        }
-      }
-    },
-    "Unconcious.Drowning.NotAwake.Instruction.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dej do zotavovací polohy."
-          }
-        }
-      }
-    },
-    "Unconcious.Drowning.NotAwake.Instruction.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Jdi pro pomoc."
           }
         }
       }

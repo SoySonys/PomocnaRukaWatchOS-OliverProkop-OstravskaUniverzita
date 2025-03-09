@@ -11,14 +11,14 @@ struct DrowningBreathing: View {
     var body: some View {
         CustomVstackOffset{
             InstructionTexts(texts: [
-                "Unconcious.Drowning.NotAwake.Instruction.1".localized()
+                "Unconcious.Drowning.GoodBreath.Instruction.1".localized()
             ])
             
             //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
             InstructionImage(imageName: "Image.Recovery".localized())
             
             InstructionTexts(texts: [
-                "Unconcious.Drowning.NotAwake.Instruction.2".localized()
+                "Unconcious.Drowning.GoodBreath.Instruction.2".localized()
               ])
         }
     }
