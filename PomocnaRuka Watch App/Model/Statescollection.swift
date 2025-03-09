@@ -11,23 +11,22 @@ import SwiftUI
 struct StatesCollection {
     let states: [StateModel]
     
-    // Statické instance obsahující pole stavů
     static let conscious = StatesCollection(states: [
-        StateModel(text: "Infarkt", description: "Bolest na hrudi, dušnost, opocení, bledá tvář", view: AnyView(UpcomingInfarct())),
-        StateModel(text: "Mrtvice", description: "Křivá ústa, zmatení, oslabení rukou", view: AnyView(UpcomingStroke())),
-        StateModel(text: "Podchlazení", description: "", view: AnyView(Hypothermia())),
-        StateModel(text: "Popáleniny", description: "", view: AnyView(Burns())),
-        StateModel(text: "Úraz zad/hlavy", description: "", view: AnyView(InjuryBackHeadConcious())),
-        StateModel(text: "Zlomenina", description: "", view: AnyView(Fracture()))
+        StateModel(text: "StatesCollection.Concious.Infarct.Title".localized(), description: "StatesCollection.Concious.Infarct.Description".localized(), view: AnyView(UpcomingInfarct())),
+        StateModel(text: "StatesCollection.Concious.Stroke.Title".localized(), description: "StatesCollection.Concious.Stroke.Description".localized(), view: AnyView(UpcomingStroke())),
+        StateModel(text: "StatesCollection.Concious.Hypothermia.Title".localized(), view: AnyView(Hypothermia())),
+        StateModel(text: "StatesCollection.Concious.Burns.Title".localized(), view: AnyView(Burns())),
+        StateModel(text: "StatesCollection.Concious.InjuryBackHead.Title".localized(), view: AnyView(InjuryBackHeadConcious())),
+        StateModel(text: "StatesCollection.Concious.Fracture.Title".localized(), view: AnyView(Fracture()))
         
     ])
     
     static let unconscious = StatesCollection(states: [
-        StateModel(text: "Epilepsie", view: AnyView(Epilepsy())),
-        StateModel(text: "Infarkt", view: AnyView(Infarct())),
-        StateModel(text: "Nevím", description: "Nevidím nic špatného", view: AnyView(DontKnow())),
-        StateModel(text: "Tonutí", view: AnyView(Drowning())),
-        StateModel(text: "Úraz zad/hlavy", view: AnyView(InjuryBackHead())),
-        StateModel(text: "Zkolabování", view: AnyView(Collapse()))
+        StateModel(text: "StatesCollection.Unconcious.Epilepsy.Title".localized(), view: AnyView(Epilepsy())),
+        StateModel(text: "StatesCollection.Unconcious.Infarct.Title".localized(), view: AnyView(Infarct())),
+        StateModel(text: "StatesCollection.Unconcious.DontKnow.Title".localized(), description: "StatesCollection.Unconcious.DontKnow.Description".localized(), view: AnyView(DontKnow())),
+        StateModel(text: "StatesCollection.Unconcious.Drowning.Title".localized(), view: AnyView(Drowning())),
+        StateModel(text: "StatesCollection.Unconcious.InjuryBackHead.Title".localized(), view: AnyView(InjuryBackHead())),
+        StateModel(text: "StatesCollection.Unconcious.Collapse.Title".localized(), view: AnyView(Collapse()))
     ])
 }

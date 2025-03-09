@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct AfterResuscitacion: View {
-    let mainPageStates: [MainPageState]
     
     var body: some View {
         
@@ -33,5 +32,5 @@ struct AfterResuscitacion: View {
 
 
 #Preview {
-    AfterResuscitacion(mainPageStates: MainPageState.data)
+    AfterResuscitacion()
 }

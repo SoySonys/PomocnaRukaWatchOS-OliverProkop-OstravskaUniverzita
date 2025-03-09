@@ -22,7 +22,7 @@ struct Resuscitacion: View {
                     
                     SingleButtonEndPage(
                         title: "NotBreathing.Resuscitacion.BrathingButton".localized(),
-                        destination: AfterResuscitacion(mainPageStates: MainPageState.data),
+                        destination: AfterResuscitacion(),
                         color: .green)
                         .multilineTextAlignment(.center)
                     

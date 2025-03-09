@@ -530,6 +530,171 @@
         }
       }
     },
+    "StatesCollection.Concious.Burns.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Popáleniny"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.Fracture.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zlomenina"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.Hypothermia.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podchlazení"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.Infarct.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bolest na hrudi, dušnost, opocení, bledá tvář"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.Infarct.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infarkt"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.InjuryBackHead.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úraz zad/hlavy"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.Stroke.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Křivá ústa, zmatení, oslabení rukou"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.Stroke.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mrtvice"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.Collapse.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkolabování"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.DontKnow.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevidím nic špatného"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.DontKnow.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevím"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.Drowning.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tonutí"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.Epilepsy.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Epilepsie"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.Infarct.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infarkt"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.InjuryBackHead.Title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úraz zad/hlavy"
+          }
+        }
+      }
+    },
     "Unconcious.Collapse.Awake.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
