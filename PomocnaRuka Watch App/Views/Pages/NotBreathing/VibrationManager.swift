@@ -12,7 +12,7 @@ class VibrationManager: ObservableObject {
 
     func startVibrations() {
         timer = Timer.scheduledTimer(withTimeInterval: 0.6, repeats: true) { _ in
-            WKInterfaceDevice.current().play(.failure) // Jen vibrace, bez zvuku
+            WKInterfaceDevice.current().play(.failure)
         }
     }
 
