@@ -30,6 +30,7 @@ struct Infarct: View {
                     goodDestination: CollapseAwake())
             }
         }
+        .background(SoundView(soundName: "Unconcious.Infarct"))
     }
 }
 

@@ -5,33 +5,41 @@
 //  Created by Oliver Prokop on 01.03.2025.
 //
 
-import Foundation
-import AVFAudio
+import AVFoundation
 
 class SoundManager: ObservableObject {
-    private var player: AVAudioPlayer?
+    private var audioPlayer: AVAudioPlayer?
 
-    init(sound: String) {
-        playSound(named: sound)
+    init() {
+        setupAudioSession()
     }
 
-    private func playSound(named sound: String) {
-        if let url = Bundle.main.url(forResource: sound, withExtension: "mp3") {
-            do {
-                player = try AVAudioPlayer(contentsOf: url)
-                player?.numberOfLoops = -1
-                player?.play()
-            } catch {
-                print("Error loading sound: \(error.localizedDescription)")
-            }
+    private func setupAudioSession() {
+        do {
+            let session = AVAudioSession.sharedInstance()
+            try session.setCategory(.playback, mode: .default, options: [.duckOthers, .mixWithOthers])
+            try session.setActive(true, options: .notifyOthersOnDeactivation)
+        } catch {
+            print("Failed to set up audio session: \(error.localizedDescription)")
+        }
+    }
+
+    func playSound(named soundName: String) {
+        guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else {
+            print("Sound file not found!")
+            return
+        }
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.numberOfLoops = -1
+            audioPlayer?.volume = 1.0
+            audioPlayer?.play()
+        } catch {
+            print("Failed to play sound: \(error.localizedDescription)")
         }
     }
 
     func stopSound() {
-        player?.stop()
-    }
-
-    deinit {
-        stopSound()
+        audioPlayer?.stop()
     }
 }

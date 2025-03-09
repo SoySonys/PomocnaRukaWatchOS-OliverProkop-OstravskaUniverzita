@@ -20,6 +20,7 @@ struct CollapseAwake: View {
                 ])
             }
         }
+        .background(SoundView(soundName: "Unconcious.Collapse.Awake"))
     }
 }
 

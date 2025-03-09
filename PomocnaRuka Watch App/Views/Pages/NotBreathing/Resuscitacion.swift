@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Resuscitacion: View {
+    @StateObject private var vibrationManager = VibrationManager()
+    
     var body: some View {
         NavigationStack{
             ScrollView{
@@ -24,24 +26,31 @@ struct Resuscitacion: View {
                         title: "NotBreathing.Resuscitacion.BrathingButton".localized(),
                         destination: AfterResuscitacion(),
                         color: .green)
-                        .multilineTextAlignment(.center)
+                    .multilineTextAlignment(.center)
                     
                     
                     Text(
                         "NotBreathing.Resuscitacion.UnsuccessfullCaption".localized()
-                        )
-                        .fixedSize(horizontal: false, vertical: true)
-                        .padding()
-                        .background(Color.red.opacity(0.2))
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                        .multilineTextAlignment(.leading)
+                    )
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding()
+                    .background(Color.red.opacity(0.2))
+                    .foregroundColor(.white)
+                    .cornerRadius(8)
+                    .multilineTextAlignment(.leading)
                     
                     //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
                     InstructionImage(imageName: "Image.Recovery".localized())
                     
                 }
             }
+        }
+        .background(SoundView(soundName: "Resuscitacion"))
+        .onAppear {
+            vibrationManager.startVibrations()
+        }
+        .onDisappear {
+            vibrationManager.stopVibrations()
         }
     }
 }

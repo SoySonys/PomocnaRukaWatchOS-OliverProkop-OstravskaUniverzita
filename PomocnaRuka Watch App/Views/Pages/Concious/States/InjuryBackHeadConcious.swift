@@ -19,6 +19,7 @@ struct InjuryBackHeadConcious: View {
                 ])
             }
         }
+        .background(SoundView(soundName: "Concious.BackHead"))
     }
 }
 

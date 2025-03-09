@@ -150,7 +150,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pokud Můžeš, zchladit."
+            "value" : "Pokud můžeš, zchladit."
           }
         }
       }
@@ -514,7 +514,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Další osoba shání pomoc.\\nPři strídaní nesmí být prodleva."
+            "value" : "Další osoba shání pomoc.\\nPři střídaní nesmí být prodleva."
           }
         }
       }
@@ -800,7 +800,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zůstaň s ním a snaž se uklidinit."
+            "value" : "Zůstaň s ním a snaž se uklidnit."
           }
         }
       }
@@ -926,7 +926,7 @@
         }
       }
     },
-    "Unconcious.Collapse.NotAwake.Instruction1" : {
+    "Unconcious.Collapse.NotAwake.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -937,7 +937,7 @@
         }
       }
     },
-    "Unconcious.Collapse.NotAwake.Instruction2" : {
+    "Unconcious.Collapse.NotAwake.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1031,7 +1031,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Další osoba shání pomoc.\\nPři střídaní nesmí být prodleva."
+            "value" : "Další osoba shání pomoc.\\nPři střídání nesmí být prodleva."
           }
         }
       }
@@ -1108,7 +1108,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hoď něco co plave.\\nNafouknutá petka."
+            "value" : "Hoď něco co plave.\\nTřeba nafouknutou pet láhev."
           }
         }
       }
@@ -1119,7 +1119,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Panikaří, pak hrozí že tě taky stáhne dolů."
+            "value" : "Pokud panikaří, pak hrozí že tě taky stáhne dolů."
           }
         }
       }
@@ -1130,7 +1130,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Čekej až se uklidní."
+            "value" : "Čekej, až se uklidní."
           }
         }
       }
@@ -1240,7 +1240,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zkontroluj, jeslti nemá jiná zranění."
+            "value" : "Zkontroluj, jestli nemá jiná zranění."
           }
         }
       }

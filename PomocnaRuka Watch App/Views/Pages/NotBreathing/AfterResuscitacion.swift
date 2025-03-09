@@ -10,9 +10,7 @@ import SwiftUI
 struct AfterResuscitacion: View {
     
     var body: some View {
-        
         NavigationStack {
-            
                 CustomVstackOffset{
                     CantCallSectionHeading()
                     

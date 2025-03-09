@@ -21,6 +21,7 @@ struct DrowningBreathing: View {
                 "Unconcious.Drowning.GoodBreath.Instruction.2".localized()
               ])
         }
+        .background(SoundView(soundName: "Unconcious.Drowning.GoodBreath"))
     }
 }
 

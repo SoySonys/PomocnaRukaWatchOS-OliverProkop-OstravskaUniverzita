@@ -29,6 +29,7 @@ struct BloodMain: View {
                 }
             }
         }
+        .background(SoundView(soundName: "Blood"))
     }
 }
 

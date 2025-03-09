@@ -19,6 +19,7 @@ struct Burns: View {
                 ])
             }
         }
+        .background(SoundView(soundName: "Concious.Burns"))
     }
 }
 

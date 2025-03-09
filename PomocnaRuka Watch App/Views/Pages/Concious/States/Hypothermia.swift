@@ -18,6 +18,7 @@ struct Hypothermia: View {
                 ])
             }
         }
+        .background(SoundView(soundName: "Concious.Hypothermia"))
     }
 }
 #Preview {

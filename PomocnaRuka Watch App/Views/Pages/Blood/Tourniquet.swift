@@ -27,6 +27,7 @@ struct Tourniquet: View {
                 }
             }
         }
+        .background(SoundView(soundName: "Tourniquet"))
     }
 }
 
