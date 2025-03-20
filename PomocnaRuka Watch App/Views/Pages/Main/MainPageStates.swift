@@ -11,7 +11,7 @@ struct MainPageStates: View {
     var body: some View {
         NavigationStack {
             ScrollView{
-                VStack {
+                VStack{
                     
                     MainBloodButton()
                     
@@ -21,6 +21,21 @@ struct MainPageStates: View {
                       
                     CantCallSectionHeading()
                     
+                    Spacer()
+                    
+                    Text("Je poraněný při vědomí?")
+                        .font(.title3.bold())
+                        .padding(.top, 1)
+                        .multilineTextAlignment(.center)
+                    
+                    TwoButtonsEndPage(
+                        badTitle: "Bez vědomí",
+                        badDestination: UnconciousList(),
+                        goodTitle: "Při vědomí",
+                        goodDestination: ConciousList())
+                        
+                    
+                    /*
                     MainNotBreathingButton()
                     
                     Divider()
@@ -29,6 +44,7 @@ struct MainPageStates: View {
                     UnconciousListButton()
                     
                     ConciousListButton()
+                     */
                 }
             }
         }

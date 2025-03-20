@@ -10,7 +10,11 @@ import SwiftUI
 struct ConciousList: View {
     
     var body: some View {
-        StateList(states: StatesCollection.conscious.states)
+        NavigationStack {
+            ScrollView {
+                StateList(states: StatesCollection.conscious.states)
+            }
+        }
     }
 }
 
