@@ -271,7 +271,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dej ho do polosedu."
+            "value" : "Posaď ho."
           }
         }
       }
@@ -552,6 +552,17 @@
         }
       }
     },
+    "StatesCollection.Concious.Hypothermia.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Studená kůže, třes, slabý puls, zmatenost"
+          }
+        }
+      }
+    },
     "StatesCollection.Concious.Hypothermia.Title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -662,6 +673,17 @@
         }
       }
     },
+    "StatesCollection.Unconcious.Epilepsy.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Křeče, pěna u úst"
+          }
+        }
+      }
+    },
     "StatesCollection.Unconcious.Epilepsy.Title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -669,6 +691,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Epilepsie"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.Infarct.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dušnost, bolest na hrudi před zkolabováním"
           }
         }
       }
@@ -910,7 +943,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Čekej 5 minut."
+            "value" : "Počkej chvíli a kontroluj dech."
           }
         }
       }
@@ -998,7 +1031,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zakloň hlavu, zacpi nos a udělej 2 silné vdechy."
+            "value" : "Zakloň hlavu, zacpi nos a udělej 5 silných vdechů."
           }
         }
       }
@@ -1218,7 +1251,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Po záchvatu nechej ležet na zádech."
+            "value" : "Po záchvatu nechej ležet na zádech a odstraň věci z pod hlavy."
           }
         }
       }
@@ -1273,7 +1306,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dej ho do polosedu."
+            "value" : "Posaď ho."
           }
         }
       }
@@ -1284,7 +1317,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "5 minut čekej a kontroluj dech."
+            "value" : "Počkej chvilku a kontroluj dech."
           }
         }
       }

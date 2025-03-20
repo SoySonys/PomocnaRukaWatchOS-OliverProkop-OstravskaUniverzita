@@ -17,13 +17,13 @@ struct UnconciousList: View {
                     Text("Dýchá?")
                         .font(.title.bold())
                     InstructionTexts(texts: [
-                                            "Koukni na hrudník.",
-                                            "Poslouchej dech."
-                                            
+                        "Koukni na hrudník.",
+                        "Poslouchej dech."
+                        
                     ])
                     
-                    SingleButtonEndPage(title: "Lapavý/špatný dech", destination: Resuscitacion(), color: .red.opacity(0.8))
-     
+                    SingleButtonEndPage(title: "Lapavý nebo špatný dech", subtitle: "Nevím jestli dýchá", destination: Resuscitacion(), color: .red.opacity(0.8))
+                    
                     BiggerDivider()
                     HStack{
                         

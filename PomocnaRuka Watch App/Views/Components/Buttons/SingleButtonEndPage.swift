@@ -9,13 +9,27 @@ import SwiftUI
 
 struct SingleButtonEndPage<Destination: View>: View {
     let title: String
+    let subtitle: String?
     let destination: Destination
     let color: Color
     
+    init(title: String, subtitle: String? = nil, destination: Destination, color: Color) {
+            self.title = title
+            self.subtitle = subtitle
+            self.destination = destination
+            self.color = color
+        }
+    
     var body: some View {
         NavigationLink(destination: destination) {
-            Text(title)
-            
+            VStack{
+                Text(title)
+                if let subtitle = subtitle {
+                    Text(subtitle)
+                        .font(.footnote)
+                        .opacity(0.8)
+                }
+            }
         }
         .background(color)
         .foregroundColor(.white)
@@ -26,5 +40,5 @@ struct SingleButtonEndPage<Destination: View>: View {
 }
 
 #Preview {
-    SingleButtonEndPage(title: "Pokračovat", destination: Tourniquet(),color: .green)
+    SingleButtonEndPage(title: "Pokračovat", subtitle: "Nevím jestli dýchá", destination: Tourniquet(),color: .green)
 }

@@ -13,6 +13,10 @@ struct BloodStopped: View {
         NavigationStack {
             ScrollView{
                 CustomVstackOffset{
+                    VStack(alignment: .center){
+                        Text("Polož na záda a zvedni končetiny.")
+                            .font(.title3.bold())
+                    }
                     
                     CantCallSectionHeading()
                         .bold()
