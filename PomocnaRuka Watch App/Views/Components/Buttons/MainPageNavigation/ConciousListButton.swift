@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ConciousListButton: View {
     var body: some View {
-        MainButtonToList(title: "MainPage.ConciousButton".localized(), color: .yellow,destination: AnyView(UnconciousList()))
+        MainButtonToList(title: "MainPage.ConciousButton".localized(), color: .yellow,destination: AnyView(ConciousList()))
     }
 }
 
