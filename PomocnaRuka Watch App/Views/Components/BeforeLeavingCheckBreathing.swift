@@ -9,40 +9,45 @@ import SwiftUI
 
 struct BeforeLeavingCheckBreathing: View {
     var body: some View {
-        Text("Znova zkontroluj")
-            .font(.subheadline)
-        Text("Dýchá?")
-            .font(.title.bold())
-        
-        VStack(alignment: .center, spacing: 2)
-        {
-            Text("Koukni na hrudník")
-                .fixedSize(horizontal: false, vertical: true)
-            Divider()
-            Text("Poslouchej dech")
-                .fixedSize(horizontal: false, vertical: true)
-        }
-        .padding(.bottom,1)
-        
-        
-        SingleButtonEndPage(title: "Nedýchá\nLapavý dech", subtitle: "Nevím jestli dýchá", destination: Resuscitacion(), color: .red.opacity(0.8))
-        
-        BiggerDivider()
-        
-        HStack{
+        VStack{
+            Text("Znova zkontroluj")
+                .font(.footnote)
+                .padding(.bottom,0)
             
-            Image(systemName: "arrow.down")
-                .foregroundColor(.white)
-                .font(.system(size: 14).bold())
+            Text("Dýchá?")
+                .font(.largeTitle.bold())
             
-            Text("Dýchá dobře")
-                .font(.headline)
-                .multilineTextAlignment(.center)
+            VStack(alignment: .center, spacing: 2)
+            {
+                Text("Koukni na hrudník")
+                    .fixedSize(horizontal: false, vertical: true)
+                Divider()
+                Text("Poslouchej dech")
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(.bottom,1)
             
-            Image(systemName: "arrow.down")
-                .foregroundColor(.white)
-                .font(.system(size: 14).bold())
             
+            SingleButtonEndPage(title: "Nedýchá\nLapavý dech", subtitle: "Nevím jestli dýchá", destination: Resuscitacion(), color: .red.opacity(0.8))
+            
+            BiggerDivider()
+            
+            HStack{
+                
+                Image(systemName: "arrow.down")
+                    .foregroundColor(.white)
+                    .font(.system(size: 14).bold())
+                
+                Text("Dýchá dobře")
+                    .font(.headline)
+                    .multilineTextAlignment(.center)
+                
+                Image(systemName: "arrow.down")
+                    .foregroundColor(.white)
+                    .font(.system(size: 14).bold())
+                
+            }
+            .padding(.bottom,6)
         }
     }
 }

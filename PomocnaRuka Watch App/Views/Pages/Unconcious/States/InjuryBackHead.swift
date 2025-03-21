@@ -13,6 +13,13 @@ struct InjuryBackHead: View {
             CustomVstackOffset{
                 InstructionTexts(texts: [
                     "Unconcious.InjuryBackHead.Instruction.1".localized(),
+                ])
+                
+                BiggerDivider()
+                
+                BeforeLeavingCheckBreathing()
+                
+                InstructionTexts(texts: [
                     "Unconcious.InjuryBackHead.Instruction.2".localized(),
                     "Unconcious.InjuryBackHead.Instruction.3".localized()
                 ])

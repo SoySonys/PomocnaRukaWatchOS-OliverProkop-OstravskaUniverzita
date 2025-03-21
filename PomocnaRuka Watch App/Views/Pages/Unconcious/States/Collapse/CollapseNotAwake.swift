@@ -13,7 +13,7 @@ struct CollapseNotAwake: View {
             ScrollView {
                 CustomVstackOffset{
                     
-                    CheckBreathing()
+                    BeforeLeavingCheckBreathing()
                     
                     InstructionTexts(texts: [
                         "Unconcious.Collapse.NotAwake.Instruction.1".localized()

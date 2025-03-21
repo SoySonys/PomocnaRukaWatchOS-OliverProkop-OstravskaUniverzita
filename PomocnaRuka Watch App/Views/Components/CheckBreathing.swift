@@ -10,7 +10,7 @@ import SwiftUI
 struct CheckBreathing: View {
     var body: some View {
         Text("Dýchá?")
-            .font(.title.bold())
+            .font(.largeTitle.bold())
         
         VStack(alignment: .center)
         {

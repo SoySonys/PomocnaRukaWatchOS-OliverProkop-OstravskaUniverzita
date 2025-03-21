@@ -10,7 +10,7 @@ import SwiftUI
 struct CheckConcious: View {
     var body: some View {
         Text("Je poraněný při vědomí?")
-            .font(.title3.bold())
+            .font(.title2.bold())
             .padding(.top, 1)
             .multilineTextAlignment(.center)
             .padding(.bottom,6)

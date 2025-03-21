@@ -384,7 +384,7 @@
     "Je poraněný při vědomí?" : {
 
     },
-    "Koukni na hrudník." : {
+    "Koukni na hrudník" : {
 
     },
     "MainPage.BloodButton" : {
@@ -531,6 +531,39 @@
         }
       }
     },
+    "NotBreathing.Resuscitacion.Unsuccessfull.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi už vyčerpaný a stále nedýchá."
+          }
+        }
+      }
+    },
+    "NotBreathing.Resuscitacion.Unsuccessfull.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej do zotavovací polohy."
+          }
+        }
+      }
+    },
+    "NotBreathing.Resuscitacion.Unsuccessfull.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jdi pro pomoc."
+          }
+        }
+      }
+    },
     "NotBreathing.Resuscitacion.UnsuccessfullCaption" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -545,7 +578,7 @@
     "Polož na záda a zvedni končetiny" : {
 
     },
-    "Poslouchej dech." : {
+    "Poslouchej dech" : {
 
     },
     "StatesCollection.Concious.Burns.Title" : {
@@ -1383,6 +1416,9 @@
           }
         }
       }
+    },
+    "Znova zkontroluj" : {
+
     }
   },
   "version" : "1.0"
