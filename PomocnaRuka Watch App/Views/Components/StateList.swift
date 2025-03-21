@@ -16,7 +16,7 @@ struct StateList: View {
                 NavigationLink(destination: state.view) {
                     VStack {
                         Text(state.text)
-                            .font(.title3)
+                            .font(.title3.bold())
                         
                         if let description = state.description {
                             Text(description)

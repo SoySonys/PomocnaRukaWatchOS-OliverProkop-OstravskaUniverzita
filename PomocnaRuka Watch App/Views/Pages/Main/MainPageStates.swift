@@ -23,28 +23,8 @@ struct MainPageStates: View {
                     
                     Spacer()
                     
-                    Text("Je poraněný při vědomí?")
-                        .font(.title3.bold())
-                        .padding(.top, 1)
-                        .multilineTextAlignment(.center)
-                    
-                    TwoButtonsEndPage(
-                        badTitle: "Bez vědomí",
-                        badDestination: UnconciousList(),
-                        goodTitle: "Při vědomí",
-                        goodDestination: ConciousList())
+                    CheckConcious()
                         
-                    
-                    /*
-                    MainNotBreathingButton()
-                    
-                    Divider()
-                        .padding(.vertical,4)
-                    
-                    UnconciousListButton()
-                    
-                    ConciousListButton()
-                     */
                 }
             }
         }

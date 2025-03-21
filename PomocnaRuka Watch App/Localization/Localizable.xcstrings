@@ -353,6 +353,12 @@
         }
       }
     },
+    "Dýchá dobře" : {
+
+    },
+    "Dýchá?" : {
+
+    },
     "Image.Recovery" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -374,6 +380,12 @@
           }
         }
       }
+    },
+    "Je poraněný při vědomí?" : {
+
+    },
+    "Koukni na hrudník." : {
+
     },
     "MainPage.BloodButton" : {
       "comment" : "CAPS is important",
@@ -529,6 +541,12 @@
           }
         }
       }
+    },
+    "Polož na záda a zvedni končetiny" : {
+
+    },
+    "Poslouchej dech." : {
+
     },
     "StatesCollection.Concious.Burns.Title" : {
       "extractionState" : "manual",
