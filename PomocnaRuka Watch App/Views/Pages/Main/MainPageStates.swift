@@ -11,7 +11,7 @@ struct MainPageStates: View {
     var body: some View {
         NavigationStack {
             ScrollView{
-                VStack {
+                VStack{
                     
                     MainBloodButton()
                     
@@ -21,14 +21,10 @@ struct MainPageStates: View {
                       
                     CantCallSectionHeading()
                     
-                    MainNotBreathingButton()
+                    Spacer()
                     
-                    Divider()
-                        .padding(.vertical,4)
-                    
-                    UnconciousListButton()
-                    
-                    ConciousListButton()
+                    CheckConcious()
+                        
                 }
             }
         }

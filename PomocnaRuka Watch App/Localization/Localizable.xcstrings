@@ -271,7 +271,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dej ho do polosedu."
+            "value" : "Posaď ho."
           }
         }
       }
@@ -353,6 +353,12 @@
         }
       }
     },
+    "Dýchá dobře" : {
+
+    },
+    "Dýchá?" : {
+
+    },
     "Image.Recovery" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -375,6 +381,12 @@
         }
       }
     },
+    "Je poraněný při vědomí?" : {
+
+    },
+    "Koukni na hrudník" : {
+
+    },
     "MainPage.BloodButton" : {
       "comment" : "CAPS is important",
       "extractionState" : "manual",
@@ -393,7 +405,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nekrvácí? Volej 112"
+            "value" : "Nekrvácí? Volej 155"
           }
         }
       }
@@ -404,7 +416,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nejde volat 112"
+            "value" : "Nejde volat 155"
           }
         }
       }
@@ -519,6 +531,39 @@
         }
       }
     },
+    "NotBreathing.Resuscitacion.Unsuccessfull.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi už vyčerpaný a stále nedýchá."
+          }
+        }
+      }
+    },
+    "NotBreathing.Resuscitacion.Unsuccessfull.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej do zotavovací polohy."
+          }
+        }
+      }
+    },
+    "NotBreathing.Resuscitacion.Unsuccessfull.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jdi pro pomoc."
+          }
+        }
+      }
+    },
     "NotBreathing.Resuscitacion.UnsuccessfullCaption" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -529,6 +574,12 @@
           }
         }
       }
+    },
+    "Polož na záda a zvedni končetiny" : {
+
+    },
+    "Poslouchej dech" : {
+
     },
     "StatesCollection.Concious.Burns.Title" : {
       "extractionState" : "manual",
@@ -548,6 +599,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zlomenina"
+          }
+        }
+      }
+    },
+    "StatesCollection.Concious.Hypothermia.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Studená kůže, třes, slabý puls, zmatenost"
           }
         }
       }
@@ -662,6 +724,17 @@
         }
       }
     },
+    "StatesCollection.Unconcious.Epilepsy.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Křeče, pěna u úst"
+          }
+        }
+      }
+    },
     "StatesCollection.Unconcious.Epilepsy.Title" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -669,6 +742,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Epilepsie"
+          }
+        }
+      }
+    },
+    "StatesCollection.Unconcious.Infarct.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dušnost, bolest na hrudi před zkolabováním"
           }
         }
       }
@@ -712,7 +796,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "1. Aplikace slouží výhradně pro případy, kdy přivolání pomoci stanoví obtíž.\\nPokud se tedy jedná o krizovou situaci, kde máte možnost jednoduše zavolat 112, tak preferujte volání.\\nVyjímku stanoví případ silného krvácení."
+            "value" : "1. Aplikace slouží výhradně pro případy, kdy přivolání pomoci stanoví obtíž.\\nPokud se tedy jedná o krizovou situaci, kde máte možnost jednoduše zavolat 155, tak preferujte volání.\\nVyjímku stanoví případ silného krvácení."
           }
         }
       }
@@ -910,7 +994,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Čekej 5 minut."
+            "value" : "Počkej chvíli a kontroluj dech."
           }
         }
       }
@@ -954,7 +1038,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zkus najít mobil a zavolat 112."
+            "value" : "Zkus najít mobil a zavolat 155."
           }
         }
       }
@@ -998,7 +1082,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zakloň hlavu, zacpi nos a udělej 2 silné vdechy."
+            "value" : "Zakloň hlavu, zacpi nos a udělej 5 silných vdechů."
           }
         }
       }
@@ -1218,7 +1302,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Po záchvatu nechej ležet na zádech."
+            "value" : "Po záchvatu nechej ležet na zádech a odstraň věci z pod hlavy."
           }
         }
       }
@@ -1273,7 +1357,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dej ho do polosedu."
+            "value" : "Posaď ho."
           }
         }
       }
@@ -1284,7 +1368,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "5 minut čekej a kontroluj dech."
+            "value" : "Počkej chvilku a kontroluj dech."
           }
         }
       }
@@ -1306,7 +1390,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Určitě nemáš jak zavolat 112?"
+            "value" : "Určitě nemáš jak zavolat 155?"
           }
         }
       }
@@ -1332,6 +1416,9 @@
           }
         }
       }
+    },
+    "Znova zkontroluj" : {
+
     }
   },
   "version" : "1.0"

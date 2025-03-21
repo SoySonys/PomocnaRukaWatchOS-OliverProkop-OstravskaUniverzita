@@ -13,17 +13,21 @@ struct BloodStopped: View {
         NavigationStack {
             ScrollView{
                 CustomVstackOffset{
-                    
-                    CantCallSectionHeading()
-                        .bold()
-                    
-                    MainNotBreathingButton()
-                    
-                    Divider()
-                    
-                    UnconciousListButton()
-                    
-                    ConciousListButton()
+                    VStack(alignment: .center){
+                        Text("Polož na záda a zvedni končetiny")
+                            .font(.title3.bold())
+                            .multilineTextAlignment(.center)
+                        
+                        //ZDORJ: http://www.prvni-pomoc.com/polohovani
+                        InstructionImage(imageName: "ProtisokovaPoloha")
+                        
+                        BiggerDivider()
+                        
+                        CantCallSectionHeading()
+                            .bold()
+                        
+                        CheckConcious()
+                    }
                 }
             }
         }

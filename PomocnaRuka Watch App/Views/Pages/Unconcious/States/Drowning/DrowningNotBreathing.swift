@@ -24,18 +24,11 @@ struct DrowningNotBreathing: View {
                         .font(.footnote)
                         .fixedSize(horizontal: false, vertical: true)
                     
-                    SingleButtonEndPage(title: "Unconcious.Drowning.BadBreath.GoodButton".localized(), destination: DrowningBreathing(), color: .green)
+                    TwoButtonsEndPage(badTitle: "Už nemůžu",
+                                      badDestination: UnsuccessfulResuscitacion(),
+                                      goodTitle: "Dýchá",
+                                      goodDestination: AfterResuscitacion())
                     
-                    Text("Unconcious.Drowning.BadBreath.UnsuccessfullCaption".localized())
-                        .fixedSize(horizontal: false, vertical: true)
-                        .padding()
-                        .background(Color.red.opacity(0.2))
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                        .multilineTextAlignment(.leading)
-                    
-                    //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
-                    InstructionImage(imageName: "Image.Recovery".localized())   
                 }
             }
         }

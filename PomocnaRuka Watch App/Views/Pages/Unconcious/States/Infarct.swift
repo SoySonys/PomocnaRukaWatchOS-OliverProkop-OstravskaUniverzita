@@ -12,13 +12,7 @@ struct Infarct: View {
         ScrollView{
             CustomVstackOffset{
                 InstructionTexts(texts: [
-                    "Unconcious.Infarct.Instruction.1".localized()
-                ])
-                
-                //ZDROJ: http://www.prvni-pomoc.com/polohovani
-                InstructionImage(imageName: "Image.Semi".localized())
-                
-                InstructionTexts(texts: [
+                    "Unconcious.Infarct.Instruction.1".localized(),
                     "Unconcious.Infarct.Instruction.2".localized(),
                     "Unconcious.Infarct.Instruction.3".localized()
                 ])

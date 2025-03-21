@@ -10,7 +10,16 @@ import SwiftUI
 struct UnconciousList: View {
     
     var body: some View {
-        StateList(states: StatesCollection.unconscious.states)
+        NavigationStack {
+            ScrollView {
+                CustomVstackOffset{
+                    
+                    CheckBreathing()
+                    
+                    StateList(states: StatesCollection.unconscious.states)
+                }
+            }
+        }
     }
 }
 

@@ -14,7 +14,7 @@ struct StatesCollection {
     static let conscious = StatesCollection(states: [
         StateModel(text: "StatesCollection.Concious.Infarct.Title".localized(), description: "StatesCollection.Concious.Infarct.Description".localized(), view: AnyView(UpcomingInfarct())),
         StateModel(text: "StatesCollection.Concious.Stroke.Title".localized(), description: "StatesCollection.Concious.Stroke.Description".localized(), view: AnyView(UpcomingStroke())),
-        StateModel(text: "StatesCollection.Concious.Hypothermia.Title".localized(), view: AnyView(Hypothermia())),
+        StateModel(text: "StatesCollection.Concious.Hypothermia.Title".localized(), description: "StatesCollection.Concious.Hypothermia.Description".localized(), view: AnyView(Hypothermia())),
         StateModel(text: "StatesCollection.Concious.Burns.Title".localized(), view: AnyView(Burns())),
         StateModel(text: "StatesCollection.Concious.InjuryBackHead.Title".localized(), view: AnyView(InjuryBackHeadConcious())),
         StateModel(text: "StatesCollection.Concious.Fracture.Title".localized(), view: AnyView(Fracture()))
@@ -22,8 +22,8 @@ struct StatesCollection {
     ])
     
     static let unconscious = StatesCollection(states: [
-        StateModel(text: "StatesCollection.Unconcious.Epilepsy.Title".localized(), view: AnyView(Epilepsy())),
-        StateModel(text: "StatesCollection.Unconcious.Infarct.Title".localized(), view: AnyView(Infarct())),
+        StateModel(text: "StatesCollection.Unconcious.Epilepsy.Title".localized(), description: "StatesCollection.Unconcious.Epilepsy.Description".localized(), view: AnyView(Epilepsy())),
+        StateModel(text: "StatesCollection.Unconcious.Infarct.Title".localized(), description: "StatesCollection.Unconcious.Infarct.Description".localized(), view: AnyView(Infarct())),
         StateModel(text: "StatesCollection.Unconcious.DontKnow.Title".localized(), description: "StatesCollection.Unconcious.DontKnow.Description".localized(), view: AnyView(DontKnow())),
         StateModel(text: "StatesCollection.Unconcious.Drowning.Title".localized(), view: AnyView(Drowning())),
         StateModel(text: "StatesCollection.Unconcious.InjuryBackHead.Title".localized(), view: AnyView(InjuryBackHead())),
