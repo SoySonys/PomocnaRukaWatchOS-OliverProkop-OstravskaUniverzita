@@ -9,38 +9,44 @@ import SwiftUI
 
 struct CheckBreathing: View {
     var body: some View {
-        Text("Dýchá?")
-            .font(.largeTitle.bold())
-        
-        VStack(alignment: .center)
-        {
-            Text("Koukni na hrudník")
-                .fixedSize(horizontal: false, vertical: true)
-                .fontWeight(.bold)
-            Divider()
-            Text("Poslouchej dech")
-                .fixedSize(horizontal: false, vertical: true)
-                .fontWeight(.bold)
-        }
-        .padding(.bottom,1)
-        
-        SingleButtonEndPage(title: "Nedýchá\nLapavý dech", subtitle: "Nevím jestli dýchá", destination: Resuscitacion(), color: .red.opacity(0.8))
-        
-        BiggerDivider()
-        HStack{
+        VStack{
+            Text("CheckBreathing.Instruction.1".localized())
+                .font(.largeTitle.bold())
             
-            Image(systemName: "arrow.down")
-                .foregroundColor(.white)
-                .font(.system(size: 14).bold())
+            VStack(alignment: .center, spacing: 2)
+            {
+                Text("CheckBreathing.Instruction.2")
+                    .fixedSize(horizontal: false, vertical: true)
+                Divider()
+                Text("CheckBreathing.Instruction.3")
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            .padding(.bottom,1)
             
-            Text("Dýchá dobře")
-                .font(.headline)
-                .multilineTextAlignment(.center)
             
-            Image(systemName: "arrow.down")
-                .foregroundColor(.white)
-                .font(.system(size: 14).bold())
+            SingleButtonEndPage(
+                title: "CheckBreathing.ButtonCaption.1".localized(),
+                subtitle: "CheckBreathing.ButtonCaption.2".localized(),
+                destination: Resuscitacion(), color: .red.opacity(0.8))
             
+            BiggerDivider()
+            
+            HStack{
+                
+                Image(systemName: "arrow.down")
+                    .foregroundColor(.white)
+                    .font(.system(size: 14).bold())
+                
+                Text("CheckBreathing.GoodBreath".localized())
+                    .font(.headline)
+                    .multilineTextAlignment(.center)
+                
+                Image(systemName: "arrow.down")
+                    .foregroundColor(.white)
+                    .font(.system(size: 14).bold())
+                
+            }
+            .padding(.bottom,6)
         }
     }
 }

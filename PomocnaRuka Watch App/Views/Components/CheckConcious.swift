@@ -9,16 +9,16 @@ import SwiftUI
 
 struct CheckConcious: View {
     var body: some View {
-        Text("Je poraněný při vědomí?")
+        Text("CheckConcious.Question".localized())
             .font(.title2.bold())
             .padding(.top, 1)
             .multilineTextAlignment(.center)
             .padding(.bottom,6)
         
         TwoButtonsEndPage(
-            badTitle: "Bez vědomí",
+            badTitle: "CheckConcious.BadButton".localized(),
             badDestination: UnconciousList(),
-            goodTitle: "Při vědomí",
+            goodTitle: "CheckConcious.GoodButton".localized(),
             goodDestination: ConciousList())
     }
 }

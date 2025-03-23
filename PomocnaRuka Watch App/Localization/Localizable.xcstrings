@@ -56,6 +56,17 @@
         }
       }
     },
+    "Blood.Stopped.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polož na záda a zvedni končetiny"
+          }
+        }
+      }
+    },
     "Blood.Tourniquet.ContinueButton" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -96,6 +107,116 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapiš čas."
+          }
+        }
+      }
+    },
+    "CheckBreathing.ButtonCaption.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedýchá\\nLapavý dech"
+          }
+        }
+      }
+    },
+    "CheckBreathing.ButtonCaption.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nevím jestli dýchá"
+          }
+        }
+      }
+    },
+    "CheckBreathing.GoodBreath" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dýchá dobře"
+          }
+        }
+      }
+    },
+    "CheckBreathing.Instruction.0" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Znova zkontroluj"
+          }
+        }
+      }
+    },
+    "CheckBreathing.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dýchá?"
+          }
+        }
+      }
+    },
+    "CheckBreathing.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koukni na hrudník"
+          }
+        }
+      }
+    },
+    "CheckBreathing.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poslouchej dech"
+          }
+        }
+      }
+    },
+    "CheckConcious.BadButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bez vědomí"
+          }
+        }
+      }
+    },
+    "CheckConcious.GoodButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při vědomí"
+          }
+        }
+      }
+    },
+    "CheckConcious.Question" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je poraněný při vědomí?"
           }
         }
       }
