@@ -11,23 +11,16 @@ struct AfterResuscitacion: View {
     
     var body: some View {
         NavigationStack {
+            ScrollView {
                 CustomVstackOffset{
                     CantCallSectionHeading()
                     
-                    Divider()
-                    
-                    InstructionTexts(texts: [
-                        "NotBreathing.AfterResuscitacion.Instruction.1".localized()
-                    ])
-                    
-                    UnconciousListButton()
-                    
-                    ConciousListButton()
+                    StateList(states: StatesCollection.unconscious.states)
+                }
             }
         }
     }
 }
-
 
 #Preview {
     AfterResuscitacion()
