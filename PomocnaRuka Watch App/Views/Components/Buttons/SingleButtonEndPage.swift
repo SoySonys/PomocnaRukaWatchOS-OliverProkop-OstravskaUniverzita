@@ -40,5 +40,5 @@ struct SingleButtonEndPage<Destination: View>: View {
 }
 
 #Preview {
-    SingleButtonEndPage(title: "Pokračovat", subtitle: "Nevím jestli dýchá", destination: Tourniquet(),color: .green)
+    SingleButtonEndPage(title: "Pokračovat",  destination: Tourniquet(),color: .green)
 }

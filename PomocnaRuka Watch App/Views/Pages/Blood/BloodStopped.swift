@@ -14,7 +14,7 @@ struct BloodStopped: View {
             ScrollView{
                 CustomVstackOffset{
                     VStack(alignment: .center){
-                        Text("Polož na záda a zvedni končetiny")
+                        Text("Blood.Stopped.Instruction.1".localized())
                             .font(.title3.bold())
                             .multilineTextAlignment(.center)
                         
