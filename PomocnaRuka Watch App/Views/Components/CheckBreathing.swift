@@ -20,6 +20,9 @@ struct CheckBreathing: View {
                 Divider()
                 Text("CheckBreathing.Instruction.3")
                     .fixedSize(horizontal: false, vertical: true)
+                Divider()
+                Text("CheckBreathing.Instruction.4")
+                    .fixedSize(horizontal: false, vertical: true)
             }
             .padding(.bottom,1)
             
