@@ -84,7 +84,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Použij široký pásek nebo šátek."
+            "value" : "Pokud se nejedná o končetinu, tak pouze tlač na ránu."
           }
         }
       }
@@ -95,12 +95,23 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Utáhni mezi ránu a srdce."
+            "value" : "Použij široký pásek nebo šátek"
           }
         }
       }
     },
     "Blood.Tourniquet.Instruction.3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utáhni na stehnu/paži"
+          }
+        }
+      }
+    },
+    "Blood.Tourniquet.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -548,6 +559,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Při vědomí"
+          }
+        }
+      }
+    },
+    "MainPage.DrowningButton" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tonutí"
           }
         }
       }

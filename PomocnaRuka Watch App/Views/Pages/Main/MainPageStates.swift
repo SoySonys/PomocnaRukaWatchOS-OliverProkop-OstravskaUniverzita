@@ -25,6 +25,10 @@ struct MainPageStates: View {
                     
                     CheckConcious()
                     
+                    Divider()
+                    
+                    DrowningButton()
+                    
                 }
             }
         }

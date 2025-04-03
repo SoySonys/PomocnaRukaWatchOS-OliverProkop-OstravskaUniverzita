@@ -16,7 +16,8 @@ struct Tourniquet: View {
                     InstructionTexts(texts: [
                         "Blood.Tourniquet.Instruction.1".localized(),
                         "Blood.Tourniquet.Instruction.2".localized(),
-                        "Blood.Tourniquet.Instruction.3".localized()
+                        "Blood.Tourniquet.Instruction.3".localized(),
+                        "Blood.Tourniquet.Instruction.4".localized()
                     ])
                     
                     SingleButtonEndPage(
