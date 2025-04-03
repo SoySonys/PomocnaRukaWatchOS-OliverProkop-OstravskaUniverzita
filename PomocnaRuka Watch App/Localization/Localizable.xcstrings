@@ -117,7 +117,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nedýchá\\nLapavý dech"
+            "value" : "Nedýchá normálně"
           }
         }
       }
@@ -392,7 +392,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nastal infarkt"
+            "value" : "Nastalo zkolabování"
           }
         }
       }
@@ -723,7 +723,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Studená kůže, třes, slabý puls, zmatenost"
+            "value" : "Studená kůže, slabý puls, zmatenost"
           }
         }
       }
@@ -734,7 +734,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Podchlazení"
+            "value" : "Třes"
           }
         }
       }
@@ -745,7 +745,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bolest na hrudi, dušnost, opocení, bledá tvář"
+            "value" : "Dušnost, opocení, bledá tvář"
           }
         }
       }
@@ -756,7 +756,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Infarkt"
+            "value" : "Bolest hrudi"
           }
         }
       }
@@ -778,7 +778,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Křivá ústa, zmatení, oslabení rukou"
+            "value" : "Křivá ústa, oslabení rukou"
           }
         }
       }
@@ -789,7 +789,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mrtvice"
+            "value" : "Zmatení"
           }
         }
       }
@@ -844,7 +844,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Křeče, pěna u úst"
+            "value" : "Pěna u úst"
           }
         }
       }
@@ -855,7 +855,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Epilepsie"
+            "value" : "Křeče"
           }
         }
       }
@@ -866,7 +866,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dušnost, bolest na hrudi před zkolabováním"
+            "value" : "Dušnost před zkolabováním"
           }
         }
       }
@@ -877,7 +877,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Infarkt"
+            "value" : "Bolest hrudi"
           }
         }
       }

@@ -16,15 +16,15 @@ struct MainPageStates: View {
                     MainBloodButton()
                     
                     CallIfNotBloodReminder()
-                                        
+                    
                     BiggerDivider()
-                      
+                    
                     CantCallSectionHeading()
                     
                     Spacer()
                     
                     CheckConcious()
-                        
+                    
                 }
             }
         }
