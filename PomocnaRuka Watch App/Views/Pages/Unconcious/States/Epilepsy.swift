@@ -18,7 +18,14 @@ struct Epilepsy: View {
                     "Unconcious.Epilepsy.Instruction.4".localized(),
                     "Unconcious.Epilepsy.Instruction.5".localized(),
                     "Unconcious.Epilepsy.Instruction.6".localized(),
-                    "Unconcious.Epilepsy.Instruction.7".localized(),
+                    ])
+                
+                BadBreathingButton()
+                
+                Divider()
+                
+                InstructionTexts(texts: [
+                    "Unconcious.Epilepsy.Instruction.7".localized()
                     ])
             }
         }

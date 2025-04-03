@@ -1460,7 +1460,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zakloň hlavu pro dýchací cesty."
+            "value" : "Zakloň hlavu a zkontroluj, jestli dýchá."
           }
         }
       }

@@ -30,11 +30,7 @@ struct CheckBreathing: View {
             }
             .padding(.bottom,1)
             
-            
-            SingleButtonEndPage(
-                title: "CheckBreathing.ButtonCaption.1".localized(),
-                subtitle: "CheckBreathing.ButtonCaption.2".localized(),
-                destination: Resuscitacion(), color: .red.opacity(0.8))
+            BadBreathingButton()
             
             BiggerDivider()
             
@@ -59,5 +55,7 @@ struct CheckBreathing: View {
 }
 
 #Preview {
-    CheckBreathing()
+    ScrollView {
+        CheckBreathing()
+    }
 }
