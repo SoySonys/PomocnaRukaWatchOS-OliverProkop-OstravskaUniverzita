@@ -13,7 +13,7 @@ struct CheckBreathing: View {
             Text("CheckBreathing.Instruction.1".localized())
                 .font(.largeTitle.bold())
             
-            VStack(alignment: .center, spacing: 2)
+            VStack(alignment: .center, spacing: 1)
             {
                 Text("CheckBreathing.Instruction.2")
                     .fixedSize(horizontal: false, vertical: true)
@@ -23,6 +23,10 @@ struct CheckBreathing: View {
                 Divider()
                 Text("CheckBreathing.Instruction.4")
                     .fixedSize(horizontal: false, vertical: true)
+                Divider()
+                Text("CheckBreathing.Instruction.5")
+                    .fixedSize(horizontal: false, vertical: true)
+                Divider()
             }
             .padding(.bottom,1)
             

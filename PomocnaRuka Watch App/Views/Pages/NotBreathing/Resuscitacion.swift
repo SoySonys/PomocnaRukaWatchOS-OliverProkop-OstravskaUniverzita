@@ -22,10 +22,8 @@ struct Resuscitacion: View {
                         "NotBreathing.Resuscitacion.Instruction.5".localized()
                     ])
                     
-                    TwoButtonsEndPage(badTitle: "Už nemůžu",
-                                      badDestination: UnsuccessfulResuscitacion(),
-                                      goodTitle: "Dýchá",
-                                      goodDestination: AfterResuscitacion())
+                    SingleButtonEndPage(title: "NotBreathing.Resuscitacion.BrathingButton".localized(), destination: AfterResuscitacion(), color: .green)
+                    
                 }
             }
         }

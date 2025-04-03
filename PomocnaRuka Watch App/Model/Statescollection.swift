@@ -23,10 +23,7 @@ struct StatesCollection {
     
     static let unconscious = StatesCollection(states: [
         StateModel(text: "StatesCollection.Unconcious.Epilepsy.Title".localized(), description: "StatesCollection.Unconcious.Epilepsy.Description".localized(), view: AnyView(Epilepsy())),
-        StateModel(text: "StatesCollection.Unconcious.Infarct.Title".localized(), description: "StatesCollection.Unconcious.Infarct.Description".localized(), view: AnyView(Infarct())),
-        StateModel(text: "StatesCollection.Unconcious.DontKnow.Title".localized(), description: "StatesCollection.Unconcious.DontKnow.Description".localized(), view: AnyView(DontKnow())),
         StateModel(text: "StatesCollection.Unconcious.Drowning.Title".localized(), view: AnyView(Drowning())),
-        StateModel(text: "StatesCollection.Unconcious.InjuryBackHead.Title".localized(), view: AnyView(InjuryBackHead())),
         StateModel(text: "StatesCollection.Unconcious.Collapse.Title".localized(), view: AnyView(Collapse()))
     ])
 }
