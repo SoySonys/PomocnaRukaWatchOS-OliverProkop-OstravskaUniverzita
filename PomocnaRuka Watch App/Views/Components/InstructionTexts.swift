@@ -18,12 +18,14 @@ struct InstructionTexts: View {
                     .fixedSize(horizontal: false, vertical: true)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
                 
                 if index != texts.count - 1 {
                     Divider()
                 }
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

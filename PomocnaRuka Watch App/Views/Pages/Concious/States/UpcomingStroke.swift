@@ -15,8 +15,7 @@ struct UpcomingStroke: View {
                     "Concious.UpcomingStroke.Instruction.1".localized(),
                     "Concious.UpcomingStroke.Instruction.2".localized(),
                     "Concious.UpcomingStroke.Instruction.3".localized(),
-                    "Concious.UpcomingStroke.Instruction.4".localized(),
-                    "Concious.UpcomingStroke.Instruction.5".localized()
+                    "Concious.UpcomingStroke.Instruction.4".localized()
                 ])
             }
         }

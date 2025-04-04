@@ -36,6 +36,7 @@ struct SingleButtonEndPage<Destination: View>: View {
         .cornerRadius(30)
         .fixedSize(horizontal: false, vertical: true)
         .fontWeight(.bold)
+        
     }
 }
 

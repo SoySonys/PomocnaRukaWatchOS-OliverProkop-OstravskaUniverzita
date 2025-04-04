@@ -403,7 +403,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pokud musíš pro pomoc odejít, ujisti se, že má průchozí dýchací cesty."
+            "value" : "Pokud musíš pro pomoc odejít, ujisti se, že má průchozí dýchací cesty. Případně ulož do zotavovací polohy."
           }
         }
       }
@@ -436,7 +436,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uklidni, povol pevné oblečení."
+            "value" : "Ať nepije/nejí."
           }
         }
       }
@@ -447,7 +447,18 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zůstaň s ním."
+            "value" : "Uklidni, povol pevné oblečení"
+          }
+        }
+      }
+    },
+    "Concious.UpcomingInfarct.Instruction.4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zajisti přivolání pomoci."
           }
         }
       }
@@ -458,7 +469,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Je potřeba rychle zajistit pomoc."
+            "value" : "Nech poraněného lehnout/sednout."
           }
         }
       }
@@ -469,7 +480,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nech poraněného lehnout/sednout."
+            "value" : "Ať nepije/nejí."
           }
         }
       }
@@ -480,7 +491,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ať nepije/nejí."
+            "value" : "Ať se moc nehýbe."
           }
         }
       }
@@ -491,18 +502,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ať se moc nehýbe."
-          }
-        }
-      }
-    },
-    "Concious.UpcomingStroke.Instruction.5" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Urychleně získej pomoc."
+            "value" : "Zajisti přivolání pomoci."
           }
         }
       }
@@ -756,7 +756,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Studená kůže, slabý puls, zmatenost"
+            "value" : "Studená kůže, zmatenost"
           }
         }
       }
@@ -1229,7 +1229,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zakloň hlavu, zacpi nos a udělej 5 silných vdechů."
+            "value" : "Zakloň hlavu, zacpi nos a udělej 5 úvodních silných vdechů."
           }
         }
       }
@@ -1306,7 +1306,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jdi pro pomoc."
+            "value" : "Zajisti přivolání pomoci."
           }
         }
       }

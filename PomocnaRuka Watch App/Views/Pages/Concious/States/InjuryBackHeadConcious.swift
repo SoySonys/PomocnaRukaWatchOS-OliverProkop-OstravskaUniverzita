@@ -17,6 +17,9 @@ struct InjuryBackHeadConcious: View {
                     "Concious.InjuryBackHeadConcious.Instruction.3".localized(),
                     "Concious.InjuryBackHeadConcious.Instruction.4".localized(),
                 ])
+                
+                //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
+                InstructionImage(imageName: "Image.Recovery".localized())
             }
         }
         .background(SoundView(soundName: "Concious.BackHead"))
