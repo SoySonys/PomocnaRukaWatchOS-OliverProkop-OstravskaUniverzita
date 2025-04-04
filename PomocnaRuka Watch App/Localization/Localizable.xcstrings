@@ -833,7 +833,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zkolabování"
+            "value" : "Kolaps"
           }
         }
       }
@@ -1053,7 +1053,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Čekej dokud se nezlepší."
+            "value" : "Zajisti přivolání pomoci."
           }
         }
       }
@@ -1086,7 +1086,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Polož na záda."
+            "value" : "Lehce zakloň hlavu."
           }
         }
       }
@@ -1097,7 +1097,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lehce zakloň hlavu."
+            "value" : "Zkontroluj, jestli skutečně dýchá."
           }
         }
       }
@@ -1108,7 +1108,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zkontroluj volné dýchací cesty."
+            "value" : "Povol oblečení."
           }
         }
       }
@@ -1119,7 +1119,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Povol oblečení."
+            "value" : "Nohy zvedni o 45°."
           }
         }
       }
@@ -1130,7 +1130,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nohy zvedni o 45°."
+            "value" : "Počkej chvíli a kontroluj dech."
           }
         }
       }
@@ -1141,7 +1141,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Počkej chvíli a kontroluj dech."
+            "value" : "Poté vyber:"
           }
         }
       }
