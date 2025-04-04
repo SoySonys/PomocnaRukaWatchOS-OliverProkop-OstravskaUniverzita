@@ -12,7 +12,6 @@ struct DrowningBreathing: View {
         NavigationStack{
             ScrollView{
                 CustomVstackOffset{
-                    BeforeLeavingCheckBreathing()
                     
                     InstructionTexts(texts: [
                         "Unconcious.Drowning.GoodBreath.Instruction.1".localized()

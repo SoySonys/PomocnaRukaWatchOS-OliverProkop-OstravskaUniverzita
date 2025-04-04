@@ -618,7 +618,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.BrathingButton" : {
+    "NotBreathing.Resuscitacion.BreathingButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1240,7 +1240,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Narovnej ruce před sebe a 30x stlač hrudník 5cm do hloubky frekvencí 100x za minutu."
+            "value" : "Narovnej ruce před sebe a 30x stlač hrudník 6cm do hloubky frekvencí 100x za minutu."
           }
         }
       }
@@ -1251,7 +1251,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opět 2 dechy, poté resuscitace a pokračuj v opakování."
+            "value" : "Nyní 2 dechy, pak resuscitace, pak 2 vdechy a pokračuj v opakování."
           }
         }
       }
@@ -1317,7 +1317,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dobře dýchá"
+            "value" : "Dýchá dobře"
           }
         }
       }
@@ -1383,7 +1383,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Na břehu otoč na bok."
+            "value" : "Na břehu otoč na záda."
           }
         }
       }

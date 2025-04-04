@@ -7,7 +7,7 @@
 
 import SwiftUI
 //Zdroj: https://www.padler.cz/zachrana-tonouciho-je-dobre-byt-pripraven/
-struct DrowningNotBreathing: View {
+struct DrowningBadBreathing: View {
     @StateObject private var vibrationManager = VibrationManager()
     
     var body: some View {
@@ -17,17 +17,11 @@ struct DrowningNotBreathing: View {
                     InstructionTexts(texts: [
                         "Unconcious.Drowning.BadBreath.Instruction.1".localized(),
                         "Unconcious.Drowning.BadBreath.Instruction.2".localized(),
-                        "Unconcious.Drowning.BadBreath.Instruction.3".localized()
+                        "Unconcious.Drowning.BadBreath.Instruction.3".localized(),
+                        "Unconcious.Drowning.BadBreath.Instruction.4".localized()
                     ])
-                    Divider()
-                    Text("Unconcious.Drowning.BadBreath.Instruction.4".localized())
-                        .font(.footnote)
-                        .fixedSize(horizontal: false, vertical: true)
                     
-                    TwoButtonsEndPage(badTitle: "Už nemůžu",
-                                      badDestination: UnsuccessfulResuscitacion(),
-                                      goodTitle: "Dýchá",
-                                      goodDestination: AfterResuscitacion())
+                    SingleButtonEndPage(title: "NotBreathing.Resuscitacion.BreathingButton".localized(), destination: AfterResuscitacion(), color: .green)
                     
                 }
             }
@@ -43,5 +37,5 @@ struct DrowningNotBreathing: View {
 }
 
 #Preview {
-    DrowningNotBreathing()
+    DrowningBadBreathing()
 }

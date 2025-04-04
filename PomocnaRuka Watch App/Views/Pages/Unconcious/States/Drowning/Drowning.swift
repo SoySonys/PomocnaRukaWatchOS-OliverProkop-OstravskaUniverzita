@@ -18,14 +18,15 @@ struct Drowning: View {
                         "Unconcious.Drowning.Instruction.3".localized(),
                         "Unconcious.Drowning.Instruction.4".localized(),
                         "Unconcious.Drowning.Instruction.5".localized(),
-                        "Unconcious.Drowning.Instruction.6".localized(),
-                        "Unconcious.Drowning.Instruction.7".localized()
+                        "Unconcious.Drowning.Instruction.6".localized()
                     ])
-                    TwoButtonsEndPage(
-                        badTitle: "Unconcious.Drowning.BadButton".localized(),
-                        badDestination: DrowningNotBreathing(),
-                        goodTitle: "Unconcious.Drowning.GoodButton".localized(),
-                        goodDestination: DrowningBreathing())
+                    
+                    BiggerDivider()
+                    
+                    DrowningCheckBreathing()
+                    
+                    SingleButtonEndPage(title: "Unconcious.Drowning.GoodButton".localized(), destination: DrowningBreathing(), color: .green)
+                    
                 }
             }
         }
