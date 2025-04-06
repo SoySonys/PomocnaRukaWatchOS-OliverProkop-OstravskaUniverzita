@@ -5,7 +5,7 @@
 //  Created by Oliver Prokop on 06.04.2025.
 //
 
-# Ignore .DS_Store files (macOS system files)
+# Ignore system files
 .DS_Store
 
 # Ignore Xcode user interface state files
