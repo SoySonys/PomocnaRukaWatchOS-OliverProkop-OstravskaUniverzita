@@ -10,3 +10,4 @@
 
 # Ignore Xcode user interface state files
 *.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata/
