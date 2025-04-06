@@ -5,9 +5,13 @@
 //  Created by Oliver Prokop on 06.04.2025.
 //
 
-# Ignore system files
+# macOS
 .DS_Store
 
-# Ignore Xcode user interface state files
+# Ignore all .DS_Store files everywhere
+**/.DS_Store
+
+# Xcode
 *.xcuserstate
-*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcuserdatad/
+xcuserdata/
