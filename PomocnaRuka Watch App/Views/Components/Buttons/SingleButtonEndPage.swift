@@ -24,20 +24,20 @@ struct SingleButtonEndPage<Destination: View>: View {
         NavigationLink(destination: destination) {
             VStack {
                 Text(title)
-                    .font(.title2)
+                    .font(.title3)
                 if let subtitle = subtitle {
                     Text(subtitle)
                         .font(.footnote)
                         .opacity(0.8)
+                        .padding(.bottom, 4)
                 }
             }
         }
         .background(color)
         .foregroundColor(.white)
-        .cornerRadius(46)
+        .cornerRadius(34)
         .fixedSize(horizontal: false, vertical: true)
         .fontWeight(.bold)
-
     }
 }
 
