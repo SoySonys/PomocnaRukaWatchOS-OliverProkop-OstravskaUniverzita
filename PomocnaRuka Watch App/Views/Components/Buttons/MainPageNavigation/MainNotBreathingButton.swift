@@ -14,16 +14,15 @@ struct MainNotBreathingButton: View {
                 Text("MainPage.NotBreathingButton".localized())
                     .font(.title2.bold())
                     .padding(6)
-                    .padding(.trailing,0)
+                    .padding(.trailing, 0)
                     .lineLimit(1)
                     .minimumScaleFactor(0.6)
                     .layoutPriority(1)
-                    
-                
+
             }
             .frame(maxWidth: .infinity)
-            .padding(.horizontal,2)
-            .padding(.vertical,4)
+            .padding(.horizontal, 2)
+            .padding(.vertical, 4)
             .background(.blue.opacity(0.4))
             .cornerRadius(26)
         }

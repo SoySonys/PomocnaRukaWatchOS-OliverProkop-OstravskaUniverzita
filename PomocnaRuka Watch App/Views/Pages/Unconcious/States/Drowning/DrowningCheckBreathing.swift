@@ -9,12 +9,11 @@ import SwiftUI
 
 struct DrowningCheckBreathing: View {
     var body: some View {
-        VStack{
+        VStack {
             Text("CheckBreathing.Instruction.1".localized())
                 .font(.largeTitle.bold())
-            
-            VStack(alignment: .center, spacing: 1)
-            {
+
+            VStack(alignment: .center, spacing: 1) {
                 Text("CheckBreathing.Instruction.3")
                     .fixedSize(horizontal: false, vertical: true)
                 Divider()
@@ -25,13 +24,13 @@ struct DrowningCheckBreathing: View {
                     .fixedSize(horizontal: false, vertical: true)
                 Divider()
             }
-            .padding(.bottom,1)
-            
+            .padding(.bottom, 1)
+
             SingleButtonEndPage(
                 title: "CheckBreathing.ButtonCaption.1".localized(),
                 subtitle: "CheckBreathing.ButtonCaption.2".localized(),
-                destination: DrowningBadBreathing(), color: .red.opacity(0.8))
-            
+                destination: DrowningBadBreathing(), color: .red.opacity(0.8)
+            )
         }
     }
 }

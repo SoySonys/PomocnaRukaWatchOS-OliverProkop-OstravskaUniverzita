@@ -13,8 +13,8 @@ struct CheckConcious: View {
             .font(.title2.bold())
             .padding(.top, 1)
             .multilineTextAlignment(.center)
-            .padding(.bottom,6)
-        
+            .padding(.bottom, 6)
+
         TwoButtonsEndPage(
             badTitle: "CheckConcious.BadButton".localized(),
             badDestination: UnconciousList(),

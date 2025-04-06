@@ -9,16 +9,16 @@ import SwiftUI
 
 struct UpcomingInfarct: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
-                
+        ScrollView {
+            CustomVstackOffset {
+
                 InstructionTexts(texts: [
                     "Concious.UpcomingInfarct.Instruction.1".localized(),
                     "Concious.UpcomingInfarct.Instruction.2".localized(),
                     "Concious.UpcomingInfarct.Instruction.3".localized(),
                     "Concious.UpcomingInfarct.Instruction.4".localized()
                 ])
-                
+
                 SingleButtonEndPage(
                     title: "Concious.UpcomingInfarct.InfarctHappenedButton".localized(),
                     destination: Collapse(),

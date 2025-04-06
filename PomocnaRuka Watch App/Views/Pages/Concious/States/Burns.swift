@@ -9,13 +9,13 @@ import SwiftUI
 
 struct Burns: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
+        ScrollView {
+            CustomVstackOffset {
                 InstructionTexts(texts: [
                     "Concious.Burns.Instruction.1".localized(),
                     "Concious.Burns.Instruction.2".localized(),
                     "Concious.Burns.Instruction.3".localized(),
-                    "Concious.Burns.Instruction.4".localized(),
+                    "Concious.Burns.Instruction.4".localized()
                 ])
             }
         }

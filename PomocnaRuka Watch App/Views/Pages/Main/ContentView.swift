@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @AppStorage("hasAcceptedTerms") private var hasAcceptedTerms = false
-    
+
     var body: some View {
         if hasAcceptedTerms {
                 MainPageStates()

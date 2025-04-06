@@ -17,7 +17,7 @@ class VibrationManager: ObservableObject {
 
     private func vibrateRepeatedly() {
         guard isVibrating else { return }
-        
+
         WKInterfaceDevice.current().play(.failure)
 
         DispatchQueue.global().asyncAfter(deadline: .now() + 0.6) {

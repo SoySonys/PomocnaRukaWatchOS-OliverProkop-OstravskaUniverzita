@@ -14,7 +14,7 @@ struct CallIfNotBloodReminder: View {
             .foregroundColor(.gray)
             .multilineTextAlignment(.center)
             .padding(.horizontal, 2)
-            .padding(.top,0)
+            .padding(.top, 0)
             .lineLimit(1)
     }
 }

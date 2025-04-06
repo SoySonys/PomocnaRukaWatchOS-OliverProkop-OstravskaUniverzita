@@ -9,23 +9,23 @@ import SwiftUI
 
 struct Epilepsy: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
+        ScrollView {
+            CustomVstackOffset {
                 InstructionTexts(texts: [
                     "Unconcious.Epilepsy.Instruction.1".localized(),
                     "Unconcious.Epilepsy.Instruction.2".localized(),
                     "Unconcious.Epilepsy.Instruction.3".localized(),
                     "Unconcious.Epilepsy.Instruction.4".localized(),
                     "Unconcious.Epilepsy.Instruction.5".localized(),
-                    "Unconcious.Epilepsy.Instruction.6".localized(),
+                    "Unconcious.Epilepsy.Instruction.6".localized()
                     ])
-                
-                VStack{
+
+                VStack {
                     BadBreathingButton()
                 }
-                
+
                 Divider()
-                
+
                 InstructionTexts(texts: [
                     "Unconcious.Epilepsy.Instruction.7".localized()
                     ])

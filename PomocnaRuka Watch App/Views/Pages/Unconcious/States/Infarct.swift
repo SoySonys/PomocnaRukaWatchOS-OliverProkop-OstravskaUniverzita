@@ -9,14 +9,14 @@ import SwiftUI
 
 struct Infarct: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
+        ScrollView {
+            CustomVstackOffset {
                 InstructionTexts(texts: [
                     "Unconcious.Infarct.Instruction.1".localized(),
                     "Unconcious.Infarct.Instruction.2".localized(),
                     "Unconcious.Infarct.Instruction.3".localized()
                 ])
-                
+
                 TwoButtonsEndPage(
                     badTitle: "Unconcious.Infarct.BadButton".localized(),
                     badDestination: CollapseNotAwake(),

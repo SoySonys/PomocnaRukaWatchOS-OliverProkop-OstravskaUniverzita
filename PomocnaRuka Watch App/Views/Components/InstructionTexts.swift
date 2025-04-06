@@ -9,17 +9,16 @@ import SwiftUI
 
 struct InstructionTexts: View {
     let texts: [String]
-    
+
     var body: some View {
-        VStack(alignment: .leading)
-        {
+        VStack(alignment: .leading) {
             ForEach(texts.indices, id: \.self) { index in
                 Text(texts[index])
                     .fixedSize(horizontal: false, vertical: true)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                
+
                 if index != texts.count - 1 {
                     Divider()
                 }

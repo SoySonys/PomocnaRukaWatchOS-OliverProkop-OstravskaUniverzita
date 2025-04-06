@@ -9,9 +9,9 @@ import SwiftUI
 
 struct Drowning: View {
     var body: some View {
-        NavigationStack{
-            ScrollView{
-                CustomVstackOffset{
+        NavigationStack {
+            ScrollView {
+                CustomVstackOffset {
                     InstructionTexts(texts: [
                         "Unconcious.Drowning.Instruction.1".localized(),
                         "Unconcious.Drowning.Instruction.2".localized(),
@@ -20,13 +20,17 @@ struct Drowning: View {
                         "Unconcious.Drowning.Instruction.5".localized(),
                         "Unconcious.Drowning.Instruction.6".localized()
                     ])
-                    
+
                     BiggerDivider()
-                    
+
                     DrowningCheckBreathing()
-                    
-                    SingleButtonEndPage(title: "Unconcious.Drowning.GoodButton".localized(), destination: DrowningBreathing(), color: .green)
-                    
+
+                    SingleButtonEndPage(
+                        title: "Unconcious.Drowning.GoodButton".localized(),
+                        destination: DrowningBreathing(),
+                        color: .green
+                    )
+
                 }
             }
         }

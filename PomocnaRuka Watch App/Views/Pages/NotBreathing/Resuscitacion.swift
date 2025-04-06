@@ -9,11 +9,11 @@ import SwiftUI
 
 struct Resuscitacion: View {
     @StateObject private var vibrationManager = VibrationManager()
-    
+
     var body: some View {
-        NavigationStack{
-            ScrollView{
-                CustomVstackOffset{
+        NavigationStack {
+            ScrollView {
+                CustomVstackOffset {
                     InstructionTexts(texts: [
                         "NotBreathing.Resuscitacion.Instruction.1".localized(),
                         "NotBreathing.Resuscitacion.Instruction.2".localized(),
@@ -21,9 +21,13 @@ struct Resuscitacion: View {
                         "NotBreathing.Resuscitacion.Instruction.4".localized(),
                         "NotBreathing.Resuscitacion.Instruction.5".localized()
                     ])
-                    
-                    SingleButtonEndPage(title: "NotBreathing.Resuscitacion.BrathingButton".localized(), destination: AfterResuscitacion(), color: .green)
-                    
+
+                    SingleButtonEndPage(
+                        title: "NotBreathing.Resuscitacion.BrathingButton".localized(),
+                        destination: AfterResuscitacion(),
+                        color: .green
+                    )
+
                 }
             }
         }

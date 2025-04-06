@@ -26,7 +26,7 @@ struct CustomVstackOffset<Content: View>: View {
             "Obvaž tričkem/obvazem.",
             "Zvedni ránu nad srdce a přitlač."
         ])
-        
+
         TwoButtonsEndPage(
             badTitle: "Stále krvácí",
             badDestination: Tourniquet(),

@@ -8,14 +8,13 @@
 import SwiftUI
 
 struct UnconciousList: View {
-    
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset{
-                    
+                CustomVstackOffset {
+
                     CheckBreathing()
-                    
+
                     StateList(states: StatesCollection.unconscious.states)
                 }
             }

@@ -9,8 +9,8 @@ import SwiftUI
 
 struct UpcomingStroke: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
+        ScrollView {
+            CustomVstackOffset {
                 InstructionTexts(texts: [
                     "Concious.UpcomingStroke.Instruction.1".localized(),
                     "Concious.UpcomingStroke.Instruction.2".localized(),

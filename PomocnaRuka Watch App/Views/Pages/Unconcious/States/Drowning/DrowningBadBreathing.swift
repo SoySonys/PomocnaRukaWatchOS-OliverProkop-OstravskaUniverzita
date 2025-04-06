@@ -6,23 +6,27 @@
 //
 
 import SwiftUI
-//Zdroj: https://www.padler.cz/zachrana-tonouciho-je-dobre-byt-pripraven/
+// Zdroj: https://www.padler.cz/zachrana-tonouciho-je-dobre-byt-pripraven/
 struct DrowningBadBreathing: View {
     @StateObject private var vibrationManager = VibrationManager()
-    
+
     var body: some View {
-        NavigationStack{
-            ScrollView{
-                CustomVstackOffset{
+        NavigationStack {
+            ScrollView {
+                CustomVstackOffset {
                     InstructionTexts(texts: [
                         "Unconcious.Drowning.BadBreath.Instruction.1".localized(),
                         "Unconcious.Drowning.BadBreath.Instruction.2".localized(),
                         "Unconcious.Drowning.BadBreath.Instruction.3".localized(),
                         "Unconcious.Drowning.BadBreath.Instruction.4".localized()
                     ])
-                    
-                    SingleButtonEndPage(title: "NotBreathing.Resuscitacion.BreathingButton".localized(), destination: DrowningBreathing(), color: .green)
-                    
+
+                    SingleButtonEndPage(
+                        title: "NotBreathing.Resuscitacion.BreathingButton".localized(),
+                        destination: DrowningBreathing(),
+                        color: .green
+                    )
+
                 }
             }
         }

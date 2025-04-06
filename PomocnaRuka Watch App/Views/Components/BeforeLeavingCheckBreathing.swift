@@ -9,11 +9,11 @@ import SwiftUI
 
 struct BeforeLeavingCheckBreathing: View {
     var body: some View {
-        VStack{
+        VStack {
             Text("CheckBreathing.Instruction.0".localized())
                 .font(.footnote)
-                .padding(.bottom,0)
-            
+                .padding(.bottom, 0)
+
             CheckBreathing()
         }
     }

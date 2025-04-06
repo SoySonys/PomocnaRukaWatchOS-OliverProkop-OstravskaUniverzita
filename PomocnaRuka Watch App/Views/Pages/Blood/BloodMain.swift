@@ -8,18 +8,17 @@
 import SwiftUI
 
 struct BloodMain: View {
-    
+
     var body: some View {
-        NavigationStack{
-            ScrollView{
+        NavigationStack {
+            ScrollView {
                 CustomVstackOffset {
                     InstructionTexts(texts: [
                         "Blood.Instruction.1".localized(),
                         "Blood.Instruction.2".localized(),
                         "Blood.Instruction.3".localized()
                     ])
-                    
-                    
+
                     TwoButtonsEndPage(
                         badTitle: "Blood.ButtonBad".localized(),
                         badDestination: Tourniquet(),
@@ -32,7 +31,6 @@ struct BloodMain: View {
         .background(SoundView(soundName: "Blood"))
     }
 }
-
 
 #Preview {
     BloodMain()

@@ -11,21 +11,21 @@ struct CollapseNotAwake: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset{
-                    
+                CustomVstackOffset {
+
                     BeforeLeavingCheckBreathing()
-                    
+
                     InstructionTexts(texts: [
                         "Unconcious.Collapse.NotAwake.Instruction.1".localized()
                     ])
-                    
-                    //ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs
+
+                    // ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs // swiftlint:disable:this line_length
                     InstructionImage(imageName: "Image.Recovery".localized())
-                    
+
                     InstructionTexts(texts: [
                         "Unconcious.Collapse.NotAwake.Instruction.2".localized()
                     ])
-                    
+
                 }
                 .background(SoundView(soundName: "Unconcious.Collapse.NotAwake"))
             }

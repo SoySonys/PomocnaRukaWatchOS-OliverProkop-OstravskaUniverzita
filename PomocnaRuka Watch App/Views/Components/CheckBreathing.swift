@@ -9,12 +9,11 @@ import SwiftUI
 
 struct CheckBreathing: View {
     var body: some View {
-        VStack{
+        VStack {
             Text("CheckBreathing.Instruction.1".localized())
                 .font(.largeTitle.bold())
-            
-            VStack(alignment: .center, spacing: 1)
-            {
+
+            VStack(alignment: .center, spacing: 1) {
                 Text("CheckBreathing.Instruction.2")
                     .fixedSize(horizontal: false, vertical: true)
                 Divider()
@@ -28,28 +27,27 @@ struct CheckBreathing: View {
                     .fixedSize(horizontal: false, vertical: true)
                 Divider()
             }
-            .padding(.bottom,1)
-            
+            .padding(.bottom, 1)
+
             BadBreathingButton()
-            
+
             BiggerDivider()
-            
-            HStack{
-                
+
+            HStack {
                 Image(systemName: "arrow.down")
                     .foregroundColor(.white)
                     .font(.system(size: 14).bold())
-                
+
                 Text("CheckBreathing.GoodBreath".localized())
                     .font(.headline)
                     .multilineTextAlignment(.center)
-                
+
                 Image(systemName: "arrow.down")
                     .foregroundColor(.white)
                     .font(.system(size: 14).bold())
-                
+
             }
-            .padding(.bottom,6)
+            .padding(.bottom, 6)
         }
     }
 }

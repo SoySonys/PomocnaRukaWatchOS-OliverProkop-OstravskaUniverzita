@@ -9,17 +9,17 @@ import SwiftUI
 
 struct Tourniquet: View {
     var body: some View {
-        NavigationStack{
-            ScrollView{
-                CustomVstackOffset{
-                    
+        NavigationStack {
+            ScrollView {
+                CustomVstackOffset {
+
                     InstructionTexts(texts: [
                         "Blood.Tourniquet.Instruction.1".localized(),
                         "Blood.Tourniquet.Instruction.2".localized(),
                         "Blood.Tourniquet.Instruction.3".localized(),
                         "Blood.Tourniquet.Instruction.4".localized()
                     ])
-                    
+
                     SingleButtonEndPage(
                         title: "Blood.Tourniquet.ContinueButton".localized(),
                         destination: BloodStopped(),

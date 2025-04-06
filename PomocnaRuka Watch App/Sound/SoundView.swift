@@ -20,11 +20,10 @@ struct SoundView: View {
             .onDisappear {
                 soundManager.stopSound()
             }
-            .onChange(of: scenePhase) { oldPhase, newPhase in
+            .onChange(of: scenePhase) { _, newPhase in
                 if newPhase == .active {
                     soundManager.playSound(named: soundName)
                 }
             }
     }
 }
- 

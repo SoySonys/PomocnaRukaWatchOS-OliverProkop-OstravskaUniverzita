@@ -9,8 +9,8 @@ import SwiftUI
 
 struct Hypothermia: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
+        ScrollView {
+            CustomVstackOffset {
                 InstructionTexts(texts: [
                     "Concious.Hypothermia.Instruction.1".localized(),
                     "Concious.Hypothermia.Instruction.2".localized(),

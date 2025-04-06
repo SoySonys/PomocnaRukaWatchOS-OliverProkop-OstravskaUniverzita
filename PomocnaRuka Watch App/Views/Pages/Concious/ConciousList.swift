@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ConciousList: View {
-    
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -17,7 +16,6 @@ struct ConciousList: View {
         }
     }
 }
-
 
 #Preview {
     ConciousList()

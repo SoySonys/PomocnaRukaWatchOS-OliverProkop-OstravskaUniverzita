@@ -9,20 +9,20 @@ import SwiftUI
 
 struct CantCallSectionHeading: View {
     var body: some View {
-        HStack{
-            
+        HStack {
+
             Image(systemName: "arrow.down")
                 .foregroundColor(.white)
                 .font(.system(size: 14).bold())
-            
+
             Text("MainPage.CantCallSectionHeading".localized())
                 .font(.headline)
                 .multilineTextAlignment(.center)
-            
+
             Image(systemName: "arrow.down")
                 .foregroundColor(.white)
                 .font(.system(size: 14).bold())
-            
+
         }
     }
 }
