@@ -13,7 +13,7 @@ struct StateModel: Identifiable {
     let text: String
     let description: String?
     let view: AnyView
-    
+
     init(text: String, description: String?, view: AnyView) {
         self.text = text
         self.description = description

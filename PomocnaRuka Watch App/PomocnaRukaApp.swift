@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct PomocnaRuka_Watch_AppApp: App {
+struct PomocnaRukaWatchApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
