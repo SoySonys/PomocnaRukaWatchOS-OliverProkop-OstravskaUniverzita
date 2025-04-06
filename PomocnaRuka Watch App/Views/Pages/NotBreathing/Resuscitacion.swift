@@ -23,7 +23,7 @@ struct Resuscitacion: View {
                     ])
 
                     SingleButtonEndPage(
-                        title: "NotBreathing.Resuscitacion.BrathingButton".localized(),
+                        title: "NotBreathing.Resuscitacion.BreathingButton".localized(),
                         destination: AfterResuscitacion(),
                         color: .green
                     )
