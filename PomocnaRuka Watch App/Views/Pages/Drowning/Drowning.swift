@@ -13,12 +13,12 @@ struct Drowning: View {
             ScrollView {
                 CustomVstackOffset {
                     InstructionTexts(texts: [
-                        "Unconcious.Drowning.Instruction.1".localized(),
-                        "Unconcious.Drowning.Instruction.2".localized(),
-                        "Unconcious.Drowning.Instruction.3".localized(),
-                        "Unconcious.Drowning.Instruction.4".localized(),
-                        "Unconcious.Drowning.Instruction.5".localized(),
-                        "Unconcious.Drowning.Instruction.6".localized()
+                        "Drowning.Instruction.1".localized(),
+                        "Drowning.Instruction.2".localized(),
+                        "Drowning.Instruction.3".localized(),
+                        "Drowning.Instruction.4".localized(),
+                        "Drowning.Instruction.5".localized(),
+                        "Drowning.Instruction.6".localized()
                     ])
 
                     BiggerDivider()
@@ -26,7 +26,7 @@ struct Drowning: View {
                     DrowningCheckBreathing()
 
                     SingleButtonEndPage(
-                        title: "Unconcious.Drowning.GoodButton".localized(),
+                        title: "Drowning.GoodButton".localized(),
                         destination: DrowningBreathing(),
                         color: .green
                     )

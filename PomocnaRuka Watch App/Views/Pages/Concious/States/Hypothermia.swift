@@ -12,9 +12,9 @@ struct Hypothermia: View {
         ScrollView {
             CustomVstackOffset {
                 InstructionTexts(texts: [
-                    "Concious.Hypothermia.Instruction.1".localized(),
-                    "Concious.Hypothermia.Instruction.2".localized(),
-                    "Concious.Hypothermia.Instruction.3".localized()
+                    "Hypothermia.Instruction.1".localized(),
+                    "Hypothermia.Instruction.2".localized(),
+                    "Hypothermia.Instruction.3".localized()
                 ])
             }
         }

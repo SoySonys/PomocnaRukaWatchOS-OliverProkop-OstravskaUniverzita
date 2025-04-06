@@ -13,30 +13,30 @@ struct StatesCollection {
 
     static let conscious = StatesCollection(states: [
         StateModel(
-            text: "StatesCollection.Concious.Infarct.Title".localized(),
-            description: "StatesCollection.Concious.Infarct.Description".localized(),
+            text: "UpcomingInfarct.Title".localized(),
+            description: "Infarct.Description".localized(),
             view: AnyView(UpcomingInfarct())
         ),
         StateModel(
-            text: "StatesCollection.Concious.Stroke.Title".localized(),
-            description: "StatesCollection.Concious.Stroke.Description".localized(),
+            text: "Stroke.Title".localized(),
+            description: "Stroke.Description".localized(),
             view: AnyView(UpcomingStroke())
         ),
         StateModel(
-            text: "StatesCollection.Concious.Hypothermia.Title".localized(),
-            description: "StatesCollection.Concious.Hypothermia.Description".localized(),
+            text: "Hypothermia.Title".localized(),
+            description: "Hypothermia.Description".localized(),
             view: AnyView(Hypothermia())
         ),
         StateModel(
-            text: "StatesCollection.Concious.Burns.Title".localized(),
+            text: "Burns.Title".localized(),
             view: AnyView(Burns())
         ),
         StateModel(
-            text: "StatesCollection.Concious.InjuryBackHead.Title".localized(),
+            text: "InjuryBackHead.Title".localized(),
             view: AnyView(InjuryBackHeadConcious())
         ),
         StateModel(
-            text: "StatesCollection.Concious.Fracture.Title".localized(),
+            text: "Fracture.Title".localized(),
             view: AnyView(Fracture())
         )
 
@@ -44,16 +44,16 @@ struct StatesCollection {
 
     static let unconscious = StatesCollection(states: [
         StateModel(
-            text: "StatesCollection.Unconcious.Epilepsy.Title".localized(),
-            description: "StatesCollection.Unconcious.Epilepsy.Description".localized(),
+            text: "Epilepsy.Title".localized(),
+            description: "Epilepsy.Description".localized(),
             view: AnyView(Epilepsy())
         ),
         StateModel(
-            text: "StatesCollection.Unconcious.Drowning.Title".localized(),
+            text: "Drowning.Title".localized(),
             view: AnyView(Drowning())
         ),
         StateModel(
-            text: "StatesCollection.Unconcious.Collapse.Title".localized(),
+            text: "Collapse.Title".localized(),
             view: AnyView(Collapse())
         )
     ])

@@ -14,14 +14,14 @@ struct DrowningBreathing: View {
                 CustomVstackOffset {
 
                     InstructionTexts(texts: [
-                        "Unconcious.Drowning.GoodBreath.Instruction.1".localized()
+                        "Drowning.GoodBreathing.Instruction.1".localized()
                     ])
 
                     // ZDROJ: https://is.muni.cz/do/med/videozaznamy-prednasek/prvni_pomoc/musilova-tereza_rautekuv-manevr-zotavovaci-poloha.pdf?lang=cs // swiftlint:disable:this line_length
                     InstructionImage(imageName: "Image.Recovery".localized())
 
                     InstructionTexts(texts: [
-                        "Unconcious.Drowning.GoodBreath.Instruction.2".localized()
+                        "Drowning.GoodBreathing.Instruction.2".localized()
                     ])
                 }
                 .background(SoundView(soundName: "Unconcious.Drowning.GoodBreath"))

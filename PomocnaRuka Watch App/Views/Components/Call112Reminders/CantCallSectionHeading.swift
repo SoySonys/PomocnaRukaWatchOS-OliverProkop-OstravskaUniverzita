@@ -15,7 +15,7 @@ struct CantCallSectionHeading: View {
                 .foregroundColor(.white)
                 .font(.system(size: 14).bold())
 
-            Text("MainPage.CantCallSectionHeading".localized())
+            Text("CantCallSectionHeading".localized())
                 .font(.headline)
                 .multilineTextAlignment(.center)
 

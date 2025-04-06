@@ -15,10 +15,10 @@ struct DrowningBadBreathing: View {
             ScrollView {
                 CustomVstackOffset {
                     InstructionTexts(texts: [
-                        "Unconcious.Drowning.BadBreath.Instruction.1".localized(),
-                        "Unconcious.Drowning.BadBreath.Instruction.2".localized(),
-                        "Unconcious.Drowning.BadBreath.Instruction.3".localized(),
-                        "Unconcious.Drowning.BadBreath.Instruction.4".localized()
+                        "Drowning.BadBreathing.Instruction.1".localized(),
+                        "Drowning.BadBreathing.Instruction.2".localized(),
+                        "Drowning.BadBreathing.Instruction.3".localized(),
+                        "Drowning.BadBreathing.Instruction.4".localized()
                     ])
 
                     SingleButtonEndPage(

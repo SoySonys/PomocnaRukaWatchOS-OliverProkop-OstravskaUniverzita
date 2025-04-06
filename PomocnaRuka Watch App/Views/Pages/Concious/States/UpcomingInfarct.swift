@@ -13,14 +13,14 @@ struct UpcomingInfarct: View {
             CustomVstackOffset {
 
                 InstructionTexts(texts: [
-                    "Concious.UpcomingInfarct.Instruction.1".localized(),
-                    "Concious.UpcomingInfarct.Instruction.2".localized(),
-                    "Concious.UpcomingInfarct.Instruction.3".localized(),
-                    "Concious.UpcomingInfarct.Instruction.4".localized()
+                    "UpcomingInfarct.Instruction.1".localized(),
+                    "UpcomingInfarct.Instruction.2".localized(),
+                    "UpcomingInfarct.Instruction.3".localized(),
+                    "UpcomingInfarct.Instruction.4".localized()
                 ])
 
                 SingleButtonEndPage(
-                    title: "Concious.UpcomingInfarct.InfarctHappenedButton".localized(),
+                    title: "UpcomingInfarct.CollapseHappened.Button".localized(),
                     destination: Collapse(),
                     color: .red)
             }
