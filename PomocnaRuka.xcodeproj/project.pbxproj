@@ -6,36 +6,7 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1C9C0D552D6F8F4100B994C0 /* PomocnaRuka Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1C9C0D542D6F8F4100B994C0 /* PomocnaRuka Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1C9C0D562D6F8F4100B994C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1C9C0D482D6F8F4100B994C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C9C0D532D6F8F4100B994C0;
-			remoteInfo = "PomocnaRuka Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1C9C0D672D6F8F4200B994C0 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				1C9C0D552D6F8F4100B994C0 /* PomocnaRuka Watch App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		1C9C0D4E2D6F8F4100B994C0 /* PomocnaRuka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomocnaRuka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9C0D542D6F8F4100B994C0 /* PomocnaRuka Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PomocnaRuka Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,7 +40,6 @@
 		1C9C0D4F2D6F8F4100B994C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C9C0D4E2D6F8F4100B994C0 /* PomocnaRuka.app */,
 				1C9C0D542D6F8F4100B994C0 /* PomocnaRuka Watch App.app */,
 			);
 			name = Products;
@@ -78,25 +48,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C9C0D4D2D6F8F4100B994C0 /* PomocnaRuka */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C9C0D682D6F8F4200B994C0 /* Build configuration list for PBXNativeTarget "PomocnaRuka" */;
-			buildPhases = (
-				1C9C0D4C2D6F8F4100B994C0 /* Resources */,
-				1C9C0D672D6F8F4200B994C0 /* Embed Watch Content */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1C9C0D572D6F8F4100B994C0 /* PBXTargetDependency */,
-			);
-			name = PomocnaRuka;
-			packageProductDependencies = (
-			);
-			productName = PomocnaRuka;
-			productReference = 1C9C0D4E2D6F8F4100B994C0 /* PomocnaRuka.app */;
-			productType = "com.apple.product-type.application.watchapp2-container";
-		};
 		1C9C0D532D6F8F4100B994C0 /* PomocnaRuka Watch App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C9C0D642D6F8F4200B994C0 /* Build configuration list for PBXNativeTarget "PomocnaRuka Watch App" */;
@@ -130,9 +81,6 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					1C9C0D4D2D6F8F4100B994C0 = {
-						CreatedOnToolsVersion = 16.2;
-					};
 					1C9C0D532D6F8F4100B994C0 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -152,20 +100,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C9C0D4D2D6F8F4100B994C0 /* PomocnaRuka */,
 				1C9C0D532D6F8F4100B994C0 /* PomocnaRuka Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1C9C0D4C2D6F8F4100B994C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1C9C0D522D6F8F4100B994C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,14 +146,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1C9C0D572D6F8F4100B994C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1C9C0D532D6F8F4100B994C0 /* PomocnaRuka Watch App */;
-			targetProxy = 1C9C0D562D6F8F4100B994C0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1C9C0D622D6F8F4200B994C0 /* Debug */ = {
@@ -401,41 +333,6 @@
 			};
 			name = Release;
 		};
-		1C9C0D692D6F8F4200B994C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X5FH63WS5A;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PomocnaRuka;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cz.osu.PomocnaRuka;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		1C9C0D6A2D6F8F4200B994C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X5FH63WS5A;
-				GCC_WARN_UNUSED_LABEL = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = PomocnaRuka;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = cz.osu.PomocnaRuka;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -453,15 +350,6 @@
 			buildConfigurations = (
 				1C9C0D652D6F8F4200B994C0 /* Debug */,
 				1C9C0D662D6F8F4200B994C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1C9C0D682D6F8F4200B994C0 /* Build configuration list for PBXNativeTarget "PomocnaRuka" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C9C0D692D6F8F4200B994C0 /* Debug */,
-				1C9C0D6A2D6F8F4200B994C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
