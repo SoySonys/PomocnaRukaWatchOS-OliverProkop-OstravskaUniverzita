@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1CF391482DA2B48800A1BABF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1CF391472DA2B48300A1BABF /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1C9C0D542D6F8F4100B994C0 /* PomocnaRuka Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PomocnaRuka Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF391472DA2B48300A1BABF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		1C9C0D472D6F8F4100B994C0 = {
 			isa = PBXGroup;
 			children = (
+				1CF391472DA2B48300A1BABF /* .gitignore */,
 				1C9C0D582D6F8F4100B994C0 /* PomocnaRuka Watch App */,
 				1C9C0D4F2D6F8F4100B994C0 /* Products */,
 			);
@@ -110,6 +116,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF391482DA2B48800A1BABF /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

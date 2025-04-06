@@ -1,0 +1,13 @@
+//
+//  .gitignore
+//  PomocnaRuka Watch App
+//
+//  Created by Oliver Prokop on 06.04.2025.
+//
+
+# Ignore system files
+.DS_Store
+
+# Ignore Xcode user interface state files
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/xcuserdata/
