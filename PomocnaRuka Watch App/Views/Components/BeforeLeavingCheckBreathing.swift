@@ -20,5 +20,7 @@ struct BeforeLeavingCheckBreathing: View {
 }
 
 #Preview {
-    BeforeLeavingCheckBreathing()
+    ScrollView {
+        BeforeLeavingCheckBreathing()
+    }
 }

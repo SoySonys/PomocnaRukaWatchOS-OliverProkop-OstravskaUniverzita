@@ -24,6 +24,7 @@ struct SingleButtonEndPage<Destination: View>: View {
         NavigationLink(destination: destination) {
             VStack {
                 Text(title)
+                    .font(.title2)
                 if let subtitle = subtitle {
                     Text(subtitle)
                         .font(.footnote)
@@ -33,7 +34,7 @@ struct SingleButtonEndPage<Destination: View>: View {
         }
         .background(color)
         .foregroundColor(.white)
-        .cornerRadius(30)
+        .cornerRadius(46)
         .fixedSize(horizontal: false, vertical: true)
         .fontWeight(.bold)
 
@@ -41,5 +42,8 @@ struct SingleButtonEndPage<Destination: View>: View {
 }
 
 #Preview {
-    SingleButtonEndPage(title: "Pokračovat", destination: Tourniquet(), color: .green)
+    SingleButtonEndPage(
+        title: "CheckBreathing.ButtonCaption.1".localized(),
+        subtitle: "CheckBreathing.ButtonCaption.2".localized(),
+        destination: Resuscitacion(), color: .red.opacity(0.8))
 }

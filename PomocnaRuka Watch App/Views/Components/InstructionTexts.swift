@@ -18,6 +18,7 @@ struct InstructionTexts: View {
                     .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .font(.title3)
 
                 if index != texts.count - 1 {
                     Divider()
