@@ -9,18 +9,19 @@ import SwiftUI
 
 struct UpcomingInfarct: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
-                
+        ScrollView {
+            CustomVstackOffset {
+
                 InstructionTexts(texts: [
-                    "Concious.UpcomingInfarct.Instruction.1".localized(),
-                    "Concious.UpcomingInfarct.Instruction.2".localized(),
-                    "Concious.UpcomingInfarct.Instruction.3".localized()
+                    "UpcomingInfarct.Instruction.1".localized(),
+                    "UpcomingInfarct.Instruction.2".localized(),
+                    "UpcomingInfarct.Instruction.3".localized(),
+                    "UpcomingInfarct.Instruction.4".localized()
                 ])
-                
+
                 SingleButtonEndPage(
-                    title: "Concious.UpcomingInfarct.InfarctHappenedButton".localized(),
-                    destination: Infarct(),
+                    title: "UpcomingInfarct.CollapseHappened.Button".localized(),
+                    destination: Collapse(),
                     color: .red)
             }
         }

@@ -12,7 +12,7 @@ struct TwoButtonsEndPage<BadDestination: View, GoodDestination: View>: View {
     let badDestination: BadDestination
     let goodTitle: String
     let goodDestination: GoodDestination
-    
+
     var body: some View {
         HStack {
             NavigationLink(destination: badDestination) {
@@ -23,7 +23,7 @@ struct TwoButtonsEndPage<BadDestination: View, GoodDestination: View>: View {
             .cornerRadius(30)
             .fixedSize(horizontal: false, vertical: true)
             .fontWeight(.bold)
-            
+
             NavigationLink(destination: goodDestination) {
                 Text(goodTitle)
             }

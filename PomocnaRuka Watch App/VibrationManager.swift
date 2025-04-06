@@ -8,15 +8,24 @@
 import WatchKit
 
 class VibrationManager: ObservableObject {
-    private var timer: Timer?
+    private var isVibrating = false
 
     func startVibrations() {
-        timer = Timer.scheduledTimer(withTimeInterval: 0.6, repeats: true) { _ in
-            WKInterfaceDevice.current().play(.failure)
+        isVibrating = true
+        vibrateRepeatedly()
+    }
+
+    private func vibrateRepeatedly() {
+        guard isVibrating else { return }
+
+        WKInterfaceDevice.current().play(.failure)
+
+        DispatchQueue.global().asyncAfter(deadline: .now() + 0.6) {
+            self.vibrateRepeatedly()
         }
     }
 
     func stopVibrations() {
-        timer?.invalidate()
+        isVibrating = false
     }
 }

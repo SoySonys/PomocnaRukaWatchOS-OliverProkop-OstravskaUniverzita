@@ -6,12 +6,18 @@
       "scale" : "1x"
     },
     {
+      "filename" : "Polosed 1.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Polosed 2.jpg",
       "idiom" : "universal",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "watch",
+      "scale" : "2x"
     }
   ],
   "info" : {

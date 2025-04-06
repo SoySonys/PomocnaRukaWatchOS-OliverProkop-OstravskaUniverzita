@@ -1,13 +1,13 @@
 //
-//  Resuscitacion.swift
+//  DrowningNotBreathing.swift
 //  PomocnaRuka Watch App
 //
-//  Created by Oliver Prokop on 04.03.2025.
+//  Created by Oliver Prokop on 06.03.2025.
 //
 
 import SwiftUI
-
-struct Resuscitacion: View {
+// Zdroj: https://www.padler.cz/zachrana-tonouciho-je-dobre-byt-pripraven/
+struct DrowningBadBreathing: View {
     @StateObject private var vibrationManager = VibrationManager()
 
     var body: some View {
@@ -15,23 +15,22 @@ struct Resuscitacion: View {
             ScrollView {
                 CustomVstackOffset {
                     InstructionTexts(texts: [
-                        "NotBreathing.Resuscitacion.Instruction.1".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.2".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.3".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.4".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.5".localized()
+                        "Drowning.BadBreathing.Instruction.1".localized(),
+                        "Drowning.BadBreathing.Instruction.2".localized(),
+                        "Drowning.BadBreathing.Instruction.3".localized(),
+                        "Drowning.BadBreathing.Instruction.4".localized()
                     ])
 
                     SingleButtonEndPage(
                         title: "NotBreathing.Resuscitacion.BreathingButton".localized(),
-                        destination: AfterResuscitacion(),
+                        destination: DrowningBreathing(),
                         color: .green
                     )
 
                 }
             }
         }
-        .background(SoundView(soundName: "Resuscitacion"))
+        .background(SoundView(soundName: "Unconcious.Drowning.BadBreath"))
         .onAppear {
             vibrationManager.startVibrations()
         }
@@ -42,5 +41,5 @@ struct Resuscitacion: View {
 }
 
 #Preview {
-    Resuscitacion()
+    DrowningBadBreathing()
 }

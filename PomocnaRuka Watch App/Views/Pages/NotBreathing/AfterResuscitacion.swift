@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct AfterResuscitacion: View {
-    
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset{
+                CustomVstackOffset {
                     CantCallSectionHeading()
-                    
+
                     StateList(states: StatesCollection.unconscious.states)
                 }
             }

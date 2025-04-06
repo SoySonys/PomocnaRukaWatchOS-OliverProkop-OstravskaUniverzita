@@ -9,10 +9,10 @@ import SwiftUI
 
 struct TermsOfUse: View {
     @AppStorage("hasAcceptedTerms") private var hasAcceptedTerms = false
-    
+
     var body: some View {
         ScrollView {
-            CustomVstackOffset{
+            CustomVstackOffset {
                 InstructionTexts(texts: [
                     "TermsOfUse.Term.1".localized(),
                     "TermsOfUse.Term.2".localized(),

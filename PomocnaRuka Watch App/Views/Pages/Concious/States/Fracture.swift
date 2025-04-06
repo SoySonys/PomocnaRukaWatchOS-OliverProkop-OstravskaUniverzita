@@ -9,19 +9,18 @@ import SwiftUI
 
 struct Fracture: View {
     var body: some View {
-        ScrollView{
-            CustomVstackOffset{
+        ScrollView {
+            CustomVstackOffset {
                 InstructionTexts(texts: [
-                    "Concious.Fracture.Instruction.1".localized(),
-                    "Concious.Fracture.Instruction.2".localized(),
-                    "Concious.Fracture.Instruction.3".localized()
+                    "Fracture.Instruction.1".localized(),
+                    "Fracture.Instruction.2".localized(),
+                    "Fracture.Instruction.3".localized()
                 ])
             }
         }
         .background(SoundView(soundName: "Concious.Fracture"))
     }
 }
-
 
 #Preview {
     Fracture()

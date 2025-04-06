@@ -10,21 +10,25 @@ import SwiftUI
 struct MainPageStates: View {
     var body: some View {
         NavigationStack {
-            ScrollView{
-                VStack{
-                    
+            ScrollView {
+                VStack {
+
                     MainBloodButton()
-                    
+
                     CallIfNotBloodReminder()
-                    
+
                     BiggerDivider()
-                    
+
                     CantCallSectionHeading()
-                    
+
                     Spacer()
-                    
+
                     CheckConcious()
-                    
+
+                    Divider()
+
+                    DrowningButton()
+
                 }
             }
         }

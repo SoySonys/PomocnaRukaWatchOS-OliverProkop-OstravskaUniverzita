@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StateList: View {
     let states: [StateModel]
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             ForEach(states) { state in
@@ -17,12 +17,12 @@ struct StateList: View {
                     VStack {
                         Text(state.text)
                             .font(.title3.bold())
-                        
+
                         if let description = state.description {
                             Text(description)
                                 .font(.caption2)
                         }
-                    }   
+                    }
                 }
                 .background(.blue.opacity(0.7))
                 .foregroundColor(.white)

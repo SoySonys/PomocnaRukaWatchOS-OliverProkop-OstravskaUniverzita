@@ -9,7 +9,7 @@ import SwiftUI
 
 struct InstructionImage: View {
     let imageName: String
-    
+
     var body: some View {
         Image(imageName)
             .resizable()
@@ -18,6 +18,6 @@ struct InstructionImage: View {
 }
 
 #Preview {
-    //ZDROJ: http://www.prvni-pomoc.com/polohovani
+    // ZDROJ: http://www.prvni-pomoc.com/polohovani
     InstructionImage(imageName: "Polosed")
 }
