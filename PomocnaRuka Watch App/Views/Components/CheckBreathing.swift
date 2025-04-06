@@ -25,6 +25,7 @@ struct CheckBreathing: View {
                 Text("CheckBreathing.Instruction.4")
                     .fixedSize(horizontal: false, vertical: true)
                     .font(.title3.bold())
+                    .multilineTextAlignment(.center)
                 Divider()
                 Text("CheckBreathing.Instruction.5")
                     .fixedSize(horizontal: false, vertical: true)
