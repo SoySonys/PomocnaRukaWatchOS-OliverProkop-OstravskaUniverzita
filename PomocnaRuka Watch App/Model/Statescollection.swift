@@ -14,7 +14,7 @@ struct StatesCollection {
     static let conscious = StatesCollection(states: [
         StateModel(
             text: "UpcomingInfarct.Title".localized(),
-            description: "Infarct.Description".localized(),
+            description: "UpcomingInfarct.Description".localized(),
             view: AnyView(UpcomingInfarct())
         ),
         StateModel(
