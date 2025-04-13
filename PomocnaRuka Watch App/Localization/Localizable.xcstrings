@@ -95,7 +95,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Použij široký pásek nebo šátek"
+            "value" : "Použij široký pásek/šátek."
           }
         }
       }
@@ -106,7 +106,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Utáhni na stehnu/paži"
+            "value" : "Utáhni na stehnu/paži."
           }
         }
       }
@@ -271,12 +271,23 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Koukni na hrudník"
+            "value" : "Vyčisti ústa"
           }
         }
       }
     },
     "CheckBreathing.Instruction.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koukni na hrudník"
+          }
+        }
+      }
+    },
+    "CheckBreathing.Instruction.6" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -458,7 +469,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hoď něco co plave.\\nTřeba nafouknutou pet láhev."
+            "value" : "Hoď něco co plave. Třeba nafouknutou pet láhev."
           }
         }
       }
@@ -1020,7 +1031,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lehce zakloň hlavu."
+            "value" : "Zakloň hlavu."
           }
         }
       }
@@ -1240,7 +1251,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uklidni, povol pevné oblečení"
+            "value" : "Uklidni, povol pevné oblečení."
           }
         }
       }
