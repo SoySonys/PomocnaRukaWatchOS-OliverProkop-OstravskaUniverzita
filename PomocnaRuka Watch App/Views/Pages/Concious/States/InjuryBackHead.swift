@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InjuryBackHeadConcious: View {
+struct InjuryBackHead: View {
     var body: some View {
         ScrollView {
             CustomVstackOffset {
@@ -22,10 +22,10 @@ struct InjuryBackHeadConcious: View {
                 InstructionImage(imageName: "Image.Recovery".localized())
             }
         }
-        .background(SoundView(soundName: "Concious.BackHead"))
+        .background(SoundView(soundName: "Concious.InjuryBackHead"))
     }
 }
 
 #Preview {
-    InjuryBackHeadConcious()
+    InjuryBackHead()
 }

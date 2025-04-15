@@ -95,7 +95,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Použij široký pásek nebo šátek"
+            "value" : "Použij široký pásek/šátek."
           }
         }
       }
@@ -106,7 +106,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Utáhni na stehnu/paži"
+            "value" : "Utáhni na stehnu/paži."
           }
         }
       }
@@ -145,17 +145,6 @@
       }
     },
     "Burns.Instruction.3" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Oblečení sundávej až pod sprchou."
-          }
-        }
-      }
-    },
-    "Burns.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -271,12 +260,23 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Koukni na hrudník"
+            "value" : "Vyčisti ústa"
           }
         }
       }
     },
     "CheckBreathing.Instruction.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koukni na hrudník"
+          }
+        }
+      }
+    },
+    "CheckBreathing.Instruction.6" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -359,7 +359,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Narovnej ruce před sebe a 30x stlač hrudník 6cm do hloubky frekvencí 100x za minutu."
+            "value" : "Narovnej své ruce před sebe a 30x stlač hrudník do hloubky 6cm frekvencí 100x za minutu."
           }
         }
       }
@@ -370,7 +370,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nyní 2 dechy, pak resuscitace, pak 2 vdechy a pokračuj v opakování."
+            "value" : "Nyní 2 vdechy, pak resuscitace, pak 2 vdechy a pokračuj v opakování."
           }
         }
       }
@@ -382,6 +382,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další osoba shání pomoc.\\nPři střídání nesmí být prodleva."
+          }
+        }
+      }
+    },
+    "Drowning.BadBreathing.Instruction.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud se nebrání, tak pokračuj do příjezdu záchranky nebo do vystřídání."
           }
         }
       }
@@ -404,28 +415,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Špatně dýchá"
-          }
-        }
-      }
-    },
-    "Drowning.GoodBreathing.Instruction.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dej do zotavovací polohy."
-          }
-        }
-      }
-    },
-    "Drowning.GoodBreathing.Instruction.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zajisti přivolání pomoci."
           }
         }
       }
@@ -458,7 +447,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hoď něco co plave.\\nTřeba nafouknutou pet láhev."
+            "value" : "Hoď něco co plave. Třeba nafouknutou pet láhev."
           }
         }
       }
@@ -727,6 +716,28 @@
         }
       }
     },
+    "LeavingPatientPositioning.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej do zotavovací polohy."
+          }
+        }
+      }
+    },
+    "LeavingPatientPositioning.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zajisti přivolání pomoci."
+          }
+        }
+      }
+    },
     "MainPage.BloodButton" : {
       "comment" : "CAPS is important",
       "extractionState" : "manual",
@@ -789,7 +800,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vyčisti pusu."
+            "value" : "Narovnej své ruce."
           }
         }
       }
@@ -800,7 +811,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Narovnej své ruce."
+            "value" : "Stlačuj hrudní kost 100x za minutu do hloubky 6cm."
           }
         }
       }
@@ -811,23 +822,12 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stlačuj hrudní kost 100x za minutu do hloubky 6cm."
+            "value" : "Další osoba shání pomoc.\\nPři střídání nesmí být prodleva."
           }
         }
       }
     },
     "NotBreathing.Resuscitacion.Instruction.4" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Další osoba shání pomoc.\\nPři střídaní nesmí být prodleva."
-          }
-        }
-      }
-    },
-    "NotBreathing.Resuscitacion.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1020,7 +1020,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lehce zakloň hlavu."
+            "value" : "Zakloň hlavu."
           }
         }
       }
@@ -1087,28 +1087,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poté vyber:"
-          }
-        }
-      }
-    },
-    "Unconcious.Collapse.NotAwake.Instruction.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dej do zotavovací polohy."
-          }
-        }
-      }
-    },
-    "Unconcious.Collapse.NotAwake.Instruction.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Jdi pro pomoc."
           }
         }
       }
@@ -1240,7 +1218,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uklidni, povol pevné oblečení"
+            "value" : "Uklidni a povol pevné oblečení."
           }
         }
       }

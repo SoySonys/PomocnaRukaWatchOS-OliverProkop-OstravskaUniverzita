@@ -19,6 +19,7 @@ struct UnconciousList: View {
                 }
             }
         }
+        .background(SoundView(soundName: "CheckBreathing"))
     }
 }
 
