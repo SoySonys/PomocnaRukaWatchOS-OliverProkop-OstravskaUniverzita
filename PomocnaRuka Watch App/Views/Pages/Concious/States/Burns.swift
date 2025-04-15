@@ -14,8 +14,7 @@ struct Burns: View {
                 InstructionTexts(texts: [
                     "Burns.Instruction.1".localized(),
                     "Burns.Instruction.2".localized(),
-                    "Burns.Instruction.3".localized(),
-                    "Burns.Instruction.4".localized()
+                    "Burns.Instruction.3".localized()
                 ])
             }
         }

@@ -9,7 +9,11 @@ import SwiftUI
 
 struct DrowningButton: View {
     var body: some View {
-        MainButtonToList(title: "MainPage.DrowningButton".localized(), color: .blue, destination: AnyView(Drowning()))
+        SingleButtonEndPage(
+            title: "MainPage.DrowningButton".localized(),
+            destination: AnyView(Drowning()),
+            color: .blue
+        )
     }
 }
 
