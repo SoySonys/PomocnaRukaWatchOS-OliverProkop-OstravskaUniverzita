@@ -31,6 +31,7 @@ struct BloodStopped: View {
                 }
             }
         }
+        .background(SoundView(soundName: "BloodStopped"))
     }
 }
 

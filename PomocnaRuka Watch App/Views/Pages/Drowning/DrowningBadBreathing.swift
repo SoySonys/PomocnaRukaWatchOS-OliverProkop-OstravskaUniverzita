@@ -18,7 +18,8 @@ struct DrowningBadBreathing: View {
                         "Drowning.BadBreathing.Instruction.1".localized(),
                         "Drowning.BadBreathing.Instruction.2".localized(),
                         "Drowning.BadBreathing.Instruction.3".localized(),
-                        "Drowning.BadBreathing.Instruction.4".localized()
+                        "Drowning.BadBreathing.Instruction.4".localized(),
+                        "Drowning.BadBreathing.Instruction.5".localized()
                     ])
 
                     SingleButtonEndPage(
@@ -30,7 +31,7 @@ struct DrowningBadBreathing: View {
                 }
             }
         }
-        .background(SoundView(soundName: "Unconcious.Drowning.BadBreath"))
+        .background(SoundView(soundName: "Drowning.BadBreathing"))
         .onAppear {
             vibrationManager.startVibrations()
         }

@@ -14,7 +14,7 @@ struct DrowningBreathing: View {
                 CustomVstackOffset {
                     LeavingPatientPositioning()
                 }
-                .background(SoundView(soundName: "Unconcious.Drowning.GoodBreath"))
+                .background(SoundView(soundName: "Drowning.Breathing"))
             }
         }
     }

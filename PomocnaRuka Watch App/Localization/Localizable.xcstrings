@@ -359,7 +359,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Narovnej své ruce před sebe a 30x stlač hrudník 6cm do hloubky frekvencí 100x za minutu."
+            "value" : "Narovnej své ruce před sebe a 30x stlač hrudník do hloubky 6cm frekvencí 100x za minutu."
           }
         }
       }
@@ -382,6 +382,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další osoba shání pomoc.\\nPři střídání nesmí být prodleva."
+          }
+        }
+      }
+    },
+    "Drowning.BadBreathing.Instruction.5" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud se nebrání, tak pokračuj do příjezdu záchranky nebo do vystřídání."
           }
         }
       }

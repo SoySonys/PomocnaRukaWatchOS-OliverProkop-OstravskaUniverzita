@@ -22,7 +22,7 @@ struct InjuryBackHead: View {
                 InstructionImage(imageName: "Image.Recovery".localized())
             }
         }
-        .background(SoundView(soundName: "Concious.BackHead"))
+        .background(SoundView(soundName: "Concious.InjuryBackHead"))
     }
 }
 
