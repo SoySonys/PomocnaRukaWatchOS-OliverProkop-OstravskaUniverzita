@@ -18,8 +18,7 @@ struct Resuscitacion: View {
                         "NotBreathing.Resuscitacion.Instruction.1".localized(),
                         "NotBreathing.Resuscitacion.Instruction.2".localized(),
                         "NotBreathing.Resuscitacion.Instruction.3".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.4".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.5".localized()
+                        "NotBreathing.Resuscitacion.Instruction.4".localized()
                     ])
 
                     SingleButtonEndPage(

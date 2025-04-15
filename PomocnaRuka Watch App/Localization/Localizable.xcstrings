@@ -370,7 +370,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Narovnej ruce před sebe a 30x stlač hrudník 6cm do hloubky frekvencí 100x za minutu."
+            "value" : "Narovnej své ruce před sebe a 30x stlač hrudník 6cm do hloubky frekvencí 100x za minutu."
           }
         }
       }
@@ -381,7 +381,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nyní 2 dechy, pak resuscitace, pak 2 vdechy a pokračuj v opakování."
+            "value" : "Nyní 2 vdechy, pak resuscitace, pak 2 vdechy a pokračuj v opakování."
           }
         }
       }
@@ -800,7 +800,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vyčisti pusu."
+            "value" : "Narovnej své ruce."
           }
         }
       }
@@ -811,7 +811,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Narovnej své ruce."
+            "value" : "Stlačuj hrudní kost 100x za minutu do hloubky 6cm."
           }
         }
       }
@@ -822,23 +822,12 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stlačuj hrudní kost 100x za minutu do hloubky 6cm."
+            "value" : "Další osoba shání pomoc.\\nPři střídání nesmí být prodleva."
           }
         }
       }
     },
     "NotBreathing.Resuscitacion.Instruction.4" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Další osoba shání pomoc.\\nPři střídaní nesmí být prodleva."
-          }
-        }
-      }
-    },
-    "NotBreathing.Resuscitacion.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
