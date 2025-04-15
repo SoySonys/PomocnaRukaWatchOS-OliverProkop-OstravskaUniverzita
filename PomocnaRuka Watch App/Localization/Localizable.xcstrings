@@ -419,28 +419,6 @@
         }
       }
     },
-    "Drowning.GoodBreathing.Instruction.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dej do zotavovací polohy."
-          }
-        }
-      }
-    },
-    "Drowning.GoodBreathing.Instruction.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zajisti přivolání pomoci."
-          }
-        }
-      }
-    },
     "Drowning.GoodButton" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -734,6 +712,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Úraz zad/hlavy"
+          }
+        }
+      }
+    },
+    "LeavingPatientPositioning.Instruction.1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej do zotavovací polohy."
+          }
+        }
+      }
+    },
+    "LeavingPatientPositioning.Instruction.2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zajisti přivolání pomoci."
           }
         }
       }
@@ -1087,28 +1087,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poté vyber:"
-          }
-        }
-      }
-    },
-    "Unconcious.Collapse.NotAwake.Instruction.1" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Dej do zotavovací polohy."
-          }
-        }
-      }
-    },
-    "Unconcious.Collapse.NotAwake.Instruction.2" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Jdi pro pomoc."
           }
         }
       }
