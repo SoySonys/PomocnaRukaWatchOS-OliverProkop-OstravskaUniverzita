@@ -150,17 +150,6 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Oblečení sundávej až pod sprchou."
-          }
-        }
-      }
-    },
-    "Burns.Instruction.4" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
             "value" : "Odstraň šperky."
           }
         }
@@ -1240,7 +1229,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uklidni, povol pevné oblečení."
+            "value" : "Uklidni a povol pevné oblečení."
           }
         }
       }

@@ -33,7 +33,7 @@ struct StatesCollection {
         ),
         StateModel(
             text: "InjuryBackHead.Title".localized(),
-            view: AnyView(InjuryBackHeadConcious())
+            view: AnyView(InjuryBackHead())
         ),
         StateModel(
             text: "Fracture.Title".localized(),

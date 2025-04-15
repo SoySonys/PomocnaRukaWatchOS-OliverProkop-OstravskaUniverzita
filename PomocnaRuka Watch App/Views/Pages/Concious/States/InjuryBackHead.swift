@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct InjuryBackHeadConcious: View {
+struct InjuryBackHead: View {
     var body: some View {
         ScrollView {
             CustomVstackOffset {
@@ -27,5 +27,5 @@ struct InjuryBackHeadConcious: View {
 }
 
 #Preview {
-    InjuryBackHeadConcious()
+    InjuryBackHead()
 }
