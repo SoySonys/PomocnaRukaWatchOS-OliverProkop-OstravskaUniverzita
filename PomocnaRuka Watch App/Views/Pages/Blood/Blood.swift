@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct BloodMain: View {
+struct Blood: View {
 
     var body: some View {
         NavigationStack {
@@ -33,5 +33,5 @@ struct BloodMain: View {
 }
 
 #Preview {
-    BloodMain()
+    Blood()
 }

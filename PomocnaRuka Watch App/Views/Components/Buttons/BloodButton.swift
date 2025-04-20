@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct MainBloodButton: View {
+struct BloodButton: View {
     var body: some View {
-        NavigationLink(destination: BloodMain()) {
+        NavigationLink(destination: Blood()) {
             Text("MainPage.BloodButton".localized())
                 .font(.largeTitle.bold())
                 .foregroundColor(.white)
@@ -23,5 +23,5 @@ struct MainBloodButton: View {
 }
 
 #Preview {
-    MainBloodButton()
+    BloodButton()
 }
