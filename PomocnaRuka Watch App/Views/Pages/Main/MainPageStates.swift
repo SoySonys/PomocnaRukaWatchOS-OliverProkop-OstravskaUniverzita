@@ -13,7 +13,7 @@ struct MainPageStates: View {
             ScrollView {
                 VStack {
 
-                    MainBloodButton()
+                    BloodButton()
 
                     CallIfNotBloodReminder()
 
