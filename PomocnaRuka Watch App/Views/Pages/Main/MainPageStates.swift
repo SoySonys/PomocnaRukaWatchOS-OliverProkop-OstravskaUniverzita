@@ -15,7 +15,9 @@ struct MainPageStates: View {
 
                     BloodButton()
 
-                    CallIfNotBloodReminder()
+                    BiggerDivider()
+
+                    NoBloodSection()
 
                     BiggerDivider()
 
