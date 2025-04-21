@@ -528,7 +528,18 @@
         }
       }
     },
-    "Epilepsy.Description" : {
+    "Epilepsy.Description.Concious" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nereaguje, možná: pěna u úst"
+          }
+        }
+      }
+    },
+    "Epilepsy.Description.Unconcious" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {

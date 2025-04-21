@@ -17,6 +17,8 @@ struct UnconciousList: View {
                                 [ StatesCollection.unconscious.states[0]
                                 ]
                     )
+                    
+                    Spacer()
 
                     BiggerDivider()
 
