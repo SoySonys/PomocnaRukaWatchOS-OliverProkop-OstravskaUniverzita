@@ -36,7 +36,7 @@ struct StatesList: View {
 }
 
 #Preview {
-    ScrollView{
+    ScrollView {
         StatesList(states: StatesCollection.conscious.states)
     }
 }
