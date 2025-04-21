@@ -39,7 +39,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nevidíš zlomenou kost, zatlač na ránu."
+            "value" : "Pokud nevidíš kost, zatlač na ránu."
           }
         }
       }
@@ -534,7 +534,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pěna u úst"
+            "value" : "Možná: pěna u úst"
           }
         }
       }
@@ -600,7 +600,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Studená kůže, zmatenost"
+            "value" : "Studená kůže, podchlazení"
           }
         }
       }
@@ -876,7 +876,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Křivá ústa, oslabení rukou"
+            "value" : "Nebo i křivá ústa, oslabení rukou"
           }
         }
       }
@@ -1217,7 +1217,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dušnost, opocení, bledá tvář"
+            "value" : "Nebo i bledá tvář, dušnost, opocení"
           }
         }
       }
