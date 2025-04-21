@@ -13,18 +13,18 @@ struct UnconciousList: View {
             ScrollView {
                 CustomVstackOffset {
 
-                    StateList(states:
+                    StatesList(states:
                                 [ StatesCollection.unconscious.states[0]
                                 ]
                     )
-                    
+
                     Spacer()
 
                     BiggerDivider()
 
                     CheckBreathing()
 
-                    StateList(states:
+                    StatesList(states:
                                 [ StatesCollection.unconscious.states[1],
                                   StatesCollection.unconscious.states[2]
                                 ]

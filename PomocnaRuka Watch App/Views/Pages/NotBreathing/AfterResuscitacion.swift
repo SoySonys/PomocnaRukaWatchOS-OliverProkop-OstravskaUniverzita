@@ -14,7 +14,7 @@ struct AfterResuscitacion: View {
                 CustomVstackOffset {
                     CantCallSectionHeading()
 
-                    StateList(states: StatesCollection.unconscious.states)
+                    StatesList(states: StatesCollection.unconscious.states)
                 }
             }
         }

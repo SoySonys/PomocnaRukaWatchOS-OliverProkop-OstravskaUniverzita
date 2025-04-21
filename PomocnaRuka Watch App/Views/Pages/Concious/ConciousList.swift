@@ -11,7 +11,7 @@ struct ConciousList: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                StateList(states: StatesCollection.conscious.states)
+                StatesList(states: StatesCollection.conscious.states)
             }
         }
     }
