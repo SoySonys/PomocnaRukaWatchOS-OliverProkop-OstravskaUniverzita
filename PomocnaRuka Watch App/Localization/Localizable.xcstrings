@@ -407,17 +407,6 @@
         }
       }
     },
-    "Drowning.BadBreathing.UnsuccessfullCaption" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc."
-          }
-        }
-      }
-    },
     "Drowning.BadButton" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -656,28 +645,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Třes"
-          }
-        }
-      }
-    },
-    "Image.Recovery" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ZotavovaciPoloha"
-          }
-        }
-      }
-    },
-    "Image.Semi" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Polosed"
           }
         }
       }

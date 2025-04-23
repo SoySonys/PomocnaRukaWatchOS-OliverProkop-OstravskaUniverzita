@@ -19,7 +19,7 @@ struct BloodStopped: View {
                             .multilineTextAlignment(.center)
 
                         // ZDORJ: http://www.prvni-pomoc.com/polohovani
-                        InstructionImage(imageName: "ProtisokovaPoloha")
+                        InstructionImage(imageName: "AntiShockPosition")
 
                         BiggerDivider()
 
