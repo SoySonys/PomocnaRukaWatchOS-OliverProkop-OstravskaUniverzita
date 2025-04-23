@@ -43,6 +43,10 @@ struct StatesCollection {
             text: "Epilepsy.Title".localized(),
             description: "Epilepsy.Description.Concious".localized(),
             view: AnyView(Epilepsy())
+        ),
+        StateModel(
+            text: "Drowning.Title".localized(),
+            view: AnyView(Drowning())
         )
     ])
 
