@@ -18,7 +18,7 @@ struct Epilepsy: View {
                     "Unconcious.Epilepsy.Instruction.4".localized(),
                     "Unconcious.Epilepsy.Instruction.5".localized(),
                     "Unconcious.Epilepsy.Instruction.6".localized()
-                    ])
+                ])
 
                 VStack {
                     BadBreathingButton()
@@ -28,7 +28,7 @@ struct Epilepsy: View {
 
                 InstructionTexts(texts: [
                     "Unconcious.Epilepsy.Instruction.7".localized()
-                    ])
+                ], startIndex: 7)
             }
         }
         .background(SoundView(soundName: "Unconcious.Epilepsy"))

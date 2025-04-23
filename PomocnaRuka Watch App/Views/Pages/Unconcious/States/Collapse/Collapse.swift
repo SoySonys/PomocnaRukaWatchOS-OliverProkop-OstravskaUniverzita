@@ -26,7 +26,7 @@ struct Collapse: View {
                         "Unconcious.Collapse.Instruction.4".localized(),
                         "Unconcious.Collapse.Instruction.5".localized(),
                         "Unconcious.Collapse.Instruction.6".localized()
-                    ])
+                    ], startIndex: 3)
 
                     TwoButtonsEndPage(
                         badTitle: "Unconcious.Collapse.BadButton".localized(),
