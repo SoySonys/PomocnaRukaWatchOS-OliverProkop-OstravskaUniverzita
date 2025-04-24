@@ -20,9 +20,7 @@ struct Epilepsy: View {
                     "Unconcious.Epilepsy.Instruction.6".localized()
                 ])
 
-                VStack {
                     BadBreathingButton()
-                }
 
                 Divider()
 
