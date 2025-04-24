@@ -11,7 +11,7 @@ struct UnconciousList: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
 
                     StatesList(states:
                                 [ StatesCollection.unconscious.states[0]

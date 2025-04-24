@@ -12,7 +12,7 @@ struct BloodStopped: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     VStack(alignment: .center) {
                         Text("Blood.Stopped.Instruction.1".localized())
                             .font(.title3.bold())

@@ -13,7 +13,7 @@ struct DrowningBadBreathing: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     InstructionTexts(texts: [
                         "Drowning.BadBreathing.Instruction.1".localized(),
                         "Drowning.BadBreathing.Instruction.2".localized(),

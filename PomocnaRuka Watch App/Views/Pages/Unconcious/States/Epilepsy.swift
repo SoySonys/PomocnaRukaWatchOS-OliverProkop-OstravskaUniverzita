@@ -10,7 +10,7 @@ import SwiftUI
 struct Epilepsy: View {
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
                 InstructionTexts(texts: [
                     "Unconcious.Epilepsy.Instruction.1".localized(),
                     "Unconcious.Epilepsy.Instruction.2".localized(),

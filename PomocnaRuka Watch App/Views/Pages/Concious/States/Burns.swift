@@ -10,7 +10,7 @@ import SwiftUI
 struct Burns: View {
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
                 InstructionTexts(texts: [
                     "Burns.Instruction.1".localized(),
                     "Burns.Instruction.2".localized(),

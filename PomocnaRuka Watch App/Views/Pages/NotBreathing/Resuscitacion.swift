@@ -13,7 +13,7 @@ struct Resuscitacion: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     InstructionTexts(texts: [
                         "NotBreathing.Resuscitacion.Instruction.1".localized(),
                         "NotBreathing.Resuscitacion.Instruction.2".localized(),

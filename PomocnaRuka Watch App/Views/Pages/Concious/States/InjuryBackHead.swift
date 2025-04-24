@@ -10,7 +10,7 @@ import SwiftUI
 struct InjuryBackHead: View {
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
                 InstructionTexts(texts: [
                     "InjuryBackHead.Instruction.1".localized(),
                     "InjuryBackHead.Instruction.2".localized(),

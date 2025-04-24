@@ -11,7 +11,7 @@ struct AfterResuscitacion: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     CantCallSectionHeading()
 
                     StatesList(states: StatesCollection.unconscious.states)

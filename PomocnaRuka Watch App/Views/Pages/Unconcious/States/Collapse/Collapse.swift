@@ -11,7 +11,7 @@ struct Collapse: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     InstructionTexts(texts: [
                         "Unconcious.Collapse.Instruction.1".localized(),
                         "Unconcious.Collapse.Instruction.2".localized()

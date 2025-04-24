@@ -10,7 +10,7 @@ import SwiftUI
 struct UpcomingStroke: View {
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
                 InstructionTexts(texts: [
                     "UpcomingStroke.Instruction.1".localized(),
                     "UpcomingStroke.Instruction.2".localized(),

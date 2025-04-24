@@ -12,7 +12,7 @@ struct TermsOfUse: View {
 
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
                 InstructionTexts(texts: [
                     "TermsOfUse.Term.1".localized(),
                     "TermsOfUse.Term.2".localized(),

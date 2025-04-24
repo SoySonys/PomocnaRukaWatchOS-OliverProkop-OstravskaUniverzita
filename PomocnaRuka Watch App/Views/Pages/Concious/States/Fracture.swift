@@ -10,7 +10,7 @@ import SwiftUI
 struct Fracture: View {
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
                 InstructionTexts(texts: [
                     "Fracture.Instruction.1".localized(),
                     "Fracture.Instruction.2".localized(),

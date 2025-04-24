@@ -10,7 +10,7 @@ import SwiftUI
 struct UpcomingInfarct: View {
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
 
                 InstructionTexts(texts: [
                     "UpcomingInfarct.Instruction.1".localized(),

@@ -11,7 +11,7 @@ struct CollapseNotAwake: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
 
                     BeforeLeavingCheckBreathing()
 

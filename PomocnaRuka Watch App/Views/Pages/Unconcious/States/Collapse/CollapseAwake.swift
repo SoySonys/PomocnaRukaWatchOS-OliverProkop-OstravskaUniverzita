@@ -10,7 +10,7 @@ import SwiftUI
 struct CollapseAwake: View {
     var body: some View {
         ScrollView {
-            CustomVstackOffset {
+            CustomVStackOffset {
                 InstructionTexts(texts: [
                     "Unconcious.Collapse.Awake.Instruction.1".localized(),
                     "Unconcious.Collapse.Awake.Instruction.2".localized(),
