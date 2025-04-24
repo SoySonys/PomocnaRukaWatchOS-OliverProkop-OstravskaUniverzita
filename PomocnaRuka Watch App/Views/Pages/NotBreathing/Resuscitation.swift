@@ -1,5 +1,5 @@
 //
-//  Resuscitacion.swift
+//  Resuscitation.swift
 //  PomocnaRuka Watch App
 //
 //  Created by Oliver Prokop on 04.03.2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Resuscitacion: View {
+struct Resuscitation: View {
     @StateObject private var vibrationManager = VibrationManager()
 
     var body: some View {
@@ -15,22 +15,22 @@ struct Resuscitacion: View {
             ScrollView {
                 CustomVStackOffset {
                     InstructionTexts(texts: [
-                        "NotBreathing.Resuscitacion.Instruction.1".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.2".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.3".localized(),
-                        "NotBreathing.Resuscitacion.Instruction.4".localized()
+                        "NotBreathing.Resuscitation.Instruction.1".localized(),
+                        "NotBreathing.Resuscitation.Instruction.2".localized(),
+                        "NotBreathing.Resuscitation.Instruction.3".localized(),
+                        "NotBreathing.Resuscitation.Instruction.4".localized()
                     ])
 
                     SingleButtonEndPage(
-                        title: "NotBreathing.Resuscitacion.BreathingButton".localized(),
-                        destination: AfterResuscitacion(),
+                        title: "NotBreathing.Resuscitation.BreathingButton".localized(),
+                        destination: AfterResuscitation(),
                         color: .green
                     )
 
                 }
             }
         }
-        .background(SoundView(soundName: "Resuscitacion"))
+        .background(SoundView(soundName: "Resuscitation"))
         .onAppear {
             vibrationManager.startVibrations()
         }
@@ -41,5 +41,5 @@ struct Resuscitacion: View {
 }
 
 #Preview {
-    Resuscitacion()
+    Resuscitation()
 }

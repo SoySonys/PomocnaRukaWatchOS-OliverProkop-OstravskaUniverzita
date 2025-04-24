@@ -1,5 +1,5 @@
 //
-//  AfterResuscitacion.swift
+//  AfterResuscitation.swift
 //  PomocnaRuka Watch App
 //
 //  Created by Oliver Prokop on 04.03.2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AfterResuscitacion: View {
+struct AfterResuscitation: View {
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -22,5 +22,5 @@ struct AfterResuscitacion: View {
 }
 
 #Preview {
-    AfterResuscitacion()
+    AfterResuscitation()
 }

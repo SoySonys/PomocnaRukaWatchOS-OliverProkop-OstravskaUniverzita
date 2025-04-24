@@ -782,7 +782,7 @@
         }
       }
     },
-    "NotBreathing.AfterResuscitacion.Instruction.1" : {
+    "NotBreathing.AfterResuscitation.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -793,7 +793,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.BreathingButton" : {
+    "NotBreathing.Resuscitation.BreathingButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -804,7 +804,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.1" : {
+    "NotBreathing.Resuscitation.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -815,7 +815,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.2" : {
+    "NotBreathing.Resuscitation.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -826,7 +826,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.3" : {
+    "NotBreathing.Resuscitation.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -837,7 +837,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.4" : {
+    "NotBreathing.Resuscitation.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {

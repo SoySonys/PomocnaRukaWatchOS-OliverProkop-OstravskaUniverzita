@@ -23,7 +23,7 @@ struct DrowningBadBreathing: View {
                     ])
 
                     SingleButtonEndPage(
-                        title: "NotBreathing.Resuscitacion.BreathingButton".localized(),
+                        title: "NotBreathing.Resuscitation.BreathingButton".localized(),
                         destination: DrowningBreathing(),
                         color: .green
                     )
