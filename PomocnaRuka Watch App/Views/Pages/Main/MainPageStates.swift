@@ -17,7 +17,7 @@ struct MainPageStates: View {
 
                     BiggerDivider()
 
-                    NoBloodSection()
+                    NoBloodSectionHeading()
 
                     BiggerDivider()
 
