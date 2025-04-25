@@ -11,6 +11,17 @@
         }
       }
     },
+    "AfterResuscitation.Headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Počkej chvíli, jestli se dech nezhoršil a následně:"
+          }
+        }
+      }
+    },
     "Blood.ButtonBad" : {
       "extractionState" : "manual",
       "localizations" : {

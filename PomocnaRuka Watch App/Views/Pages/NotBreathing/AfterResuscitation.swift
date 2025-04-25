@@ -15,13 +15,13 @@ struct AfterResuscitation: View {
 
                     Spacer()
 
-                    Text("Počkej chvíli, jestli se dech nezhoršil a poté:")
+                    Text("AfterResuscitation.Headline".localized())
                         .font(.title2)
                         .bold()
                         .multilineTextAlignment(.center)
-                    
+
                     Divider()
-                    
+
                     LeavingPatientPositioning()
 
                 }
