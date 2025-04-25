@@ -25,7 +25,7 @@ struct MainPageStates: View {
 
                     Spacer()
 
-                    CheckConcious()
+                    CheckConscious()
 
                     Divider()
 

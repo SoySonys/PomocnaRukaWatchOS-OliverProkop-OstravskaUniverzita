@@ -297,7 +297,7 @@
         }
       }
     },
-    "CheckConcious.BadButton" : {
+    "CheckConscious.BadButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -308,7 +308,7 @@
         }
       }
     },
-    "CheckConcious.GoodButton" : {
+    "CheckConscious.GoodButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -319,7 +319,7 @@
         }
       }
     },
-    "CheckConcious.Question" : {
+    "CheckConscious.Question" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -517,7 +517,7 @@
         }
       }
     },
-    "Epilepsy.Description.Concious" : {
+    "Epilepsy.Description.Conscious" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -528,7 +528,7 @@
         }
       }
     },
-    "Epilepsy.Description.Unconcious" : {
+    "Epilepsy.Description.Unconscious" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -947,7 +947,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.1" : {
+    "Unconscious.Collapse.Awake.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -958,7 +958,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.2" : {
+    "Unconscious.Collapse.Awake.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -969,7 +969,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.3" : {
+    "Unconscious.Collapse.Awake.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -980,7 +980,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.4" : {
+    "Unconscious.Collapse.Awake.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -991,7 +991,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.5" : {
+    "Unconscious.Collapse.Awake.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1002,7 +1002,7 @@
         }
       }
     },
-    "Unconcious.Collapse.BadButton" : {
+    "Unconscious.Collapse.BadButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1013,7 +1013,7 @@
         }
       }
     },
-    "Unconcious.Collapse.GoodButton" : {
+    "Unconscious.Collapse.GoodButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1024,7 +1024,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.1" : {
+    "Unconscious.Collapse.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1035,7 +1035,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.2" : {
+    "Unconscious.Collapse.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1046,7 +1046,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.3" : {
+    "Unconscious.Collapse.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1057,7 +1057,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.4" : {
+    "Unconscious.Collapse.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1068,7 +1068,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.5" : {
+    "Unconscious.Collapse.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1079,7 +1079,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.6" : {
+    "Unconscious.Collapse.Instruction.6" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1090,7 +1090,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.7" : {
+    "Unconscious.Collapse.Instruction.7" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1101,7 +1101,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.1" : {
+    "Unconscious.Epilepsy.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1112,7 +1112,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.2" : {
+    "Unconscious.Epilepsy.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1123,7 +1123,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.3" : {
+    "Unconscious.Epilepsy.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1134,7 +1134,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.4" : {
+    "Unconscious.Epilepsy.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1145,7 +1145,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.5" : {
+    "Unconscious.Epilepsy.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1156,7 +1156,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.6" : {
+    "Unconscious.Epilepsy.Instruction.6" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1167,7 +1167,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.7" : {
+    "Unconscious.Epilepsy.Instruction.7" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {

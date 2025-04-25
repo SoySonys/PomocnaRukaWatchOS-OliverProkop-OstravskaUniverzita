@@ -26,7 +26,7 @@ struct BloodStopped: View {
                         CantCallSectionHeading()
                             .bold()
 
-                        CheckConcious()
+                        CheckConscious()
                     }
                 }
             }
