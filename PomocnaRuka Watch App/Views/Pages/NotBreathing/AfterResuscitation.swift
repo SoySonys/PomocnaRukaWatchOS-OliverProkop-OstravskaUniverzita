@@ -16,7 +16,7 @@ struct AfterResuscitation: View {
                     Spacer()
 
                     Text("Počkej chvíli, jestli se dech nezhoršil a poté:")
-                        .font(.title3)
+                        .font(.title2)
                         .bold()
                         .multilineTextAlignment(.center)
                     
@@ -25,7 +25,7 @@ struct AfterResuscitation: View {
                     LeavingPatientPositioning()
 
                 }
-                .background(SoundView(soundName: "Unconscious.Collapse.NotAwake"))
+                .background(SoundView(soundName: "AfterResuscitation"))
             }
         }
     }
