@@ -12,10 +12,20 @@ struct AfterResuscitation: View {
         NavigationStack {
             ScrollView {
                 CustomVStackOffset {
-                    CantCallSectionHeading()
 
-                    StatesList(states: StatesCollection.unconscious.states)
+                    Spacer()
+
+                    Text("Počkej chvíli, jestli se dech nezhoršil a poté:")
+                        .font(.title3)
+                        .bold()
+                        .multilineTextAlignment(.center)
+                    
+                    Divider()
+                    
+                    LeavingPatientPositioning()
+
                 }
+                .background(SoundView(soundName: "Unconscious.Collapse.NotAwake"))
             }
         }
     }
