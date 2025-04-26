@@ -12,7 +12,7 @@ struct Blood: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     InstructionTexts(texts: [
                         "Blood.Instruction.1".localized(),
                         "Blood.Instruction.2".localized(),

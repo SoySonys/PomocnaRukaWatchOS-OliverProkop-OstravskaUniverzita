@@ -11,7 +11,7 @@ struct DrowningBreathing: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     LeavingPatientPositioning()
                 }
                 .background(SoundView(soundName: "Drowning.Breathing"))

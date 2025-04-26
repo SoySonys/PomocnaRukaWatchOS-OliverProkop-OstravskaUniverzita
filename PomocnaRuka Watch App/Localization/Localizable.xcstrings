@@ -11,6 +11,17 @@
         }
       }
     },
+    "AfterResuscitation.Headline" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Počkej chvíli, jestli se dech nezhoršil a následně:"
+          }
+        }
+      }
+    },
     "Blood.ButtonBad" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -39,7 +50,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nevidíš zlomenou kost, zatlač na ránu."
+            "value" : "Pokud nevidíš kost, zatlač na ránu."
           }
         }
       }
@@ -297,7 +308,7 @@
         }
       }
     },
-    "CheckConcious.BadButton" : {
+    "CheckConscious.BadButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -308,7 +319,7 @@
         }
       }
     },
-    "CheckConcious.GoodButton" : {
+    "CheckConscious.GoodButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -319,7 +330,7 @@
         }
       }
     },
-    "CheckConcious.Question" : {
+    "CheckConscious.Question" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -403,17 +414,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokud se nebrání, tak pokračuj do příjezdu záchranky nebo do vystřídání."
-          }
-        }
-      }
-    },
-    "Drowning.BadBreathing.UnsuccessfullCaption" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Jsi už vyčerpaný a stále nedýchá, dej do zotavovací polohy a jdi pro pomoc."
           }
         }
       }
@@ -528,13 +528,24 @@
         }
       }
     },
-    "Epilepsy.Description" : {
+    "Epilepsy.Description.Conscious" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pěna u úst"
+            "value" : "Nereaguje, možná: pěna u úst"
+          }
+        }
+      }
+    },
+    "Epilepsy.Description.Unconscious" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Možná: pěna u úst"
           }
         }
       }
@@ -600,7 +611,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Studená kůže, zmatenost"
+            "value" : "Studená kůže, podchlazení"
           }
         }
       }
@@ -645,28 +656,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Třes"
-          }
-        }
-      }
-    },
-    "Image.Recovery" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ZotavovaciPoloha"
-          }
-        }
-      }
-    },
-    "Image.Semi" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "cs" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Polosed"
           }
         }
       }
@@ -782,7 +771,29 @@
         }
       }
     },
-    "NotBreathing.AfterResuscitacion.Instruction.1" : {
+    "NoBloodSection.Description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volej 155"
+          }
+        }
+      }
+    },
+    "NoBloodSection.Heading" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nekrvácí"
+          }
+        }
+      }
+    },
+    "NotBreathing.AfterResuscitation.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -793,7 +804,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.BreathingButton" : {
+    "NotBreathing.Resuscitation.BreathingButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -804,7 +815,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.1" : {
+    "NotBreathing.Resuscitation.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -815,7 +826,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.2" : {
+    "NotBreathing.Resuscitation.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -826,7 +837,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.3" : {
+    "NotBreathing.Resuscitation.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -837,7 +848,7 @@
         }
       }
     },
-    "NotBreathing.Resuscitacion.Instruction.4" : {
+    "NotBreathing.Resuscitation.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -854,7 +865,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Křivá ústa, oslabení rukou"
+            "value" : "Nebo i křivá ústa, oslabení rukou"
           }
         }
       }
@@ -887,7 +898,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "1. Aplikace slouží výhradně pro případy, kdy přivolání pomoci stanoví obtíž.\\nPokud se tedy jedná o krizovou situaci, kde máte možnost jednoduše zavolat 155, tak preferujte volání.\\nVyjímku stanoví případ silného krvácení."
+            "value" : "Aplikace je určena pro případy, kdy je přivolání pomoci velmi obtížné nebo nemožné. Pokud lze snadno zavolat 155, vždy upřednostněte hovor. Výjimkou může být silné krvácení."
           }
         }
       }
@@ -898,7 +909,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "2. Aplikace není plnou náhradou vědomostí potřebných k udělení první pomoci. Spoléhání se jen a pouze na tuto aplikaci není doporučení. Vzdělávání se v oblasti první pomoci je doporučeno všem lidem."
+            "value" : "Aplikace slouží jako podpora, ne jako náhrada znalostí první pomoci. Doporučujeme absolvovat školení a průběžně se vzdělávat."
           }
         }
       }
@@ -909,7 +920,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3. Tvůrce aplikace není v žádném ohledu zodpovědný za jakékoliv následky způsobené použitím aplikace."
+            "value" : "Používání je na vlastní odpovědnost. Tvůrce nenese odpovědnost za případné následky."
           }
         }
       }
@@ -920,7 +931,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "4. Uživatel používá aplikaci s vědomím, že jedná ve vlastní odpovědnosti."
+            "value" : "Před krizovou situací si aplikaci projděte a občas si její ovládání připomeňte."
           }
         }
       }
@@ -931,7 +942,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "5. Při stažení a otevření aplikace se doporučuje si aplikaci projít a pochopit fungování a tuto aktivitu opakovat jednou za čas z důvodu, aby jste byli schopni v krizové situaci na plno využít její potenciál."
+            "value" : "Aplikace je navržena tak, aby se postupovalo shora dolů – tento směr respektujte pro správné použití."
           }
         }
       }
@@ -942,12 +953,12 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "6. Kliknutím na tlačítko „Souhlasím“ uživatel potvrzuje, že podmínky četl a souhlasí s nimi. "
+            "value" : "Kliknutím na „Souhlasím“ potvrzujete, že jste podmínky četli a přijímáte je."
           }
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.1" : {
+    "Unconscious.Collapse.Awake.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -958,7 +969,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.2" : {
+    "Unconscious.Collapse.Awake.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -969,7 +980,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.3" : {
+    "Unconscious.Collapse.Awake.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -980,7 +991,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.4" : {
+    "Unconscious.Collapse.Awake.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -991,7 +1002,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Awake.Instruction.5" : {
+    "Unconscious.Collapse.Awake.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1002,7 +1013,7 @@
         }
       }
     },
-    "Unconcious.Collapse.BadButton" : {
+    "Unconscious.Collapse.BadButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1013,7 +1024,7 @@
         }
       }
     },
-    "Unconcious.Collapse.GoodButton" : {
+    "Unconscious.Collapse.GoodButton" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1024,7 +1035,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.1" : {
+    "Unconscious.Collapse.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1035,7 +1046,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.2" : {
+    "Unconscious.Collapse.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1046,7 +1057,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.3" : {
+    "Unconscious.Collapse.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1057,7 +1068,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.4" : {
+    "Unconscious.Collapse.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1068,7 +1079,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.5" : {
+    "Unconscious.Collapse.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1079,7 +1090,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.6" : {
+    "Unconscious.Collapse.Instruction.6" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1090,7 +1101,7 @@
         }
       }
     },
-    "Unconcious.Collapse.Instruction.7" : {
+    "Unconscious.Collapse.Instruction.7" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1101,7 +1112,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.1" : {
+    "Unconscious.Epilepsy.Instruction.1" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1112,7 +1123,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.2" : {
+    "Unconscious.Epilepsy.Instruction.2" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1123,7 +1134,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.3" : {
+    "Unconscious.Epilepsy.Instruction.3" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1134,7 +1145,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.4" : {
+    "Unconscious.Epilepsy.Instruction.4" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1145,7 +1156,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.5" : {
+    "Unconscious.Epilepsy.Instruction.5" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1156,7 +1167,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.6" : {
+    "Unconscious.Epilepsy.Instruction.6" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1167,7 +1178,7 @@
         }
       }
     },
-    "Unconcious.Epilepsy.Instruction.7" : {
+    "Unconscious.Epilepsy.Instruction.7" : {
       "extractionState" : "manual",
       "localizations" : {
         "cs" : {
@@ -1195,7 +1206,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dušnost, opocení, bledá tvář"
+            "value" : "Nebo i bledá tvář, dušnost, opocení"
           }
         }
       }

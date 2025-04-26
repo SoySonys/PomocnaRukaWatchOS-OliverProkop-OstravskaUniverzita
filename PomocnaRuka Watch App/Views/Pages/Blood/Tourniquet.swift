@@ -11,7 +11,7 @@ struct Tourniquet: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
 
                     InstructionTexts(texts: [
                         "Blood.Tourniquet.Instruction.1".localized(),

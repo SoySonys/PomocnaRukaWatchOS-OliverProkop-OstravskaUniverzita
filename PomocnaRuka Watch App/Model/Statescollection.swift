@@ -38,14 +38,22 @@ struct StatesCollection {
         StateModel(
             text: "Fracture.Title".localized(),
             view: AnyView(Fracture())
+        ),
+        StateModel(
+            text: "Epilepsy.Title".localized(),
+            description: "Epilepsy.Description.Conscious".localized(),
+            view: AnyView(Epilepsy())
+        ),
+        StateModel(
+            text: "Drowning.Title".localized(),
+            view: AnyView(Drowning())
         )
-
     ])
 
     static let unconscious = StatesCollection(states: [
         StateModel(
             text: "Epilepsy.Title".localized(),
-            description: "Epilepsy.Description".localized(),
+            description: "Epilepsy.Description.Unconscious".localized(),
             view: AnyView(Epilepsy())
         ),
         StateModel(

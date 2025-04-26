@@ -1,13 +1,13 @@
 //
-//  DrowningNotBreathing.swift
+//  Resuscitation.swift
 //  PomocnaRuka Watch App
 //
-//  Created by Oliver Prokop on 06.03.2025.
+//  Created by Oliver Prokop on 04.03.2025.
 //
 
 import SwiftUI
-// Zdroj: https://www.padler.cz/zachrana-tonouciho-je-dobre-byt-pripraven/
-struct DrowningBadBreathing: View {
+
+struct Resuscitation: View {
     @StateObject private var vibrationManager = VibrationManager()
 
     var body: some View {
@@ -15,23 +15,22 @@ struct DrowningBadBreathing: View {
             ScrollView {
                 CustomVStackOffset {
                     InstructionTexts(texts: [
-                        "Drowning.BadBreathing.Instruction.1".localized(),
-                        "Drowning.BadBreathing.Instruction.2".localized(),
-                        "Drowning.BadBreathing.Instruction.3".localized(),
-                        "Drowning.BadBreathing.Instruction.4".localized(),
-                        "Drowning.BadBreathing.Instruction.5".localized()
+                        "NotBreathing.Resuscitation.Instruction.1".localized(),
+                        "NotBreathing.Resuscitation.Instruction.2".localized(),
+                        "NotBreathing.Resuscitation.Instruction.3".localized(),
+                        "NotBreathing.Resuscitation.Instruction.4".localized()
                     ])
 
                     SingleButtonEndPage(
                         title: "NotBreathing.Resuscitation.BreathingButton".localized(),
-                        destination: DrowningBreathing(),
+                        destination: AfterResuscitation(),
                         color: .green
                     )
 
                 }
             }
         }
-        .background(SoundView(soundName: "Drowning.BadBreathing"))
+        .background(SoundView(soundName: "Resuscitation"))
         .onAppear {
             vibrationManager.startVibrations()
         }
@@ -42,5 +41,5 @@ struct DrowningBadBreathing: View {
 }
 
 #Preview {
-    DrowningBadBreathing()
+    Resuscitation()
 }

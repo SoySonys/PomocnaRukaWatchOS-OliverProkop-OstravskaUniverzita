@@ -11,7 +11,7 @@ struct Drowning: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                CustomVstackOffset {
+                CustomVStackOffset {
                     InstructionTexts(texts: [
                         "Drowning.Instruction.1".localized(),
                         "Drowning.Instruction.2".localized(),
